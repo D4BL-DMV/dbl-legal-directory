@@ -1660,10 +1660,13 @@
       i.a.render(r.a.createElement(Y, null), document.getElementById('root')),
         (function() {
           if ('serviceWorker' in navigator) {
-            if (new URL('', window.location).origin !== window.location.origin)
+            if (
+              new URL('./dbl-legal-directory', window.location).origin !==
+              window.location.origin
+            )
               return
             window.addEventListener('load', function() {
-              var e = ''.concat('', '/service-worker.js')
+              var e = ''.concat('./dbl-legal-directory', '/service-worker.js')
               X
                 ? ((function(e) {
                     fetch(e)
@@ -2113,4 +2116,4 @@
   },
   [[179, 2, 1]]
 ])
-//# sourceMappingURL=main.27e038c4.chunk.js.map
+//# sourceMappingURL=main.120b8130.chunk.js.map
