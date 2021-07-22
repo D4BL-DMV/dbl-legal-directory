@@ -2,7 +2,7 @@
   "name": "bw-money",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./dbl-legal-directory/",
+  "homepage": "./",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "csv-parse": "^3.1.3",

@@ -15,9 +15,7 @@ importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js'
 )
 
-importScripts(
-  './dbl-legal-directory/precache-manifest.464c5c996742c0dd8f2ab71cfb2c8b3b.js'
-)
+importScripts('./precache-manifest.cf151e6ae2162bc0ea727a0c002a436b.js')
 
 workbox.clientsClaim()
 
@@ -30,6 +28,6 @@ self.__precacheManifest = [].concat(self.__precacheManifest || [])
 workbox.precaching.suppressWarnings()
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
-workbox.routing.registerNavigationRoute('./dbl-legal-directory/index.html', {
+workbox.routing.registerNavigationRoute('./index.html', {
   blacklist: [/^\/_/, /\/[^\/]+\.[^\/]+$/]
 })
