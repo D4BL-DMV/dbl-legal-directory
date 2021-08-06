@@ -139,6 +139,11 @@ $image-height-desktop: $slide-height-desktop * 0.35;
     }
   }
 
+  &__name-link {
+    color: black;
+    text-decoration: none;
+  }
+
   &__donations {
     display: flex;
     justify-content: space-between;

@@ -11,60 +11,60 @@
       e.exports = a.p + 'static/media/twitter.2f8dfadf.svg'
     },
     179: function(e, t, a) {
-      e.exports = a(564)
+      e.exports = a(568)
     },
     354: function(e, t, a) {},
     356: function(e, t, a) {},
-    358: function(e, t, a) {},
     360: function(e, t, a) {},
-    496: function(e, t, a) {},
-    499: function(e, t, a) {
+    362: function(e, t, a) {},
+    498: function(e, t, a) {},
+    502: function(e, t, a) {
       var n = {
-        './ashlee-titus.jpg': 500,
-        './ashley-merrill.jpg': 501,
-        './bill-bloomfield.jpg': 502,
-        './brent-messenger.jpg': 503,
-        './buffy-wicks.jpg': 504,
-        './california-dental-association-pac.jpg': 505,
-        './cammie-croft.jpg': 506,
-        './carrie-and-greg-walton-penner.jpg': 507,
-        './christopher-garland.jpg': 508,
-        './david-crane.jpg': 509,
-        './drew-goesl.jpg': 510,
-        './edvoice.jpg': 511,
-        './eli-broad.jpg': 512,
-        './eric-ridge.jpg': 513,
-        './eugene-frantz.jpg': 514,
-        './frank-baxter.jpg': 515,
-        './govern-for-california-pac.jpg': 516,
-        './james-babcock.jpg': 517,
-        './james-green.jpg': 518,
-        './jeffrey-peck.jpg': 519,
-        './jesse-rogers.jpg': 520,
-        './jim-messina.jpg': 521,
-        './john-and-regina-scully.jpg': 522,
-        './john-podesta.jpg': 523,
-        './jonathan-mantz.jpg': 524,
-        './matt-hynes.jpg': 525,
-        './micah-weinberg.jpg': 526,
-        './michael-bloomberg.jpg': 527,
-        './ned-and-karen-gilhuly.jpg': 528,
-        './nils-colin-lind.jpg': 529,
-        './nlg-dc.jpg': 530,
+        './ashlee-titus.jpg': 503,
+        './ashley-merrill.jpg': 504,
+        './bill-bloomfield.jpg': 505,
+        './brent-messenger.jpg': 506,
+        './buffy-wicks.jpg': 507,
+        './california-dental-association-pac.jpg': 508,
+        './cammie-croft.jpg': 509,
+        './carrie-and-greg-walton-penner.jpg': 510,
+        './christopher-garland.jpg': 511,
+        './david-crane.jpg': 512,
+        './drew-goesl.jpg': 513,
+        './edvoice.jpg': 514,
+        './eli-broad.jpg': 515,
+        './eric-ridge.jpg': 516,
+        './eugene-frantz.jpg': 517,
+        './frank-baxter.jpg': 518,
+        './govern-for-california-pac.jpg': 519,
+        './james-babcock.jpg': 520,
+        './james-green.jpg': 521,
+        './jeffrey-peck.jpg': 522,
+        './jesse-rogers.jpg': 523,
+        './jim-messina.jpg': 524,
+        './john-and-regina-scully.jpg': 525,
+        './john-podesta.jpg': 526,
+        './jonathan-mantz.jpg': 527,
+        './matt-hynes.jpg': 528,
+        './micah-weinberg.jpg': 529,
+        './michael-bloomberg.jpg': 530,
+        './ned-and-karen-gilhuly.jpg': 531,
+        './nils-colin-lind.jpg': 532,
+        './nlg-dc.jpg': 533,
         './no-photo.jpg': 164,
-        './penny-pritzker.jpg': 531,
-        './reid-hoffman.jpg': 532,
-        './richard-landers.jpg': 533,
-        './rick-tinsley.jpg': 534,
-        './ron-conway.jpg': 535,
-        './scott-willoughby.jpg': 536,
-        './sean-kennedy.jpg': 537,
-        './seth-london.jpg': 538,
-        './tench-and-simone-coxe.jpg': 539,
-        './the-fisher-family.jpg': 540,
-        './thomas-fahr-steyer.jpg': 541,
-        './warren-ned-speiker-jr.jpg': 542,
-        './william-oberndorf.jpg': 543
+        './penny-pritzker.jpg': 534,
+        './reid-hoffman.jpg': 535,
+        './richard-landers.jpg': 536,
+        './rick-tinsley.jpg': 537,
+        './ron-conway.jpg': 538,
+        './scott-willoughby.jpg': 539,
+        './sean-kennedy.jpg': 540,
+        './seth-london.jpg': 541,
+        './tench-and-simone-coxe.jpg': 542,
+        './the-fisher-family.jpg': 543,
+        './thomas-fahr-steyer.jpg': 544,
+        './warren-ned-speiker-jr.jpg': 545,
+        './william-oberndorf.jpg': 546
       }
       function i(e) {
         var t = r(e)
@@ -83,148 +83,148 @@
       }),
         (i.resolve = r),
         (e.exports = i),
-        (i.id = 499)
-    },
-    500: function(e, t, a) {
-      e.exports = a.p + 'static/media/ashlee-titus.47ccb5ed.jpg'
-    },
-    501: function(e, t, a) {
-      e.exports = a.p + 'static/media/ashley-merrill.7a08f7d1.jpg'
-    },
-    502: function(e, t, a) {
-      e.exports = a.p + 'static/media/bill-bloomfield.5676cf4f.jpg'
+        (i.id = 502)
     },
     503: function(e, t, a) {
-      e.exports = a.p + 'static/media/brent-messenger.cfb1cc50.jpg'
+      e.exports = a.p + 'static/media/ashlee-titus.47ccb5ed.jpg'
     },
     504: function(e, t, a) {
-      e.exports = a.p + 'static/media/buffy-wicks.78c9946b.jpg'
+      e.exports = a.p + 'static/media/ashley-merrill.7a08f7d1.jpg'
     },
     505: function(e, t, a) {
+      e.exports = a.p + 'static/media/bill-bloomfield.5676cf4f.jpg'
+    },
+    506: function(e, t, a) {
+      e.exports = a.p + 'static/media/brent-messenger.cfb1cc50.jpg'
+    },
+    507: function(e, t, a) {
+      e.exports = a.p + 'static/media/buffy-wicks.78c9946b.jpg'
+    },
+    508: function(e, t, a) {
       e.exports =
         a.p + 'static/media/california-dental-association-pac.57ba2810.jpg'
     },
-    506: function(e, t, a) {
+    509: function(e, t, a) {
       e.exports = a.p + 'static/media/cammie-croft.944c4920.jpg'
     },
-    507: function(e, t, a) {
+    510: function(e, t, a) {
       e.exports =
         a.p + 'static/media/carrie-and-greg-walton-penner.b9e7fb89.jpg'
     },
-    508: function(e, t, a) {
+    511: function(e, t, a) {
       e.exports = a.p + 'static/media/christopher-garland.bfbf115d.jpg'
     },
-    509: function(e, t, a) {
+    512: function(e, t, a) {
       e.exports = a.p + 'static/media/david-crane.7ac10d09.jpg'
     },
-    510: function(e, t, a) {
+    513: function(e, t, a) {
       e.exports = a.p + 'static/media/drew-goesl.a8303565.jpg'
     },
-    511: function(e, t, a) {
+    514: function(e, t, a) {
       e.exports = a.p + 'static/media/edvoice.9a2ce128.jpg'
     },
-    512: function(e, t, a) {
+    515: function(e, t, a) {
       e.exports = a.p + 'static/media/eli-broad.ac5200e7.jpg'
     },
-    513: function(e, t, a) {
+    516: function(e, t, a) {
       e.exports = a.p + 'static/media/eric-ridge.a2074889.jpg'
     },
-    514: function(e, t, a) {
+    517: function(e, t, a) {
       e.exports = a.p + 'static/media/eugene-frantz.f884078d.jpg'
     },
-    515: function(e, t, a) {
+    518: function(e, t, a) {
       e.exports = a.p + 'static/media/frank-baxter.ed0bd59a.jpg'
     },
-    516: function(e, t, a) {
+    519: function(e, t, a) {
       e.exports = a.p + 'static/media/govern-for-california-pac.0a5516ee.jpg'
     },
-    517: function(e, t, a) {
+    520: function(e, t, a) {
       e.exports = a.p + 'static/media/james-babcock.ae274ba0.jpg'
     },
-    518: function(e, t, a) {
+    521: function(e, t, a) {
       e.exports = a.p + 'static/media/james-green.fc11fe8c.jpg'
     },
-    519: function(e, t, a) {
+    522: function(e, t, a) {
       e.exports = a.p + 'static/media/jeffrey-peck.9d5b514f.jpg'
     },
-    520: function(e, t, a) {
+    523: function(e, t, a) {
       e.exports = a.p + 'static/media/jesse-rogers.a3a5de61.jpg'
     },
-    521: function(e, t, a) {
+    524: function(e, t, a) {
       e.exports = a.p + 'static/media/jim-messina.0ccc06f6.jpg'
     },
-    522: function(e, t, a) {
+    525: function(e, t, a) {
       e.exports = a.p + 'static/media/john-and-regina-scully.6178153f.jpg'
     },
-    523: function(e, t, a) {
+    526: function(e, t, a) {
       e.exports = a.p + 'static/media/john-podesta.3a64481d.jpg'
     },
-    524: function(e, t, a) {
+    527: function(e, t, a) {
       e.exports = a.p + 'static/media/jonathan-mantz.3ebfc122.jpg'
     },
-    525: function(e, t, a) {
+    528: function(e, t, a) {
       e.exports = a.p + 'static/media/matt-hynes.be76ce84.jpg'
     },
-    526: function(e, t, a) {
+    529: function(e, t, a) {
       e.exports = a.p + 'static/media/micah-weinberg.f8c829b9.jpg'
     },
-    527: function(e, t, a) {
+    530: function(e, t, a) {
       e.exports = a.p + 'static/media/michael-bloomberg.1bc9f162.jpg'
     },
-    528: function(e, t, a) {
+    531: function(e, t, a) {
       e.exports = a.p + 'static/media/ned-and-karen-gilhuly.53cf076d.jpg'
     },
-    529: function(e, t, a) {
+    532: function(e, t, a) {
       e.exports = a.p + 'static/media/nils-colin-lind.0e1bc5f8.jpg'
     },
-    530: function(e, t, a) {
+    533: function(e, t, a) {
       e.exports = a.p + 'static/media/nlg-dc.9d456202.jpg'
     },
-    531: function(e, t, a) {
+    534: function(e, t, a) {
       e.exports = a.p + 'static/media/penny-pritzker.cfee452d.jpg'
     },
-    532: function(e, t, a) {
+    535: function(e, t, a) {
       e.exports = a.p + 'static/media/reid-hoffman.1aeda840.jpg'
     },
-    533: function(e, t, a) {
+    536: function(e, t, a) {
       e.exports = a.p + 'static/media/richard-landers.23180cd0.jpg'
     },
-    534: function(e, t, a) {
+    537: function(e, t, a) {
       e.exports = a.p + 'static/media/rick-tinsley.3e441123.jpg'
     },
-    535: function(e, t, a) {
+    538: function(e, t, a) {
       e.exports = a.p + 'static/media/ron-conway.b8aeb349.jpg'
     },
-    536: function(e, t, a) {
+    539: function(e, t, a) {
       e.exports = a.p + 'static/media/scott-willoughby.b9e4feaa.jpg'
     },
-    537: function(e, t, a) {
+    540: function(e, t, a) {
       e.exports = a.p + 'static/media/sean-kennedy.afc58125.jpg'
     },
-    538: function(e, t, a) {
+    541: function(e, t, a) {
       e.exports = a.p + 'static/media/seth-london.3056bfcb.jpg'
     },
-    539: function(e, t, a) {
+    542: function(e, t, a) {
       e.exports = a.p + 'static/media/tench-and-simone-coxe.80e34d56.jpg'
     },
-    540: function(e, t, a) {
+    543: function(e, t, a) {
       e.exports = a.p + 'static/media/the-fisher-family.2d8fa937.jpg'
     },
-    541: function(e, t, a) {
+    544: function(e, t, a) {
       e.exports = a.p + 'static/media/thomas-fahr-steyer.54906173.jpg'
     },
-    542: function(e, t, a) {
+    545: function(e, t, a) {
       e.exports = a.p + 'static/media/warren-ned-speiker-jr.69f17bd2.jpg'
     },
-    543: function(e, t, a) {
+    546: function(e, t, a) {
       e.exports = a.p + 'static/media/william-oberndorf.df224bc6.jpg'
     },
-    544: function(e, t, a) {},
-    554: function(e, t, a) {},
-    556: function(e, t, a) {},
-    558: function(e, t, a) {},
-    560: function(e, t, a) {},
-    564: function(e, t, a) {
+    547: function(e, t, a) {},
+    557: function(e, t, a) {},
+    559: function(e, t, a) {},
+    561: function(e, t, a) {},
+    563: function(e, t, a) {},
+    568: function(e, t, a) {
       'use strict'
       a.r(t)
       a(180)
@@ -256,7 +256,7 @@
             i.a.createElement(
               p,
               null,
-              'D4BL',
+              'Data for Black Lives',
               i.a.createElement('br', null),
               'Legal Directory'
             ),
@@ -278,7 +278,7 @@
               { className: 'donation-subhead' },
               'organizations providing',
               i.a.createElement('br', null),
-              'free legal services'
+              'free legal services in Washington D.C.'
             ),
             i.a.createElement(
               'p',
@@ -307,7 +307,7 @@
           })
         )
       }
-      a(358)
+      a(360)
       function w(e) {
         var t = e.links
         return i.a.createElement(
@@ -320,7 +320,7 @@
       }
       var b = a(168),
         y = a.n(b),
-        v = (a(360),
+        v = (a(362),
         (function(e) {
           function t() {
             return (
@@ -369,12 +369,12 @@
         N = a(171),
         S = a.n(N),
         D = a(172),
-        x = a.n(D),
-        L = a(116),
+        L = a.n(D),
+        x = a(116),
         P = a(47),
         B = a.n(P),
         T = a(80),
-        _ = (a(496),
+        O = (a(498),
         function(e) {
           return e
             .toLowerCase()
@@ -384,7 +384,7 @@
             .replace(/("|,)/g, '')
             .replace(/&/g, 'and')
         }),
-        O = (function(e) {
+        _ = (function(e) {
           function t() {
             var e, a
             Object(s.a)(this, t)
@@ -428,7 +428,7 @@
                     u = A(c).sort()
                   return i.a.createElement(
                     'div',
-                    { className: B()('bw-slide', _(n)) },
+                    { className: B()('bw-slide', O(n)) },
                     a &&
                       i.a.createElement(
                         'a',
@@ -464,7 +464,7 @@
                                 null,
                                 i.a.createElement(
                                   'a',
-                                  { href: r, className: 'bw-slide__name_link' },
+                                  { href: r, className: 'bw-slide__name-link' },
                                   n
                                 )
                               ),
@@ -510,7 +510,7 @@
                               )
                             }
                           },
-                          i.a.createElement(x.a, {
+                          i.a.createElement(L.a, {
                             renderers: { link: this.linkRenderer },
                             source: l
                           }),
@@ -538,14 +538,14 @@
         A = function(e) {
           return e.split(', ').filter(Boolean)
         },
-        R = function(e) {
-          if (!e) return W()
+        W = function(e) {
+          if (!e) return R()
           var t = '#'.concat(e)
           'pushState' in window.history
             ? window.history.pushState(null, null, t)
             : (window.location.hash = t)
         },
-        W = function() {
+        R = function() {
           var e,
             t,
             a = window.location
@@ -565,7 +565,7 @@
           if (!e) return -1
           var t = e.replace('#', '')
           return T.findIndex(function(e) {
-            return t === _(e.Name)
+            return t === O(e.Name)
           })
         },
         z = function() {
@@ -643,8 +643,8 @@
               }),
               (a.updateHash = function(e) {
                 var t = I(a.state.selectedCategories),
-                  n = e < 1 ? null : _(t[e].Name)
-                R(n)
+                  n = e < 1 ? null : O(t[e].Name)
+                W(n)
               }),
               (a.jumpToSlide = function(e) {
                 var t = e.target.hash
@@ -747,18 +747,18 @@
                       i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        i.a.createElement(L.a, {
+                        i.a.createElement(x.a, {
                           options: this.categories,
                           isMulti: !0,
                           onChange: this.handleCategoryChange,
-                          placeholder: 'Filter donor types...',
+                          placeholder: 'Filter organization types...',
                           className: 'react-select-container'
                         })
                       ),
                       i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        i.a.createElement(L.a, {
+                        i.a.createElement(x.a, {
                           options: c.map(function(e, t) {
                             return { value: t, label: e.Name }
                           }),
@@ -776,12 +776,12 @@
                         slidesToShow: d
                       }),
                       c.map(function(t, n) {
-                        return i.a.createElement(O, {
+                        return i.a.createElement(_, {
                           key: t.Name,
                           imageSrc: (function(e) {
                             try {
-                              var t = _(e)
-                              return a(499)('./'.concat(t, '.jpg'))
+                              var t = O(e)
+                              return a(502)('./'.concat(t, '.jpg'))
                             } catch (n) {
                               return a(164)
                             }
@@ -807,7 +807,7 @@
             t
           )
         })(n.Component)
-      a(544)
+      a(547)
       function U() {
         return i.a.createElement(
           'div',
@@ -829,7 +829,7 @@
         )
       }
       var q = a(175),
-        J = (a(554),
+        J = (a(557),
         (function(e) {
           function t() {
             var e, a
@@ -1243,7 +1243,7 @@
           )
         },
         M = a(178)
-      a(556)
+      a(559)
       function V(e) {
         var t = e.children,
           a = Object(M.a)(e, ['children'])
@@ -1268,7 +1268,7 @@
           return i.a.createElement(
             'div',
             null,
-            i.a.createElement(p, null, 'Fed Up?'),
+            i.a.createElement(p, null, 'Want to Learn More?'),
             i.a.createElement(
               'div',
               { className: 'content panel light' },
@@ -1294,7 +1294,7 @@
             )
           )
         },
-        $ = (a(558), a(176)),
+        $ = (a(561), a(176)),
         K = [
           {
             label: 'Twitter',
@@ -1356,7 +1356,7 @@
             console.error('Error during service worker registration:', e)
           })
       }
-      a(560)
+      a(563)
       o.a.render(i.a.createElement(Y, null), document.getElementById('root')),
         (function() {
           if ('serviceWorker' in navigator) {
@@ -1813,4 +1813,4 @@
   },
   [[179, 2, 1]]
 ])
-//# sourceMappingURL=main.d0aa3396.chunk.js.map
+//# sourceMappingURL=main.bb4a642b.chunk.js.map

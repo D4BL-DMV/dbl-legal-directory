@@ -6,7 +6,7 @@ import './intro.scss'
 const Intro = () => (
   <div className="intro">
     <H2>
-      D4BL
+      Data for Black Lives
       <br />
       Legal Directory
     </H2>
@@ -24,7 +24,7 @@ const Intro = () => (
     <p className="donation-subhead">
       organizations providing
       <br />
-      free legal services
+      free legal services in Washington D.C.
     </p>
     <p className="introduction">
       Learn about organizations and programs offering services for those in need

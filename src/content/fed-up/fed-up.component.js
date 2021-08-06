@@ -5,7 +5,7 @@ import H2 from '../../components/h2/h2.component'
 export default function(props) {
   return (
     <div>
-      <H2>Fed Up?</H2>
+      <H2>Want to Learn More?</H2>
       <div className="content panel light">
         <div className="inner">
           <p>

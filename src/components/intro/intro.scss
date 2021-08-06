@@ -1,5 +1,6 @@
 @import '../../styles/colors';
 @import '../../styles/breakpoints';
+@import '../../styles/typography';
 
 .intro {
   text-align: center;
@@ -10,10 +11,12 @@
   }
 
   .donation-value {
-    font-size: 48px;
-    margin: 0;
-    color: red;
+    font-size: 108px;
+    margin: -20px;
+    color: black;
     font-weight: bold;
+    @include bowlby;
+    letter-spacing: 5px;
   }
 
   .donation-subhead {

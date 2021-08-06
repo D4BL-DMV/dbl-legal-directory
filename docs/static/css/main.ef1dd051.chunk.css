@@ -1,4 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400, 400i, 700, 700i);
+@import url(
+  https://fonts.googleapis.com/css?family=Alfa+Slab+One:400,
+  400i,
+  700,
+  700i
+);
 .h2 {
   display: flex;
   justify-content: center;
@@ -30,10 +36,12 @@
   margin-bottom: 1.2em;
 }
 .intro .donation-value {
-  font-size: 48px;
-  margin: 0;
-  color: red;
+  font-size: 108px;
+  margin: -20px;
+  color: #000;
   font-weight: 700;
+  font-family: Alfa Slab One, sans-serif;
+  letter-spacing: 5px;
 }
 .intro .donation-subhead {
   margin: 0;
@@ -212,6 +220,10 @@
   .bw-slide__name {
     line-height: 28px;
   }
+}
+.bw-slide__name-link {
+  color: #000;
+  text-decoration: none;
 }
 .bw-slide__donations {
   display: flex;
@@ -542,4 +554,4 @@ a {
 a:hover {
   color: #1670bf;
 }
-/*# sourceMappingURL=main.f1fbde00.chunk.css.map */
+/*# sourceMappingURL=main.ef1dd051.chunk.css.map */

@@ -77,7 +77,7 @@ class Slide extends Component {
               {({ measureRef }) => (
                 <div ref={measureRef} className="bw-slide__name">
                   <h3>
-                    <a href={link_url} className="bw-slide__name_link">
+                    <a href={link_url} className="bw-slide__name-link">
                       {name}
                     </a>
                   </h3>
@@ -354,7 +354,7 @@ class DonorSlider extends Component {
               options={this.categories}
               isMulti
               onChange={this.handleCategoryChange}
-              placeholder="Filter donor types..."
+              placeholder="Filter organization types..."
               className="react-select-container"
             />
           </div>
