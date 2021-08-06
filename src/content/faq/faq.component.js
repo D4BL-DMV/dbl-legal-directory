@@ -34,7 +34,7 @@ const FAQ = () => (
     <H2>FAQ</H2>
     <div className="content panel light faq">
       <div className="inner">
-        <Section title="Why are you so mad about money in politics?">
+        <Section title="How do I get help through one of these organizations?">
           <p>
             Our politicians should work for us, represent us, and be accountable
             to us – the ordinary working people of Assembly District 15. Buffy
@@ -98,7 +98,7 @@ const FAQ = () => (
             megarich.
           </p>
         </Section>
-        <Section title="I definitely don’t want to vote for Buffy. Who should I vote for instead?">
+        <Section title="How do I get help for an issue not covered by any of these organizations?">
           <p>
             <a
               target="_blank"
@@ -181,7 +181,7 @@ const FAQ = () => (
             – we’ll train you and you’ll have a good time!
           </p>
         </Section>
-        <Section title="What does Buffy mean when she says she takes no contributions “from corporations”?">
+        <Section title="How can I get a new organization added to this list?">
           <p>
             Buffy’s campaign is awash in corporate cash. That includes money
             from the bank accounts of:
@@ -269,187 +269,7 @@ const FAQ = () => (
             support in their interests.
           </p>
         </Section>
-        <Section title="Buffy says she doesn’t have any control over who spends money on her behalf. Why does it matter who gives to these PACs?">
-          <p>
-            PACs are allowed to spend unlimited sums of money influencing
-            elections as long as they don’t coordinate too directly with
-            candidates’ campaigns. Buffy knows exactly how PACs work&mdash;she
-            was the executive director of Priorities USA, the largest Democratic
-            super PAC in history, which focused on{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.washingtonpost.com/news/post-politics/wp/2016/10/25/pro-clinton-super-pac-priorities-usa-action-breaks-fundraising-records/?utm_term=.4fc3fa87a2b6"
-            >
-              raking in donations from the mega-wealthy
-            </a>{' '}
-            and spent $133 million on the 2016 elections alone. Email leaks from
-            the 2016 Clinton campaign showed how{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://thehill.com/blogs/ballot-box/fundraising/300276-wikileaks-hack-reveals-cozy-relationship-between-clinton"
-            >
-              “cozy”
-            </a>{' '}
-            the relationship between the super PAC and Hillary’s campaign
-            actually was.
-          </p>
-          <p>
-            The big money in the AD15 race comes from capitalists who’ve made
-            their billions by choosing investments with profitable returns. Why
-            would they lavish huge sums on PACs like Govern for CA and EdVoice
-            (or Priorities USA) if they didn’t think it was going to be a
-            reliable and profitable investment for them?
-          </p>
-          <p>
-            They know Republicans can’t win in places like the East Bay, so the
-            next best thing is to support Buffy{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.counterpunch.org/2018/05/09/flush-with-cash-will-buffy-the-bernie-slayer-win-in-pro-sanders-district/"
-            >
-              “the Bernie Slayer”
-            </a>{' '}
-            Wicks and other corporate politicians like her who will pass
-            capitalist-friendly laws and give out tax breaks, while blocking
-            legislation that gives power and resources to working people. These
-            politicians can talk a good game during the campaign, telling voters
-            what they want to hear. But mega-rich PAC donors know what they’re
-            paying for.
-          </p>
-        </Section>
-        <Section title="Who made this site? How can I learn more about DSA and get involved in the election?">
-          <p>
-            We are your friendly local{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org"
-            >
-              East Bay chapter
-            </a>{' '}
-            of the{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.dsausa.org/"
-            >
-              Democratic Socialists of America
-            </a>
-            ! We are a member-run, all-volunteer organization. This website was
-            created solely by volunteers from East Bay DSA as a contribution to
-            the issues in this campaign, and to the national dialogue on the
-            questions of <em>Citizens United</em> and big money in politics.
-          </p>
-          <p>
-            We want a world run for the benefit of people, not profit. We
-            believe in real democracy, which means ordinary working people
-            having democratic control over the economy and their own lives. We
-            pick big fights that will benefit working people, like{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://medicareforall.dsausa.org/"
-            >
-              Medicare for All
-            </a>{' '}
-            and the battle for{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://voteyesonprop10.org/"
-            >
-              real rent control
-            </a>
-            ; we support strong, democratic labor unions; and we back democratic
-            socialist political candidates like{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.jovanka.org/"
-            >
-              Jovanka Beckles
-            </a>
-            , who is running against Buffy. And we have fun doing it!
-          </p>
-          <p>
-            In addition to Jovanka, we’re fighting for the{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://voteyesonprop10.org/"
-            >
-              Affordable Housing Act/Prop 10
-            </a>
-            , the{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.teamrichmond.net/"
-            >
-              Team Richmond
-            </a>{' '}
-            slate for Richmond City Council, the Community Power slate for
-            Berkeley Rent Board, Measures O and P in Berkeley, and Measure Y in
-            Oakland – all campaigns that benefit working people and take power
-            from the capitalist class.
-          </p>
-          <p>
-            Want to check us out? Join us for a{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org/events"
-            >
-              canvass or phonebank
-            </a>{' '}
-            to talk to your neighbors about building power and fighting
-            corporate politics! Come out to one of our{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org/resources/readings/socialist-school/2018/summer"
-            >
-              Socialist Night Schools
-            </a>{' '}
-            or an{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org/events"
-            >
-              Intro to Democratic Socialism
-            </a>{' '}
-            event! Follow us on{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/eastbaydsa"
-            >
-              Facebook
-            </a>{' '}
-            or{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://twitter.com/DSAEastBay"
-            >
-              Twitter
-            </a>
-            ! Sign up for our{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org/join"
-            >
-              newsletter
-            </a>{' '}
-            to learn about events and actions!
-          </p>
-        </Section>
-        <Section title="Where’d you get all this information from?">
+        <Section title="Who compiled all this information?">
           <p>
             It’s all public record. For individual contributions, we went to the
             California Secretary of State’s{' '}
@@ -481,7 +301,7 @@ const FAQ = () => (
             through humble Google searches. That’s it!
           </p>
         </Section>
-        <Section title="What Assembly District am I in?">
+        <Section title="I don't live in Washington D.C. How can I get help?">
           <p>
             <a
               target="_blank"
@@ -494,49 +314,6 @@ const FAQ = () => (
             Berkeley, Emeryville, Piedmont, parts of Oakland) and Contra Costa
             (El Cerrito, Hercules, Pinole, Richmond, San Pablo, El Sobrante, and
             Kensington) counties.
-          </p>
-        </Section>
-        <Section title="When is the election, where is my polling place, and am I registered to vote?">
-          <p>The general election is Nov. 6, 2018.</p>
-          <p>
-            Find your polling place{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.sos.ca.gov/elections/polling-place/"
-            >
-              here
-            </a>
-            .
-          </p>
-          <p>
-            Register to vote{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://registertovote.ca.gov/"
-            >
-              here
-            </a>{' '}
-            before Oct. 22. After Oct. 22, here’s how you can vote{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.sos.ca.gov/elections/voter-registration/conditional-voter-reg/"
-            >
-              conditionally
-            </a>
-            .
-          </p>
-        </Section>
-        <Section title="I have a corporate candidate running in my local election. How can I make a site like this?">
-          <p>
-            Hit us up at{' '}
-            <a href="mailto:elections@eastbaydsa.org">
-              elections@eastbaydsa.org
-            </a>
-            . We can share the code for this site and tell you how we did the
-            research. It’s fun!
           </p>
         </Section>
       </div>

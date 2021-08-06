@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    revision: 'ae274ba040a73145575021384f042c1f',
-    url: './static/media/james-babcock.ae274ba0.jpg'
+    revision: 'fc11fe8c1a3a9b469e58b72d5ddc96e9',
+    url: './static/media/james-green.fc11fe8c.jpg'
   },
   {
-    revision: 'bb74e217cf0cfd3b9ab0',
-    url: './static/css/main.0237cbc8.chunk.css'
+    revision: 'd0aa3396a126db7c1302',
+    url: './static/css/main.f1fbde00.chunk.css'
   },
   {
-    revision: '8c52cbcf9b79d675f0948b7e42ce105e',
-    url: './static/media/ebdsa-logo.8c52cbcf.svg'
+    revision: '53568caf39b4e195a771b90fa653db59',
+    url: './static/media/d4bl_logo.53568caf.png'
   },
   {
-    revision: '99c710c00b3fcc2ad0d9',
-    url: './static/js/1.99c710c0.chunk.js'
+    revision: 'ce37239debe3a64875eb',
+    url: './static/js/1.ce37239d.chunk.js'
   },
   {
     revision: '4a686d48d5a089750c49',
@@ -108,12 +108,12 @@ self.__precacheManifest = [
     url: './static/media/govern-for-california-pac.0a5516ee.jpg'
   },
   {
-    revision: 'bb74e217cf0cfd3b9ab0',
-    url: './static/js/main.bb74e217.chunk.js'
+    revision: 'ae274ba040a73145575021384f042c1f',
+    url: './static/media/james-babcock.ae274ba0.jpg'
   },
   {
-    revision: 'fc11fe8c1a3a9b469e58b72d5ddc96e9',
-    url: './static/media/james-green.fc11fe8c.jpg'
+    revision: 'd0aa3396a126db7c1302',
+    url: './static/js/main.d0aa3396.chunk.js'
   },
   {
     revision: '9d5b514f62117b54454aa776c7203afc',
@@ -158,6 +158,10 @@ self.__precacheManifest = [
   {
     revision: '0e1bc5f865f67b0408f7bcbd4d8c10f8',
     url: './static/media/nils-colin-lind.0e1bc5f8.jpg'
+  },
+  {
+    revision: '9d45620214281e7ada837945a5b63f08',
+    url: './static/media/nlg-dc.9d456202.jpg'
   },
   {
     revision: 'cfee452dad162518d9c8f22e08a81282',
@@ -212,11 +216,11 @@ self.__precacheManifest = [
     url: './static/media/william-oberndorf.df224bc6.jpg'
   },
   {
-    revision: '99c710c00b3fcc2ad0d9',
-    url: './static/css/1.b06b511e.chunk.css'
+    revision: 'ce37239debe3a64875eb',
+    url: './static/css/1.4d85d895.chunk.css'
   },
   {
-    revision: 'da840e4410268c4e7ebd393909835065',
+    revision: '81ad39fc8380d225e3f4802c8d200d80',
     url: './index.html'
   }
 ]

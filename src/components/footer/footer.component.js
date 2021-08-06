@@ -5,14 +5,14 @@ export default function Footer() {
   return (
     <div className="footer content panel dark">
       <a
-        href="http://www.eastbaydsa.org/"
-        alt="East Bay DSA"
+        href="http://www.https://d4bl.org/"
+        alt="Data 4 Black Lives"
         className="ebdsa-logo"
       >
-        East Bay DSA
+        Data 4 Black Lives
       </a>
-      <a href="http://www.eastbaydsa.org/" alt="East Bay DSA">
-        Created by East Bay DSA
+      <a href="http://www.https://d4bl.org/" alt="Data 4 Black Lives">
+        Created by Data 4 Black Lives
       </a>
     </div>
   )

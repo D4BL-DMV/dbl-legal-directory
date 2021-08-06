@@ -9,14 +9,28 @@ export default function(props) {
       <div className="content panel light">
         <div className="inner">
           <p>
-            Corporations and billionaires are well organized and already waging
-            class war on working people. Right now, wealthy donors like those
-            featured on this site are setting the terms for what our society can
-            look like. If ordinary working people come together to join in a
-            movement, we can fight back and win! Only together can we build a
-            society that works for the many, not the few. Join us.
+            Data for Black Lives is a movement of activists, organizers, and
+            mathematicians committed to the mission of using data science to
+            create concrete and measurable change in the lives of Black people.
+            Since the advent of computing, big data and algorithms have
+            penetrated virtually every aspect of our social and economic lives.
+            These new data systems have tremendous potential to empower
+            communities of color. Tools like statistical modeling, data
+            visualization, and crowd-sourcing, in the right hands, are powerful
+            instruments for fighting bias, building progressive movements, and
+            promoting civic engagement.
           </p>
-          <Button href="http://www.eastbaydsa.org/events">DO SOMETHING</Button>
+          <p>
+            But history tells a different story, one in which data is too often
+            wielded as an instrument of oppression, reinforcing inequality and
+            perpetuating injustice. Redlining was a data-driven enterprise that
+            resulted in the systematic exclusion of Black communities from key
+            financial services. More recent trends like predictive policing,
+            risk-based sentencing, and predatory lending are troubling
+            variations on the same theme. Today, discrimination is a high-tech
+            enterprise.
+          </p>
+          <Button href="https://d4bl.org/events.html"> JOIN US </Button>
         </div>
       </div>
     </div>

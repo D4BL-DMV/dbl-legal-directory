@@ -30,7 +30,7 @@
   margin-bottom: 1.2em;
 }
 .intro .donation-value {
-  font-size: 28px;
+  font-size: 48px;
   margin: 0;
   color: red;
   font-weight: 700;
@@ -83,7 +83,7 @@
   align-items: center;
   justify-content: center;
   z-index: 201;
-  background: #12092d;
+  background: #010101;
   position: relative;
 }
 .header__logo {
@@ -223,7 +223,7 @@
   font-weight: 700;
   text-align: left;
   line-height: 1.2em;
-  color: #12092d;
+  color: #010101;
 }
 .bw-slide__donation:not(:first-child) {
   margin-left: 5px;
@@ -233,7 +233,7 @@
 }
 .bw-slide h3 {
   font-size: 20px;
-  color: #12092d;
+  color: #010101;
   font-weight: 700;
   margin: 0;
 }
@@ -244,7 +244,7 @@
 }
 .bw-slide h4 {
   font-size: 28px;
-  color: #12092d;
+  color: #010101;
   line-height: 34px;
   font-weight: 700;
   margin: 0;
@@ -269,6 +269,7 @@
 .bw-slide.buffy-wicks h3 {
   font-size: 30px;
   line-height: normal;
+  color: #000;
 }
 @media (min-width: 768px) {
   .bw-slide.buffy-wicks h3 {
@@ -307,7 +308,7 @@
 .footer .ebdsa-logo {
   width: 100px;
   height: 100px;
-  background-image: url(../../static/media/ebdsa-logo.8c52cbcf.svg);
+  background-image: url(../../static/media/d4bl_logo.53568caf.png);
   background-repeat: no-repeat;
   background-size: contain;
   text-indent: -9999px;
@@ -339,7 +340,7 @@
 .faq-wrapper h3:after {
   content: '\2039';
   display: block;
-  color: #12092d;
+  color: #010101;
   font-weight: 400;
   font-size: 40px;
   line-height: 32px;
@@ -409,7 +410,7 @@
   padding: 0 25px;
 }
 .content.dark {
-  background-color: #12092d;
+  background-color: #010101;
   min-height: 300px;
   display: flex;
   justify-content: center;
@@ -524,7 +525,7 @@ h2 {
 }
 h2,
 h3 {
-  color: #12092d;
+  color: #010101;
 }
 h3 {
   line-height: 1.4em;
@@ -541,4 +542,4 @@ a {
 a:hover {
   color: #1670bf;
 }
-/*# sourceMappingURL=main.0237cbc8.chunk.css.map */
+/*# sourceMappingURL=main.f1fbde00.chunk.css.map */

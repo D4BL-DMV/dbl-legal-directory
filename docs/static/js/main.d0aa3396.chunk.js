@@ -11,7 +11,7 @@
       e.exports = a.p + 'static/media/twitter.2f8dfadf.svg'
     },
     179: function(e, t, a) {
-      e.exports = a(563)
+      e.exports = a(564)
     },
     354: function(e, t, a) {},
     356: function(e, t, a) {},
@@ -50,26 +50,27 @@
         './michael-bloomberg.jpg': 527,
         './ned-and-karen-gilhuly.jpg': 528,
         './nils-colin-lind.jpg': 529,
+        './nlg-dc.jpg': 530,
         './no-photo.jpg': 164,
-        './penny-pritzker.jpg': 530,
-        './reid-hoffman.jpg': 531,
-        './richard-landers.jpg': 532,
-        './rick-tinsley.jpg': 533,
-        './ron-conway.jpg': 534,
-        './scott-willoughby.jpg': 535,
-        './sean-kennedy.jpg': 536,
-        './seth-london.jpg': 537,
-        './tench-and-simone-coxe.jpg': 538,
-        './the-fisher-family.jpg': 539,
-        './thomas-fahr-steyer.jpg': 540,
-        './warren-ned-speiker-jr.jpg': 541,
-        './william-oberndorf.jpg': 542
+        './penny-pritzker.jpg': 531,
+        './reid-hoffman.jpg': 532,
+        './richard-landers.jpg': 533,
+        './rick-tinsley.jpg': 534,
+        './ron-conway.jpg': 535,
+        './scott-willoughby.jpg': 536,
+        './sean-kennedy.jpg': 537,
+        './seth-london.jpg': 538,
+        './tench-and-simone-coxe.jpg': 539,
+        './the-fisher-family.jpg': 540,
+        './thomas-fahr-steyer.jpg': 541,
+        './warren-ned-speiker-jr.jpg': 542,
+        './william-oberndorf.jpg': 543
       }
-      function r(e) {
-        var t = o(e)
+      function i(e) {
+        var t = r(e)
         return a(t)
       }
-      function o(e) {
+      function r(e) {
         var t = n[e]
         if (!(t + 1)) {
           var a = new Error("Cannot find module '" + e + "'")
@@ -77,12 +78,12 @@
         }
         return t
       }
-      ;(r.keys = function() {
+      ;(i.keys = function() {
         return Object.keys(n)
       }),
-        (r.resolve = o),
-        (e.exports = r),
-        (r.id = 499)
+        (i.resolve = r),
+        (e.exports = i),
+        (i.id = 499)
     },
     500: function(e, t, a) {
       e.exports = a.p + 'static/media/ashlee-titus.47ccb5ed.jpg'
@@ -177,109 +178,112 @@
       e.exports = a.p + 'static/media/nils-colin-lind.0e1bc5f8.jpg'
     },
     530: function(e, t, a) {
-      e.exports = a.p + 'static/media/penny-pritzker.cfee452d.jpg'
+      e.exports = a.p + 'static/media/nlg-dc.9d456202.jpg'
     },
     531: function(e, t, a) {
-      e.exports = a.p + 'static/media/reid-hoffman.1aeda840.jpg'
+      e.exports = a.p + 'static/media/penny-pritzker.cfee452d.jpg'
     },
     532: function(e, t, a) {
-      e.exports = a.p + 'static/media/richard-landers.23180cd0.jpg'
+      e.exports = a.p + 'static/media/reid-hoffman.1aeda840.jpg'
     },
     533: function(e, t, a) {
-      e.exports = a.p + 'static/media/rick-tinsley.3e441123.jpg'
+      e.exports = a.p + 'static/media/richard-landers.23180cd0.jpg'
     },
     534: function(e, t, a) {
-      e.exports = a.p + 'static/media/ron-conway.b8aeb349.jpg'
+      e.exports = a.p + 'static/media/rick-tinsley.3e441123.jpg'
     },
     535: function(e, t, a) {
-      e.exports = a.p + 'static/media/scott-willoughby.b9e4feaa.jpg'
+      e.exports = a.p + 'static/media/ron-conway.b8aeb349.jpg'
     },
     536: function(e, t, a) {
-      e.exports = a.p + 'static/media/sean-kennedy.afc58125.jpg'
+      e.exports = a.p + 'static/media/scott-willoughby.b9e4feaa.jpg'
     },
     537: function(e, t, a) {
-      e.exports = a.p + 'static/media/seth-london.3056bfcb.jpg'
+      e.exports = a.p + 'static/media/sean-kennedy.afc58125.jpg'
     },
     538: function(e, t, a) {
-      e.exports = a.p + 'static/media/tench-and-simone-coxe.80e34d56.jpg'
+      e.exports = a.p + 'static/media/seth-london.3056bfcb.jpg'
     },
     539: function(e, t, a) {
-      e.exports = a.p + 'static/media/the-fisher-family.2d8fa937.jpg'
+      e.exports = a.p + 'static/media/tench-and-simone-coxe.80e34d56.jpg'
     },
     540: function(e, t, a) {
-      e.exports = a.p + 'static/media/thomas-fahr-steyer.54906173.jpg'
+      e.exports = a.p + 'static/media/the-fisher-family.2d8fa937.jpg'
     },
     541: function(e, t, a) {
-      e.exports = a.p + 'static/media/warren-ned-speiker-jr.69f17bd2.jpg'
+      e.exports = a.p + 'static/media/thomas-fahr-steyer.54906173.jpg'
     },
     542: function(e, t, a) {
+      e.exports = a.p + 'static/media/warren-ned-speiker-jr.69f17bd2.jpg'
+    },
+    543: function(e, t, a) {
       e.exports = a.p + 'static/media/william-oberndorf.df224bc6.jpg'
     },
-    543: function(e, t, a) {},
-    553: function(e, t, a) {},
-    555: function(e, t, a) {},
-    557: function(e, t, a) {},
-    559: function(e, t, a) {},
-    563: function(e, t, a) {
+    544: function(e, t, a) {},
+    554: function(e, t, a) {},
+    556: function(e, t, a) {},
+    558: function(e, t, a) {},
+    560: function(e, t, a) {},
+    564: function(e, t, a) {
       'use strict'
       a.r(t)
       a(180)
       var n = a(0),
-        r = a.n(n),
-        o = a(31),
-        i = a.n(o),
+        i = a.n(n),
+        r = a(31),
+        o = a.n(r),
         s = a(32),
         l = a(33),
         c = a(35),
         d = a(34),
-        h = a(36),
-        u = a(167),
-        m = a.n(u),
+        u = a(36),
+        m = a(167),
+        h = a.n(m),
         p = (a(354),
         function(e) {
           var t = e.children
-          return r.a.createElement(
+          return i.a.createElement(
             'div',
             { className: 'h2' },
-            r.a.createElement('h2', null, t)
+            i.a.createElement('h2', null, t)
           )
         }),
         g = (a(356),
         function() {
-          return r.a.createElement(
+          return i.a.createElement(
             'div',
             { className: 'intro' },
-            r.a.createElement(
+            i.a.createElement(
               p,
               null,
-              'Buffy Wicks',
-              r.a.createElement('br', null),
-              'Total Support'
+              'D4BL',
+              i.a.createElement('br', null),
+              'Legal Directory'
             ),
-            r.a.createElement(
+            i.a.createElement(
               'p',
               { className: 'donation-value' },
-              r.a.createElement(m.a, {
-                prefix: '$',
+              i.a.createElement(h.a, {
+                prefix: '',
                 delay: 0.5,
                 start: 0,
-                end: 2829481,
+                end: 42,
                 separator: ',',
                 duration: 2.5,
                 useEasing: !0
               })
             ),
-            r.a.createElement(
+            i.a.createElement(
               'p',
               { className: 'donation-subhead' },
-              'including direct donations',
-              r.a.createElement('br', null),
-              'and independent expenditures'
+              'organizations providing',
+              i.a.createElement('br', null),
+              'free legal services'
             ),
-            r.a.createElement(
+            i.a.createElement(
               'p',
               { className: 'introduction' },
-              'Learn about the wealthy donors and PACs who privatize schools, repeal protections for working people, deregulate the finance industry, and fund Buffy Wicks.'
+              'Learn about organizations and programs offering services for those in need of legal assistance who cannot afford it.'
             )
           )
         })
@@ -287,7 +291,7 @@
         var t = e.label,
           a = e.url,
           n = e.icon
-        return r.a.createElement(
+        return i.a.createElement(
           'a',
           {
             className: 'social-links__link',
@@ -295,7 +299,7 @@
             target: '_blank',
             rel: 'noopener noreferrer'
           },
-          r.a.createElement('img', {
+          i.a.createElement('img', {
             width: '30',
             height: '30',
             src: n,
@@ -306,11 +310,11 @@
       a(358)
       function w(e) {
         var t = e.links
-        return r.a.createElement(
+        return i.a.createElement(
           'ul',
           { className: 'social-links' },
           t.map(function(e) {
-            return r.a.createElement(f, Object.assign({ key: e.label }, e))
+            return i.a.createElement(f, Object.assign({ key: e.label }, e))
           })
         )
       }
@@ -325,29 +329,29 @@
             )
           }
           return (
-            Object(h.a)(t, e),
+            Object(u.a)(t, e),
             Object(l.a)(t, [
               {
                 key: 'render',
                 value: function() {
-                  return r.a.createElement(
+                  return i.a.createElement(
                     'div',
                     { className: 'header__wrapper' },
-                    r.a.createElement(
+                    i.a.createElement(
                       'div',
                       { className: 'header' },
-                      r.a.createElement(
+                      i.a.createElement(
                         'div',
                         { className: 'header__social-links' },
-                        r.a.createElement(w, { links: this.props.socialLinks })
+                        i.a.createElement(w, { links: this.props.socialLinks })
                       ),
-                      r.a.createElement(
+                      i.a.createElement(
                         'a',
                         { href: '/' },
-                        r.a.createElement('img', {
+                        i.a.createElement('img', {
                           className: 'header__logo',
                           src: y.a,
-                          alt: 'Buffy Wicks dot money'
+                          alt: 'd4bl legal directory'
                         })
                       )
                     )
@@ -365,11 +369,11 @@
         N = a(171),
         S = a.n(N),
         D = a(172),
-        P = a.n(D),
-        x = a(116),
-        B = a(47),
-        L = a.n(B),
-        A = a(80),
+        x = a.n(D),
+        L = a(116),
+        P = a(47),
+        B = a.n(P),
+        T = a(80),
         _ = (a(496),
         function(e) {
           return e
@@ -380,19 +384,19 @@
             .replace(/("|,)/g, '')
             .replace(/&/g, 'and')
         }),
-        T = (function(e) {
+        O = (function(e) {
           function t() {
             var e, a
             Object(s.a)(this, t)
-            for (var n = arguments.length, o = new Array(n), i = 0; i < n; i++)
-              o[i] = arguments[i]
+            for (var n = arguments.length, r = new Array(n), o = 0; o < n; o++)
+              r[o] = arguments[o]
             return (
               ((a = Object(c.a)(
                 this,
-                (e = Object(d.a)(t)).call.apply(e, [this].concat(o))
+                (e = Object(d.a)(t)).call.apply(e, [this].concat(r))
               )).state = { nameDimensions: { width: 0, height: 0 } }),
               (a.linkRenderer = function(e) {
-                return r.a.createElement(
+                return i.a.createElement(
                   'a',
                   {
                     href: e.href,
@@ -406,7 +410,7 @@
             )
           }
           return (
-            Object(h.a)(t, e),
+            Object(u.a)(t, e),
             Object(l.a)(t, [
               {
                 key: 'render',
@@ -415,34 +419,34 @@
                     t = this.props,
                     a = t.imageSrc,
                     n = t.name,
-                    o = t.link_url,
-                    i = t.phone_number,
+                    r = t.link_url,
+                    o = t.phone_number,
                     s = t.email,
                     l = t.description,
                     c = t.categories,
                     d = t.isVisible,
-                    h = O(c).sort()
-                  return r.a.createElement(
+                    u = A(c).sort()
+                  return i.a.createElement(
                     'div',
-                    { className: L()('bw-slide', _(n)) },
+                    { className: B()('bw-slide', _(n)) },
                     a &&
-                      r.a.createElement(
+                      i.a.createElement(
                         'a',
-                        { href: o },
-                        r.a.createElement('div', {
+                        { href: r },
+                        i.a.createElement('div', {
                           className: 'bw-slide__image',
                           style: { backgroundImage: "url('".concat(a, "')") }
                         })
                       ),
                     d &&
-                      r.a.createElement(
+                      i.a.createElement(
                         'div',
                         {
-                          className: L()('bw-slide__content', {
+                          className: B()('bw-slide__content', {
                             'bw-slide__content--no-image': !a
                           })
                         },
-                        r.a.createElement(
+                        i.a.createElement(
                           S.a,
                           {
                             bounds: !0,
@@ -452,36 +456,40 @@
                           },
                           function(e) {
                             var t = e.measureRef
-                            return r.a.createElement(
+                            return i.a.createElement(
                               'div',
                               { ref: t, className: 'bw-slide__name' },
-                              r.a.createElement(
+                              i.a.createElement(
                                 'h3',
                                 null,
-                                r.a.createElement('a', { href: o }, n)
+                                i.a.createElement(
+                                  'a',
+                                  { href: r, className: 'bw-slide__name_link' },
+                                  n
+                                )
                               ),
-                              r.a.createElement(
+                              i.a.createElement(
                                 'div',
                                 { className: 'bw-slide__donations' },
-                                i &&
-                                  r.a.createElement(
+                                o &&
+                                  i.a.createElement(
                                     'div',
                                     { className: 'bw-slide__donation' },
                                     'Phone Number:',
                                     ' ',
-                                    r.a.createElement(
+                                    i.a.createElement(
                                       'span',
                                       { className: 'bw-slide__donation-value' },
-                                      i
+                                      o
                                     )
                                   ),
                                 s &&
-                                  r.a.createElement(
+                                  i.a.createElement(
                                     'div',
                                     { className: 'bw-slide__donation' },
                                     'Email:',
                                     ' ',
-                                    r.a.createElement(
+                                    i.a.createElement(
                                       'span',
                                       { className: 'bw-slide__donation-value' },
                                       s
@@ -491,7 +499,7 @@
                             )
                           }
                         ),
-                        r.a.createElement(
+                        i.a.createElement(
                           'div',
                           {
                             className: 'bw-slide__scrollable',
@@ -502,16 +510,16 @@
                               )
                             }
                           },
-                          r.a.createElement(P.a, {
+                          i.a.createElement(x.a, {
                             renderers: { link: this.linkRenderer },
                             source: l
                           }),
-                          h.length > 0 &&
-                            r.a.createElement(
+                          u.length > 0 &&
+                            i.a.createElement(
                               'div',
                               { className: 'bw-slide__categories' },
-                              h.map(function(e) {
-                                return r.a.createElement(
+                              u.map(function(e) {
+                                return i.a.createElement(
                                   'div',
                                   { className: 'bw-slide__category', key: e },
                                   e
@@ -527,17 +535,17 @@
             t
           )
         })(n.Component),
-        O = function(e) {
+        A = function(e) {
           return e.split(', ').filter(Boolean)
         },
-        W = function(e) {
-          if (!e) return R()
+        R = function(e) {
+          if (!e) return W()
           var t = '#'.concat(e)
           'pushState' in window.history
             ? window.history.pushState(null, null, t)
             : (window.location.hash = t)
         },
-        R = function() {
+        W = function() {
           var e,
             t,
             a = window.location
@@ -556,20 +564,20 @@
         H = function(e) {
           if (!e) return -1
           var t = e.replace('#', '')
-          return A.findIndex(function(e) {
+          return T.findIndex(function(e) {
             return t === _(e.Name)
           })
         },
-        I = function() {
+        z = function() {
           var e = H(window.location.hash)
           return e < 0 ? 0 : e
         },
-        z = E()(function(e) {
-          return A.filter(function(t) {
+        I = E()(function(e) {
+          return T.filter(function(t) {
             return (
               !!t.Name &&
               (0 === e.length ||
-                O(t.Category).reduce(function(t, a) {
+                A(t.Category).reduce(function(t, a) {
                   return t || e.includes(a)
                 }, !1))
             )
@@ -634,9 +642,9 @@
                   a.setState({ sliderSettings: e })
               }),
               (a.updateHash = function(e) {
-                var t = z(a.state.selectedCategories),
+                var t = I(a.state.selectedCategories),
                   n = e < 1 ? null : _(t[e].Name)
-                W(n)
+                R(n)
               }),
               (a.jumpToSlide = function(e) {
                 var t = e.target.hash
@@ -645,9 +653,9 @@
                   n > -1 && (e.preventDefault(), a.slider.slickGoTo(n))
                 }
               }),
-              (a.categories = A.reduce(function(e, t) {
+              (a.categories = T.reduce(function(e, t) {
                 return (
-                  O(t.Category).forEach(function(t) {
+                  A(t.Category).forEach(function(t) {
                     e.includes(t) || e.push(t)
                   }),
                   e
@@ -682,28 +690,28 @@
                 }
               }),
               (a.isVisible = function(e, t) {
-                var n = z(a.state.selectedCategories).length - 1,
-                  r = t - 3,
-                  o = t + 3
-                return r < 0
-                  ? e > n + r || e < o
-                  : o > n
-                    ? e > r || e < o - n
-                    : e > r && e < o
+                var n = I(a.state.selectedCategories).length - 1,
+                  i = t - 3,
+                  r = t + 3
+                return i < 0
+                  ? e > n + i || e < r
+                  : r > n
+                    ? e > i || e < r - n
+                    : e > i && e < r
               }),
               (a.state = {
                 selectedCategories: [],
                 query: null,
-                currentSlide: I(),
+                currentSlide: z(),
                 sliderSettings: Object.assign({}, a.getSliderSettings(), {
-                  initialSlide: I()
+                  initialSlide: z()
                 })
               }),
               a
             )
           }
           return (
-            Object(h.a)(t, e),
+            Object(u.a)(t, e),
             Object(l.a)(t, [
               {
                 key: 'componentDidMount',
@@ -724,22 +732,22 @@
                 value: function() {
                   var e = this,
                     t = this.state,
-                    o = t.selectedCategories,
-                    i = t.sliderSettings,
+                    r = t.selectedCategories,
+                    o = t.sliderSettings,
                     s = t.currentSlide,
-                    l = 1 === i.slidesToShow,
-                    c = z(o),
-                    d = Math.min(c.length, i.slidesToShow)
-                  return r.a.createElement(
+                    l = 1 === o.slidesToShow,
+                    c = I(r),
+                    d = Math.min(c.length, o.slidesToShow)
+                  return i.a.createElement(
                     n.Fragment,
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'div',
                       { className: 'filters-wrapper' },
-                      r.a.createElement(
+                      i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        r.a.createElement(x.a, {
+                        i.a.createElement(L.a, {
                           options: this.categories,
                           isMulti: !0,
                           onChange: this.handleCategoryChange,
@@ -747,10 +755,10 @@
                           className: 'react-select-container'
                         })
                       ),
-                      r.a.createElement(
+                      i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        r.a.createElement(x.a, {
+                        i.a.createElement(L.a, {
                           options: c.map(function(e, t) {
                             return { value: t, label: e.Name }
                           }),
@@ -762,13 +770,13 @@
                         })
                       )
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       j.a,
-                      Object.assign({ ref: this.bindRef }, i, {
+                      Object.assign({ ref: this.bindRef }, o, {
                         slidesToShow: d
                       }),
                       c.map(function(t, n) {
-                        return r.a.createElement(T, {
+                        return i.a.createElement(O, {
                           key: t.Name,
                           imageSrc: (function(e) {
                             try {
@@ -791,7 +799,7 @@
                         })
                       })
                     ),
-                    r.a.createElement('div', { id: 'arrow-preloader' })
+                    i.a.createElement('div', { id: 'arrow-preloader' })
                   )
                 }
               }
@@ -799,39 +807,39 @@
             t
           )
         })(n.Component)
-      a(543)
+      a(544)
       function U() {
-        return r.a.createElement(
+        return i.a.createElement(
           'div',
           { className: 'footer content panel dark' },
-          r.a.createElement(
+          i.a.createElement(
             'a',
             {
-              href: 'http://www.eastbaydsa.org/',
-              alt: 'East Bay DSA',
+              href: 'http://www.https://d4bl.org/',
+              alt: 'Data 4 Black Lives',
               className: 'ebdsa-logo'
             },
-            'East Bay DSA'
+            'Data 4 Black Lives'
           ),
-          r.a.createElement(
+          i.a.createElement(
             'a',
-            { href: 'http://www.eastbaydsa.org/', alt: 'East Bay DSA' },
-            'Created by East Bay DSA'
+            { href: 'http://www.https://d4bl.org/', alt: 'Data 4 Black Lives' },
+            'Created by Data 4 Black Lives'
           )
         )
       }
-      var J = a(175),
-        G = (a(553),
+      var q = a(175),
+        J = (a(554),
         (function(e) {
           function t() {
             var e, a
             Object(s.a)(this, t)
-            for (var n = arguments.length, r = new Array(n), o = 0; o < n; o++)
-              r[o] = arguments[o]
+            for (var n = arguments.length, i = new Array(n), r = 0; r < n; r++)
+              i[r] = arguments[r]
             return (
               ((a = Object(c.a)(
                 this,
-                (e = Object(d.a)(t)).call.apply(e, [this].concat(r))
+                (e = Object(d.a)(t)).call.apply(e, [this].concat(i))
               )).state = { isOpened: !1 }),
               (a.toggleCollapse = function() {
                 a.setState(function(e) {
@@ -842,7 +850,7 @@
             )
           }
           return (
-            Object(h.a)(t, e),
+            Object(u.a)(t, e),
             Object(l.a)(t, [
               {
                 key: 'render',
@@ -851,10 +859,10 @@
                     t = e.title,
                     a = e.children,
                     n = this.state.isOpened
-                  return r.a.createElement(
+                  return i.a.createElement(
                     'div',
                     { className: 'collapse-container' },
-                    r.a.createElement(
+                    i.a.createElement(
                       'h3',
                       {
                         className: n ? 'opened' : 'closed',
@@ -862,7 +870,7 @@
                       },
                       t
                     ),
-                    r.a.createElement(J.Collapse, { isOpened: n }, a)
+                    i.a.createElement(q.Collapse, { isOpened: n }, a)
                   )
                 }
               }
@@ -870,83 +878,86 @@
             t
           )
         })(n.Component)),
-        M = function() {
-          return r.a.createElement(
+        G = function() {
+          return i.a.createElement(
             'div',
             { className: 'faq-wrapper' },
-            r.a.createElement(p, null, 'FAQ'),
-            r.a.createElement(
+            i.a.createElement(p, null, 'FAQ'),
+            i.a.createElement(
               'div',
               { className: 'content panel light faq' },
-              r.a.createElement(
+              i.a.createElement(
                 'div',
                 { className: 'inner' },
-                r.a.createElement(
-                  G,
-                  { title: 'Why are you so mad about money in politics?' },
-                  r.a.createElement(
+                i.a.createElement(
+                  J,
+                  {
+                    title:
+                      'How do I get help through one of these organizations?'
+                  },
+                  i.a.createElement(
                     'p',
                     null,
                     'Our politicians should work for us, represent us, and be accountable to us \u2013 the ordinary working people of Assembly District 15. Buffy benefits from over a million dollars spent on AD15 by the wealthiest 0.1% of Americans, including Trump cronies and Republicans, pitching in to influence this race from all across the country. Some of these ultrawealthy donors contribute to PACs and independent expenditure committees that boost Buffy\u2019s candidacy but aren\u2019t supposed to coordinate with her campaign; others give direct donations to her campaign (and plenty do both). She says she\u2019s not accountable to them, but rich people know that money talks, and politicians listen.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'As socialists, we believe society should be run democratically and for the benefit of people, not profit. No one should face oppression, state violence, or go without basic necessities like housing, healthcare, education, and a good job.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'But the mega-rich don\u2019t agree. They are engaged in a long-running, well-funded, and ruthless campaign to take ever more for themselves and leave crumbs to the rest of us. They don\u2019t want to pay taxes, pay the workers that made them rich, or pay for the damage their profit-obsessed companies do to the world.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'To increase their profits, corporations and the mega-rich must wage war on working people. That is why they:'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'ul',
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Buy elections at every level of the government through unlimited donations to PACs,'
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Influence policy and media by funding think tanks and foundations to advance their agenda,'
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Fight tooth-and-nail against anything that would transfer resources, power, and security to working people, like labor protections, the expansion of the social safety net, and big reforms like Medicare for All, universal rent control, and universal free college tuition.'
                     )
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'This is not just about Buffy. Big donors pool their money and offer it to thousands of candidates like her across the country, at every level of government. This is how they block legislation that favors working people, while passing policies that help the rich, like tax cuts, corporate giveaways, anti-union legislation, and harmful deregulation. This is enabled by the ',
-                    r.a.createElement('em', null, 'Citizens United'),
+                    i.a.createElement('em', null, 'Citizens United'),
                     ' ',
                     'decision that permits unlimited political spending under the bizarre logic that money is \u201cfree speech.\u201d'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'We have the resources to fix the many serious problems we face, but we won\u2019t fix them by continuing to elect politicians who strike a progressive pose while benefitting from massive spending by the megarich.'
                   )
                 ),
-                r.a.createElement(
-                  G,
+                i.a.createElement(
+                  J,
                   {
                     title:
-                      'I definitely don\u2019t want to vote for Buffy. Who should I vote for instead?'
+                      'How do I get help for an issue not covered by any of these organizations?'
                   },
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -958,10 +969,10 @@
                     ' ',
                     'is a corporate-free candidate and a democratic socialist with a long history of fighting and winning for working people in the East Bay. She\u2019s served on the Richmond City Council and is a leader in the Richmond Progressive Alliance (RPA). On the Richmond City Council, Jovanka and her colleagues from the RPA took on Chevron and its millions and won victories like a $15 minimum wage, citywide rent control, and banning the box for fairness in employment.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -973,12 +984,12 @@
                     ' ',
                     'is a bold vision for a California that works for the many, not the few. She knows that in a state with a $2.7 trillion GDP, we have already created more than enough wealth and productive capacity to provide everyone with a stable, safe, and dignified life.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'Jovanka will',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -990,7 +1001,7 @@
                     ' ',
                     'that covers healthcare for everyone in California. She\u2019ll work to end the anti-tenant Costa-Hawkins law and implement',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1001,7 +1012,7 @@
                     ),
                     '. Jovanka has a',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1013,7 +1024,7 @@
                     ' ',
                     'and a moratorium on charter schools. She',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1025,12 +1036,12 @@
                     ' ',
                     'with a $20 minimum wage and stronger protections for workers.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'Because Jovanka doesn\u2019t have Buffy\u2019s millions, she depends on ordinary people like us to talk to our neighbors, friends, and coworkers about sending her to Sacramento. Come to one of East Bay DSA\u2019s',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1043,31 +1054,31 @@
                     'between now and November! No experience necessary to join a canvass \u2013 we\u2019ll train you and you\u2019ll have a good time!'
                   )
                 ),
-                r.a.createElement(
-                  G,
+                i.a.createElement(
+                  J,
                   {
                     title:
-                      'What does Buffy mean when she says she takes no contributions \u201cfrom corporations\u201d?'
+                      'How can I get a new organization added to this list?'
                   },
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'Buffy\u2019s campaign is awash in corporate cash. That includes money from the bank accounts of:'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'ul',
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Corporate billionaires (like LinkedIn co-founder Reid Hoffman)'
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Corporate employees who make concerted donations (like Ron Conway and other employees of',
                       ' ',
-                      r.a.createElement(
+                      i.a.createElement(
                         'a',
                         {
                           target: '_blank',
@@ -1078,12 +1089,12 @@
                       ),
                       ')'
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'Corporate trade associations (like the',
                       ' ',
-                      r.a.createElement(
+                      i.a.createElement(
                         'a',
                         {
                           target: '_blank',
@@ -1095,18 +1106,18 @@
                       ),
                       ')'
                     ),
-                    r.a.createElement(
+                    i.a.createElement(
                       'li',
                       null,
                       'IEs funded with corporate cash (like \u201cGovern for California\u201d)'
                     )
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'That\u2019s why the audience at the October 2 League of Women Voters',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1118,7 +1129,7 @@
                     ' ',
                     'broke out in',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1131,25 +1142,25 @@
                     ' ',
                     'when Buffy said \u201cJovanka and I are, I think, two of very few candidates in the state of California who have chosen to take',
                     ' ',
-                    r.a.createElement('strong', null, 'no corporate money'),
+                    i.a.createElement('strong', null, 'no corporate money'),
                     ' in this race.\u201d'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'What Buffy actually means is that she hasn\u2019t taken money',
                     ' ',
-                    r.a.createElement('em', null, 'directly'),
+                    i.a.createElement('em', null, 'directly'),
                     ' from the bank accounts of corporations. Her website makes a far narrower claim: \u201cI have not accepted contributions ',
-                    r.a.createElement('strong', null, 'from corporations'),
+                    i.a.createElement('strong', null, 'from corporations'),
                     ' in our campaign.\u201d'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'That\u2019s a dodge\u2014as',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1161,266 +1172,24 @@
                     ),
                     ' ',
                     'explains, \u201cmore of a political maneuver than anything else.\u201d Like many corporate Democrats who have begun rejecting checks from corporations and their PACs, Buffy isn\u2019t \u201cactually rejecting corporations\u2019 ',
-                    r.a.createElement('em', null, 'resources'),
+                    i.a.createElement('em', null, 'resources'),
                     '\u201d\u2014as this website illustrates in detail.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     "We don't think it matters much whether a donation comes from a corporation\u2019s checking account or its CEO's personal bank account. We're concerned about the billionaires spending big to change the outcome of our elections, and about what policies\u2014anti-worker, anti-tenant, anti-patient or anti-student\u2014they hope Buffy will support in their interests."
                   )
                 ),
-                r.a.createElement(
-                  G,
-                  {
-                    title:
-                      'Buffy says she doesn\u2019t have any control over who spends money on her behalf. Why does it matter who gives to these PACs?'
-                  },
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'PACs are allowed to spend unlimited sums of money influencing elections as long as they don\u2019t coordinate too directly with candidates\u2019 campaigns. Buffy knows exactly how PACs work\u2014she was the executive director of Priorities USA, the largest Democratic super PAC in history, which focused on',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href:
-                          'https://www.washingtonpost.com/news/post-politics/wp/2016/10/25/pro-clinton-super-pac-priorities-usa-action-breaks-fundraising-records/?utm_term=.4fc3fa87a2b6'
-                      },
-                      'raking in donations from the mega-wealthy'
-                    ),
-                    ' ',
-                    'and spent $133 million on the 2016 elections alone. Email leaks from the 2016 Clinton campaign showed how',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href:
-                          'http://thehill.com/blogs/ballot-box/fundraising/300276-wikileaks-hack-reveals-cozy-relationship-between-clinton'
-                      },
-                      '\u201ccozy\u201d'
-                    ),
-                    ' ',
-                    'the relationship between the super PAC and Hillary\u2019s campaign actually was.'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'The big money in the AD15 race comes from capitalists who\u2019ve made their billions by choosing investments with profitable returns. Why would they lavish huge sums on PACs like Govern for CA and EdVoice (or Priorities USA) if they didn\u2019t think it was going to be a reliable and profitable investment for them?'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'They know Republicans can\u2019t win in places like the East Bay, so the next best thing is to support Buffy',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href:
-                          'https://www.counterpunch.org/2018/05/09/flush-with-cash-will-buffy-the-bernie-slayer-win-in-pro-sanders-district/'
-                      },
-                      '\u201cthe Bernie Slayer\u201d'
-                    ),
-                    ' ',
-                    'Wicks and other corporate politicians like her who will pass capitalist-friendly laws and give out tax breaks, while blocking legislation that gives power and resources to working people. These politicians can talk a good game during the campaign, telling voters what they want to hear. But mega-rich PAC donors know what they\u2019re paying for.'
-                  )
-                ),
-                r.a.createElement(
-                  G,
-                  {
-                    title:
-                      'Who made this site? How can I learn more about DSA and get involved in the election?'
-                  },
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'We are your friendly local',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.eastbaydsa.org'
-                      },
-                      'East Bay chapter'
-                    ),
-                    ' ',
-                    'of the',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.dsausa.org/'
-                      },
-                      'Democratic Socialists of America'
-                    ),
-                    '! We are a member-run, all-volunteer organization. This website was created solely by volunteers from East Bay DSA as a contribution to the issues in this campaign, and to the national dialogue on the questions of ',
-                    r.a.createElement('em', null, 'Citizens United'),
-                    ' and big money in politics.'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'We want a world run for the benefit of people, not profit. We believe in real democracy, which means ordinary working people having democratic control over the economy and their own lives. We pick big fights that will benefit working people, like',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://medicareforall.dsausa.org/'
-                      },
-                      'Medicare for All'
-                    ),
-                    ' ',
-                    'and the battle for',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://voteyesonprop10.org/'
-                      },
-                      'real rent control'
-                    ),
-                    '; we support strong, democratic labor unions; and we back democratic socialist political candidates like',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://www.jovanka.org/'
-                      },
-                      'Jovanka Beckles'
-                    ),
-                    ', who is running against Buffy. And we have fun doing it!'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'In addition to Jovanka, we\u2019re fighting for the',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://voteyesonprop10.org/'
-                      },
-                      'Affordable Housing Act/Prop 10'
-                    ),
-                    ', the',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.teamrichmond.net/'
-                      },
-                      'Team Richmond'
-                    ),
-                    ' ',
-                    'slate for Richmond City Council, the Community Power slate for Berkeley Rent Board, Measures O and P in Berkeley, and Measure Y in Oakland \u2013 all campaigns that benefit working people and take power from the capitalist class.'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'Want to check us out? Join us for a',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.eastbaydsa.org/events'
-                      },
-                      'canvass or phonebank'
-                    ),
-                    ' ',
-                    'to talk to your neighbors about building power and fighting corporate politics! Come out to one of our',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href:
-                          'http://www.eastbaydsa.org/resources/readings/socialist-school/2018/summer'
-                      },
-                      'Socialist Night Schools'
-                    ),
-                    ' ',
-                    'or an',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.eastbaydsa.org/events'
-                      },
-                      'Intro to Democratic Socialism'
-                    ),
-                    ' ',
-                    'event! Follow us on',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://www.facebook.com/eastbaydsa'
-                      },
-                      'Facebook'
-                    ),
-                    ' ',
-                    'or',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://twitter.com/DSAEastBay'
-                      },
-                      'Twitter'
-                    ),
-                    '! Sign up for our',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.eastbaydsa.org/join'
-                      },
-                      'newsletter'
-                    ),
-                    ' ',
-                    'to learn about events and actions!'
-                  )
-                ),
-                r.a.createElement(
-                  G,
-                  { title: 'Where\u2019d you get all this information from?' },
-                  r.a.createElement(
+                i.a.createElement(
+                  J,
+                  { title: 'Who compiled all this information?' },
+                  i.a.createElement(
                     'p',
                     null,
                     'It\u2019s all public record. For individual contributions, we went to the California Secretary of State\u2019s',
                     ' ',
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1432,29 +1201,31 @@
                     ' ',
                     'site. Then we clicked on \u201cCampaign Finance\u201d and typed \u201cBuffy Wicks\u201d into the search box. That pulled up a list of all of the donors from this election, which we then downloaded as a spreadsheet.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'For independent expenditures, we again went to Power Search, and clicked on (you guessed it) \u201cIndependent Expenditures.\u201d That let us search for every PAC that\u2019s spent to support the campaign and how much they\u2019ve spent so far.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'To see who\u2019s donated to Govern for California and other PACs in the race, we headed over to Cal-Access and looked for the PAC names under \u201cCommittees, Parties, Major Donors & Slate Mailers.\u201d That generated a big list of donors and dollar amounts.'
                   ),
-                  r.a.createElement(
+                  i.a.createElement(
                     'p',
                     null,
                     'Finally, all the news stories and delicious details were revealed through humble Google searches. That\u2019s it!'
                   )
                 ),
-                r.a.createElement(
-                  G,
-                  { title: 'What Assembly District am I in?' },
-                  r.a.createElement(
+                i.a.createElement(
+                  J,
+                  {
+                    title: "I don't live in Washington D.C. How can I get help?"
+                  },
+                  i.a.createElement(
                     'p',
                     null,
-                    r.a.createElement(
+                    i.a.createElement(
                       'a',
                       {
                         target: '_blank',
@@ -1466,96 +1237,20 @@
                     ' ',
                     'to find out! Assembly District 15 covers parts of Alameda (Albany, Berkeley, Emeryville, Piedmont, parts of Oakland) and Contra Costa (El Cerrito, Hercules, Pinole, Richmond, San Pablo, El Sobrante, and Kensington) counties.'
                   )
-                ),
-                r.a.createElement(
-                  G,
-                  {
-                    title:
-                      'When is the election, where is my polling place, and am I registered to vote?'
-                  },
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'The general election is Nov. 6, 2018.'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'Find your polling place',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'http://www.sos.ca.gov/elections/polling-place/'
-                      },
-                      'here'
-                    ),
-                    '.'
-                  ),
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'Register to vote',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href: 'https://registertovote.ca.gov/'
-                      },
-                      'here'
-                    ),
-                    ' ',
-                    'before Oct. 22. After Oct. 22, here\u2019s how you can vote',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      {
-                        target: '_blank',
-                        rel: 'noopener noreferrer',
-                        href:
-                          'http://www.sos.ca.gov/elections/voter-registration/conditional-voter-reg/'
-                      },
-                      'conditionally'
-                    ),
-                    '.'
-                  )
-                ),
-                r.a.createElement(
-                  G,
-                  {
-                    title:
-                      'I have a corporate candidate running in my local election. How can I make a site like this?'
-                  },
-                  r.a.createElement(
-                    'p',
-                    null,
-                    'Hit us up at',
-                    ' ',
-                    r.a.createElement(
-                      'a',
-                      { href: 'mailto:elections@eastbaydsa.org' },
-                      'elections@eastbaydsa.org'
-                    ),
-                    '. We can share the code for this site and tell you how we did the research. It\u2019s fun!'
-                  )
                 )
               )
             )
           )
         },
-        q = a(178)
-      a(555)
+        M = a(178)
+      a(556)
       function V(e) {
         var t = e.children,
-          a = Object(q.a)(e, ['children'])
-        return r.a.createElement(
+          a = Object(M.a)(e, ['children'])
+        return i.a.createElement(
           'div',
           { className: 'button-wrapper' },
-          r.a.createElement(
+          i.a.createElement(
             'a',
             Object.assign(
               {
@@ -1570,31 +1265,36 @@
         )
       }
       var Q = function(e) {
-          return r.a.createElement(
+          return i.a.createElement(
             'div',
             null,
-            r.a.createElement(p, null, 'Fed Up?'),
-            r.a.createElement(
+            i.a.createElement(p, null, 'Fed Up?'),
+            i.a.createElement(
               'div',
               { className: 'content panel light' },
-              r.a.createElement(
+              i.a.createElement(
                 'div',
                 { className: 'inner' },
-                r.a.createElement(
+                i.a.createElement(
                   'p',
                   null,
-                  'Corporations and billionaires are well organized and already waging class war on working people. Right now, wealthy donors like those featured on this site are setting the terms for what our society can look like. If ordinary working people come together to join in a movement, we can fight back and win! Only together can we build a society that works for the many, not the few. Join us.'
+                  'Data for Black Lives is a movement of activists, organizers, and mathematicians committed to the mission of using data science to create concrete and measurable change in the lives of Black people. Since the advent of computing, big data and algorithms have penetrated virtually every aspect of our social and economic lives. These new data systems have tremendous potential to empower communities of color. Tools like statistical modeling, data visualization, and crowd-sourcing, in the right hands, are powerful instruments for fighting bias, building progressive movements, and promoting civic engagement.'
                 ),
-                r.a.createElement(
+                i.a.createElement(
+                  'p',
+                  null,
+                  'But history tells a different story, one in which data is too often wielded as an instrument of oppression, reinforcing inequality and perpetuating injustice. Redlining was a data-driven enterprise that resulted in the systematic exclusion of Black communities from key financial services. More recent trends like predictive policing, risk-based sentencing, and predatory lending are troubling variations on the same theme. Today, discrimination is a high-tech enterprise.'
+                ),
+                i.a.createElement(
                   V,
-                  { href: 'http://www.eastbaydsa.org/events' },
-                  'DO SOMETHING'
+                  { href: 'https://d4bl.org/events.html' },
+                  ' JOIN US '
                 )
               )
             )
           )
         },
-        $ = (a(557), a(176)),
+        $ = (a(558), a(176)),
         K = [
           {
             label: 'Twitter',
@@ -1610,20 +1310,20 @@
             )
           }
           return (
-            Object(h.a)(t, e),
+            Object(u.a)(t, e),
             Object(l.a)(t, [
               {
                 key: 'render',
                 value: function() {
-                  return r.a.createElement(
+                  return i.a.createElement(
                     'div',
                     null,
-                    r.a.createElement(v, { socialLinks: K }),
-                    r.a.createElement(g, null),
-                    r.a.createElement(F, null),
-                    r.a.createElement(M, null),
-                    r.a.createElement(Q, null),
-                    r.a.createElement(U, null)
+                    i.a.createElement(v, { socialLinks: K }),
+                    i.a.createElement(g, null),
+                    i.a.createElement(F, null),
+                    i.a.createElement(G, null),
+                    i.a.createElement(Q, null),
+                    i.a.createElement(U, null)
                   )
                 }
               }
@@ -1656,8 +1356,8 @@
             console.error('Error during service worker registration:', e)
           })
       }
-      a(559)
-      i.a.render(r.a.createElement(Y, null), document.getElementById('root')),
+      a(560)
+      o.a.render(i.a.createElement(Y, null), document.getElementById('root')),
         (function() {
           if ('serviceWorker' in navigator) {
             if (new URL('.', window.location).origin !== window.location.origin)
@@ -2113,4 +1813,4 @@
   },
   [[179, 2, 1]]
 ])
-//# sourceMappingURL=main.bb74e217.chunk.js.map
+//# sourceMappingURL=main.d0aa3396.chunk.js.map

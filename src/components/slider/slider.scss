@@ -201,6 +201,7 @@ $image-height-desktop: $slide-height-desktop * 0.35;
     h3 {
       font-size: 30px;
       line-height: normal;
+      color: black;
 
       @include bp(tablet) {
         font-size: 35px;

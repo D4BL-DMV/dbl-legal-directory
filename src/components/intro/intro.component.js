@@ -6,30 +6,29 @@ import './intro.scss'
 const Intro = () => (
   <div className="intro">
     <H2>
-      Buffy Wicks
+      D4BL
       <br />
-      Total Support
+      Legal Directory
     </H2>
     <p className="donation-value">
       <CountUp
-        prefix="$"
+        prefix=""
         delay={0.5}
         start={0}
-        end={2829481}
+        end={42}
         separator=","
         duration={2.5}
         useEasing
       />
     </p>
     <p className="donation-subhead">
-      including direct donations
+      organizations providing
       <br />
-      and independent expenditures
+      free legal services
     </p>
     <p className="introduction">
-      Learn about the wealthy donors and PACs who privatize schools, repeal
-      protections for working people, deregulate the finance industry, and fund
-      Buffy Wicks.
+      Learn about organizations and programs offering services for those in need
+      of legal assistance who cannot afford it.
     </p>
   </div>
 )

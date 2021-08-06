@@ -77,7 +77,9 @@ class Slide extends Component {
               {({ measureRef }) => (
                 <div ref={measureRef} className="bw-slide__name">
                   <h3>
-                    <a href={link_url}>{name}</a>
+                    <a href={link_url} className="bw-slide__name_link">
+                      {name}
+                    </a>
                   </h3>
                   <div className="bw-slide__donations">
                     {phone_number && (
