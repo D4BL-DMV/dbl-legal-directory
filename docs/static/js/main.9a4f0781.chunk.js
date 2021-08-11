@@ -5,13 +5,13 @@
       e.exports = a.p + 'static/media/no-photo.d3b3ac62.jpg'
     },
     168: function(e, t, a) {
-      e.exports = a.p + 'static/media/logo.698b10ee.png'
+      e.exports = a.p + 'static/media/logo.d7788dbc.png'
     },
     176: function(e, t, a) {
       e.exports = a.p + 'static/media/twitter.2f8dfadf.svg'
     },
     179: function(e, t, a) {
-      e.exports = a(568)
+      e.exports = a(572)
     },
     354: function(e, t, a) {},
     356: function(e, t, a) {},
@@ -20,51 +20,55 @@
     498: function(e, t, a) {},
     502: function(e, t, a) {
       var n = {
-        './ashlee-titus.jpg': 503,
-        './ashley-merrill.jpg': 504,
-        './bill-bloomfield.jpg': 505,
-        './brent-messenger.jpg': 506,
-        './buffy-wicks.jpg': 507,
-        './california-dental-association-pac.jpg': 508,
-        './cammie-croft.jpg': 509,
-        './carrie-and-greg-walton-penner.jpg': 510,
-        './christopher-garland.jpg': 511,
-        './david-crane.jpg': 512,
-        './drew-goesl.jpg': 513,
-        './edvoice.jpg': 514,
-        './eli-broad.jpg': 515,
-        './eric-ridge.jpg': 516,
-        './eugene-frantz.jpg': 517,
-        './frank-baxter.jpg': 518,
-        './govern-for-california-pac.jpg': 519,
-        './james-babcock.jpg': 520,
-        './james-green.jpg': 521,
-        './jeffrey-peck.jpg': 522,
-        './jesse-rogers.jpg': 523,
-        './jim-messina.jpg': 524,
-        './john-and-regina-scully.jpg': 525,
-        './john-podesta.jpg': 526,
-        './jonathan-mantz.jpg': 527,
-        './matt-hynes.jpg': 528,
-        './micah-weinberg.jpg': 529,
-        './michael-bloomberg.jpg': 530,
-        './ned-and-karen-gilhuly.jpg': 531,
-        './nils-colin-lind.jpg': 532,
-        './nlg-dc.jpg': 533,
+        './aclu-dc.jpg': 503,
+        './ashlee-titus.jpg': 504,
+        './ashley-merrill.jpg': 505,
+        './bill-bloomfield.jpg': 506,
+        './brent-messenger.jpg': 507,
+        './buffy-wicks.jpg': 508,
+        './california-dental-association-pac.jpg': 509,
+        './cammie-croft.jpg': 510,
+        './carrie-and-greg-walton-penner.jpg': 511,
+        './christopher-garland.jpg': 512,
+        './david-crane.jpg': 513,
+        './dc-jobs-with-justice.jpg': 514,
+        './drew-goesl.jpg': 515,
+        './edvoice.jpg': 516,
+        './eli-broad.jpg': 517,
+        './eric-ridge.jpg': 518,
+        './eugene-frantz.jpg': 519,
+        './frank-baxter.jpg': 520,
+        './govern-for-california-pac.jpg': 521,
+        './james-babcock.jpg': 522,
+        './james-green.jpg': 523,
+        './jeffrey-peck.jpg': 524,
+        './jesse-rogers.jpg': 525,
+        './jim-messina.jpg': 526,
+        './john-and-regina-scully.jpg': 527,
+        './john-podesta.jpg': 528,
+        './jonathan-mantz.jpg': 529,
+        './matt-hynes.jpg': 530,
+        './micah-weinberg.jpg': 531,
+        './michael-bloomberg.jpg': 532,
+        './ned-and-karen-gilhuly.jpg': 533,
+        './nils-colin-lind.jpg': 534,
+        './nlg-dc.jpg': 535,
         './no-photo.jpg': 164,
-        './penny-pritzker.jpg': 534,
-        './reid-hoffman.jpg': 535,
-        './richard-landers.jpg': 536,
-        './rick-tinsley.jpg': 537,
-        './ron-conway.jpg': 538,
-        './scott-willoughby.jpg': 539,
-        './sean-kennedy.jpg': 540,
-        './seth-london.jpg': 541,
-        './tench-and-simone-coxe.jpg': 542,
-        './the-fisher-family.jpg': 543,
-        './thomas-fahr-steyer.jpg': 544,
-        './warren-ned-speiker-jr.jpg': 545,
-        './william-oberndorf.jpg': 546
+        './pds-of-dc.jpg': 536,
+        './penny-pritzker.jpg': 537,
+        './reid-hoffman.jpg': 538,
+        './richard-landers.jpg': 539,
+        './rick-tinsley.jpg': 540,
+        './ron-conway.jpg': 541,
+        './scott-willoughby.jpg': 542,
+        './sean-kennedy.jpg': 543,
+        './seth-london.jpg': 544,
+        './tench-and-simone-coxe.jpg': 545,
+        './the-fisher-family.jpg': 546,
+        './the-legal-network-for-gender-equity.jpg': 547,
+        './thomas-fahr-steyer.jpg': 548,
+        './warren-ned-speiker-jr.jpg': 549,
+        './william-oberndorf.jpg': 550
       }
       function i(e) {
         var t = r(e)
@@ -85,146 +89,160 @@
         (e.exports = i),
         (i.id = 502)
     },
-    503: function(e, t, a) {
-      e.exports = a.p + 'static/media/ashlee-titus.47ccb5ed.jpg'
+    503: function(e, t) {
+      e.exports =
+        'data:image/jpeg;base64,/9j/2wCEAAkGBgYHBgkHBwkNCQcJDQ8LCQkLDxIODg8ODhIRDg8ODg8OEREUFRcVFBEbGx0dGxsnJiYmJywsLCwsLCwsLCwBCgkJCgsKDAoKDA8NDg0PEw4ODg4TFg4OEA4OFhsUERERERQbGBoXFxcaGB4eGxseHiYmJCYmLCwsLCwsLCwsLP/dAAQAIP/uAA5BZG9iZQBkwAAAAAH/wAARCAIAAgADACIAAREBAhEB/8QAswABAAICAwEAAAAAAAAAAAAAAAYHBAUCAwgBAQEAAwEBAQAAAAAAAAAAAAAAAQIEAwUGEAEAAgIBAgIEBwsJBwQDAAAAAQIDBAUREgYhBxMxQRQiMlFhcYEzNVJTcnORk7Gy0RUXIzRCYpKh0jZjdKKzwcMWRFTCgtPwEQEAAgIABAIHBgQGAwEAAAAAAQIDEQQSITFBUQUTIjJhcYE0gpGhscFCYrLRFBUjQ5LhM1Jy8f/aAAwDAAABEQIRAD8AvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//0LxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9G8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//SvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//07xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9S8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//VvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//1rxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9e8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//QvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//0bxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9K8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//TvEAAAAAAAAAAAAAAAAAAAAAGJynJ6vFcfn5Dbma62vScmSax1npHzR70U/ne8IfhbP6if9R6Xd/4N4StrxPS25nxYenv7azOW37ikHp8FwOPNinJk5vemI1OukPO4vjL4skUprtud+a7/wCd7wh+Fs/qJ/1E+l7wh0692z+on/UpAa/8r4f+f8f+mb/Mc/lX8HqLBmx58OPPinrjy1rek/PW0dYcpmIjrPsR/wBH+/8ADvB/GZZnremL1F/rwzOL9lUK9LXjDYjZnw5o5Jx461i2/ek9JtN461w9fm7fO3z9ejycfDXyZ5wV6cszEz5RXxenk4itMMZp67iJiPOZ8Ep5j0n+E+Ly2wxntuZqdYtTUr3xEx7pyTNafolo7+mzjImezjNia+6ZyY4n9HmqMevT0Zw8Rq0WtPnM6/R5dvSGeZ6arHlEb/VcWr6aeCveI2dLaw1n+1X1eSI+yLVlMOE8S8JzuKcnGbVM81jrkx+dclfysduloebWTx3JbvGbuLe0ctsO1hnupev+cWj31n3xPtUy+i8U1n1UzW3hud1Xx+kcsTHrIi0eOukr98R+NuE8ObOHW5KcsZM1JyU9Xjm8dsT2+c9fnaj+d7wh+Fs/qJ/1ID6Q+cx89ThOUpWKWzal4y44nr2ZaZZrkr+n2fQhymD0bitirOTmi3WLRE+MTpfNx+SuSYpyzXpMdPCYeivDfi/iPEnwj+TZyT8G7PW+tpNPund29POevyW7Vb6EPk8x9ev/AOZaTzeLxVxZ746b1XWt/GNt/DZLZMNb21ud9vhLhnzUwYcma/Xsx1te3TznpWOsoZ/O94QmPlbPn/uJ/wBSWcp97Nv8zl/cs8xx7I+qGngOFx54vOTfszGtTruz8bxOTDNOTXtb3teH873hD8LZ/UT/ABTWtotWLR7JjrH2vLce16iw/cqfkx+xHH8Ljwer9Xv2t73O+2k8FxN83Pz69nWtfHbSeI/GnC+HM2DDyU5YvsVtfH6vHN46VmInr5x87T/zveEPwtn9RP8AqRn02ffHi/zOb9+itmjheAw5cFMlubdt71PxcOI43Ljy2pXl1Gu8PRPhvxjw3iS2xTjZyTOtFJy+tp2fL7or085/BlvFUehH7vy/5Gv+3Ktdg4vFXFntjpvUa7/GNtvDZLZcNb21ud9vhIAzu4AAAAAAAAAAAAAAAAAD/9S8QAAAAAAAAAAAAAAAAAAAAAVP6bN/u2uM4+J8sdMmxePy5jHT92yskr9J+/8ADPGW5ET1prRj16//AIVi1v8AmtKKezzfS8HTk4bFH8u/+XV8/wAXfmz5J+Ov+PRtt/g51fD3F8v1tM8hfZpas+yIw2rWnTy/tfGalanjHhfUei7ia9v9Jo/B8t/o9dWa3/5siq08Nl9bS1vK9q/TfT8kcRi9XesedKz9ddfzXF6GN/1vB7ujM9Z1tjviP7uasf8A2pKrvEe3fc5/kdq89Zy7OaY+qLzFY/RCXehne9T4h2tK09K7Wv3Vj574bRaP+W0oPyH9f2fz2X9+zlhxxXi+Inzisx97v+cOua/NwuCPKbRP07OhYvhv0R25TiNfkd7etrW2qRlx4MeOLTFLedZta1vbMefTormfY9KeGv8AZ3iv+D1/+lRT0jnyYaU9XPLNp6zrfZbgMOPLe3rI3ER0hS3jjwLm8LX18ldj4Vp7M2rTJNey9b185raImY849koqvn0h+E+R8TaGpraOTFjvgzTlvOabRHSaTXy7a2+dBP5mPE//AMnT/wAeT/8AUcLx2OcNZzZKxfrvw+RxHB3jLPqcczXppBLZslsVMUz1pjm00j5u/p3fscG68UeFOQ8M7ODW3smLJkz45y1nDNpiIi3b591atK20tW9YtSYmJ7TDHetq2mt41MeErT9CHyeY+vW/ZlWkq30IfJ5j69b/AMy0nz/pD7Vk+7/TD3OB+zY/r+ssXlPvZt/mcv7lnmOPZH1Q9Ocp97Nv8zl/cs8xx7I+qG30T7uX51/dk9J98fyl9j2vUWH7lT8mP2PLse16iw/cqfkx+xHpf/Z+9+yfRf8Au/d/dU3ps++PF/mc379VbLJ9Nn3x4v8AM5v36K2bOA+y4/lP6yy8b9oyfT9FnehH+scv+Rr/ALcq11UehH+scv8Aka/7cq13kekftWT7v9MPU4H7NT6/rIAxtQAAAAAAAAAAAAAAAAAD/9W8QAAAAAAAAAAAAAAAAAAAHy1orWbWnpWsdZmfdEPrTeMt/wDk/wALcntR5Wrr3pSf7+SPV1/zstSs2tWsfxTEfira3LWbT4RM/g8+8ru23+T2923nOzmyZv8AHabR/lLjxupbd5DV06x1tsZseGIj/eWiv/djuWPJfHeuTHaaZKT3VvWZi0THviY9j6rWq8temo1D5ve7bnr13L0P4x4+NzwlyenSv/tr2x1iPfij1lIj7aPO3Xr5syeZ5eYms72zMTHSYnNk84ny/CYbNwfDW4etqzbm3O+2mjiuIrntW0Vmuo033gTenR8X8Xm69Itnrgt9WeJxf/ZqOQ8t/a/PZf37OvBlvhzY81J6XxXres/TWYtH7H3Yy+u2Mubp09be+Tp83dabf93fk/1Jv51iv4TP93Hn/wBOKeVpn8Y/6dc+x6T8Nf7OcV/wev8A9KrzY9IeFc2PN4Z4rJjtFqzqYIiY+euOtZj7Jh53pb3Mf/1P6N3oz38nyhtRW/pqzxTjONxxea5LbF7RET0ma1x9Jny+m0Kl9dm/GW/xT/Fm4b0fObFGT1nLvfTl32+rRn46MOScfJza113rv9Fhemr788d/w1/+orp9te9vlWm3T55mf2vj2cGL1WKuPe+WNb7PKzZPW5LZNa5vDutP0IfJ5j69b/yrSVX6E8uLHXmPWXrTrOv07piOv3X2dVn/AAvV/HU/xR/F4XpCJ/xWT7v9MPZ4GY/w2P6/rLq5T72bf5nL+5Z5jj2R9UPS/J7WtPG7URlpM+py+y0fgWeaI9kfVDZ6Jj2cvzr+7J6T74/lL7HteosP3Kn5MfseXfZ5vUGrkpk1sWSlotS9K2raPZMTETEo9L9sP3v2T6L75fu/uqj02ffHi/zOb9+qtlj+mvJSeV43HEx31wZLWr74i147Z+3tlXDZwH2XF8p/WWXjftGT5x+izvQj/WOX/I1/25Vrqp9CET67mLe7t14+3rlWs8j0j9qyfd/ph6nA/ZqfX9ZAGNqAAAAAAAAAAAAAAAAAAf/WvEAAAAAAAAAAAAAAAAAAABA/TFveo8MY9SJ+Nt7FKzH93HE5J/ziqeKl9M+fPscnx+jipe9MGG+a3bW0x3ZbdseyPmxtXA05uJx77RPN+DNxluXh767zHL+KtG58O+E+Z8RznjjKUt8Gis5ZyX7I+P3dvTyn8GWr+B7f4jL+rt/BcHob46+vwW5tZKTS+zs9sRaJrPbipWI9v961ntcXnnDhm9Nc24iN/F5PC4PW5YpaJ5dTMob/ADSeMfxev+vj/SjXN8LvcJyF+O361rs44ra0Ut3V6XjurMWel1P+mTjM38u6e7ixWtXPr+rvNazb42K8+3p9F4ZOD4/JlzRjycupidajXWGriuCx48U3x824mO876K6Ok/p9jt+B7f4jL+rt/BMfCnhH/wBTcBu6fnrcpoZYzamXJW1a3pmr0tiv5fJ7sfXr7pehky0x157T03ETPlvptgx4rXty1jrqZj468EJbPjfE/iHi8Hwfj+Qz6+DrMxipb4kTPtmK2iYjr9Dhy/h7muGzTi5LTyYOk9IvNeuO301yV61n9LXdY+eP0rexkr/Des/ehHt0t41mPpLL5HlOR5PP8I5DZybWaI7YvltNpivzV90R9TFfaVtkvFMcTe8+UVrHdM/VEJt4R9GHL8rsY9jlcV9HjImLWjJHbmyx7e2lPbWJ/Cn7FcmXFhpu0xWI7R/aFqY8mW2qxNpnvP8AeUX3uMvqcdx2zkjpbeplzVifxdL+qpP29sywFi+mDRnHyXF4NTBMYMOpOPHTHSZrWtb9K1jtj3Qr/wCB7f4jL+rt/BXh8vrMVck9Obc6+G+ic+LkyTSI3y6j8nUdIdvwPb/EZf1dv4HwPb/EZf8ABb+DtuPOHPU+Uuro5Xx5McxF6zWZrW8RPl1raO6s/bEuz4Ht/iMn6u38Fo7Po/jxF4N4fc1ZjBzGDTx0/pOsVy0iPueT8GY/sz9k/RxzcRTFNOeelp5d+TriwXyxfljrWN681UNvo+LvE2hr11dTk9jFr0jpTFFutax81e6J6QxeU4Tl+JzTh5LUy614np1vWe2fybx1rb7JYPWPnj9LpMUyVjcVvHeP4oc4m9JnXNWe0+Eu/d3dze2LbW7mvsbF/lZctptaens85+Z0vtK2yWimOJvefKK185n7ITbwl6MOY5bPj2OVx30eMiYtaMkdubLH4NKT516/hW+xXJlx4a7vMViI6R+0QtTHky21WJtM95/vKYeh3ismp4ez7+Ss1tv5u7H19+PFHZWftt3J869bXwauvj1tekY8GGsY8eOvlFa1jpER9jsfNZ8s5ct8k9Oad/Twe/hx+rx1xx/DH5+IA5ugAAAAAAAAAAAAAAAAAD//17xAAAAAAAAAAAAAAAAAAAABGvGu9y3F6P8AKGjuTiiL0x+onHjtX43XrbutWbdUWtyxMz4OuDDOfLXFW1a2vOo5t639IlJRpb6PiGNeMutyvrM/bFq48+DF6u09OvbPq4paOv1uXhvnv5a0b5LY4w7mC04tnD7YrePfH0Sjm66mJjfba1uHtGO2Wlq3rWYi/Lv2ebtuLRHduBg8Pj5fHqTXl82PPtd9pi+GvbXs/sx06R5s5MTuN9nK9eW015otqdc1fdn5AwNnk4w8rp8dERa+zXLkt5/GrXFEdJ6fTM9Geb7/AALUtWKzMa5o5q/Lcx+z5atbRNbRE1nymJ84n7GHbhOGvM2voa1rT7ZnDjmf3WawOMx8xS+1PJZsWWlsszqRirNZri91beUef/8AdUxaY7b6+SIpFq2tM19nXSe878mRr6Olrf1bXxYfzdK0/diHeMHk+TjSyaWKIrbJubFMFazPSekxNrWj6ogmfGZTTHNpitI69eny6yzgBUAAABxvSl6zW9YtWfbWY6xP2MS3CcNaettDWmZ9szhxzP7rNExaY7TMfJExE94iXRr6Olrf1bXx4fzdK0/diHeCJmZ79UxER2AAAAAAAAAAAAAAAAAAAAAAf//QvEAAAAAAAAAAAAAAAAAAABFvSP8A7OT+fxf90paHxTwfJc3r/A8WfDh1OtL9bUvbJ316++LRXp5/MpkiZpMRG9w1cBelOKw5MlorWl4tMz5R8m7w/cafk1/Yhng7Wx7e/wCIa3iZ1MuzFekWmvWYvlt5WrMS3l9TxRlwfB/hmrrxMds5sWHJbJEdOnWsXydvV38fw1eH4r4Hxfb66Pjetz9bd95mO6+Ts6T+hExM2rOuld93Sl6YcOakZIm+aaRXl3qsVtzc0zqPo0Xhm2/k8H7samS07vrNquC1rTNu6J6U6WtP6GJg5HhbbOlr2xbXDchTPhtkrn9Z6vN23iZx5L9093X3WtHtbLT8L8pr8FucRbZw2rsTe+LLWt62re9otPXrM+UdPJmbXF8zv69dDfya19WL0tk2aRf114x2i0dMc/Fpa3Tznun6IV5bajp2jx6//jXbPg9bmtzxNb5bW3WZpaKTEddTExeP5dbazd4rRv47wY5pbtz6eTNl6ZMkTN++Y691bdYjp7o8nZ441cOtwePY1u+M2vkw4sUxkv8AJ7+nbb4/xvp6+bYcrw/J5Ob1uX43LhjNhw31749iLds1tPd1iaefXzdHK+G+Q2+IxcZi2cUV7/X7GbJS02tlnJOW01itukVm0yTWdXiK996Ux8RT1nB5LZ/ZxxWt6zNunLNubf0183dr+Gb05KN/LuZb+t17YdvBM26Zb3691+7u+LEdfKKx5dPJrvD2zOhg8R5Y7r49LZzTipe1r9K46da162mZ9yTYv5Q+CT66cU7nS3SaRaMfX+z1iZm31tRw/A7+pl5CNzJgza3I3yZc9KVvWYtkjtmtZtafi9Fprqa8sef5uNM/NjzRnyRbpStax05opbc61Hk1mnw+3zHhim/TN15zb6Zq7mW949X8f5OLs+REVjpHSDn+Lwzzfh74T1y7Oe9sW1li969848dfOsRaOzz8/i9Gfx/CeIuM1543S3NeeOibRhzZaXnYxUtPXpERMUtMdfLq7uY4Hczzxmbj81Y2OMv3U+FTa0ZImsVnvtX43XyV5fZ92d9N/ServHExXiJ1nr6u05eTl3HLXJSYpE9OkROvZ8G31NbBq4YwYOsY6zM9LWtees+fyrzaf83cwuL08+tiy32slcm3sZJzZ7Uia0i0xWkVpE9Z6VrWI82a6x27aeXk9+fa5+vvec+PcASoAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9G8QAAAAAAAAAAAAAAAAAAAAa3kOarrbuDjtfFOzyGes5K4YtFK1x19uTJeevbH2TKJmI7r0x2yW5aRudTPlqI7zMz2bJrt7ndDSzzr3m+TPXH67Jjw0tkmmOP7eTt+TH1uGnzc5tzNx2xgnX5HFj9dXD3xamTHPlFseTpHXz8p6xHRo+CybWz4h5yM+l31z3w4dmtslJjFTsmO2fw4mPmVm/aK+M67NOHhf/LbNHTHSL6i1Y5ua0RGp8uv7JVqbetua2Pa1skZNfLWL47x7JifrYmzz3H4Nq2nWcmxt0iLZMOvjtltSJ99+yOlftN++HhuC2L6eOuPHqYL2w46x8WJiJmPL62s8A68U8P02rfG2NzJkzZsk+drW75r1mfb/ZJtO4r463KK4cfqsvETzTSuSMeOu9Wmbbn2p+EQ2etz/F7O1TTxZZ+F3i8zgtS1MlPV9O71lbRE1+V5dfb7mxaza4mMnN6fKY+2t8NMuHPM9Ytal4+J9fbb9rqrz2fa2NnFxep8Lx6lvVZs1ssYqzljznHi61t3THvnyhO5j3vPppS2Gt+WcETrk3k57REVtzTGuadR5abDe3cWjr22MtclsdfleqpbJMR069ZikTPSOntfOO39fkdLFu60zODNHdjm0ds9Osx7J+pg15bW5XgNrZ1+6vTFmx5cd46Xx5KVmLUtHzw1nBcjm43wRo7lNedimLDa+WsXrTtpWbTMx3e36kc/X4cu3SOFmcU+zMZYzVxamYiPai066/LzSoafb5/Jg4PFzGPUnLithjYy44yVrNKTWLe20fG9vuctznMuvwuPlsepObHbDGxkxxkrWaUmvf7bfK9vuTzR+W/o4xw2WdezHtXnHHtV9+P4e/RthHMvjC2LTw8lbj838lZOz1m330+JN/KZjH8q1YmenXy6+527Himde+DLn0MtOL2MlcWLem1fOb+VLzi699a293Xz+g56+f5L/wCC4j/0jrMx71fer3r397+Xuzd7ndLR3MGpsRlrk2L1xYbRitOO1r+UV9Z07WxRbxxmrgvw2e0WtXHv0vNax3WntiZ6Vj3yzo8RZ8G7r63KaNtLHt29Xr5vWUy1nJ7seTs+RM/bCOf2pifDX5r24WbYcOTFXc2rebRNo3PJP8Nekz08tthm5Xj8G/g4/Lmiu5sxNsOKevW0V9vn06e5ltLn5WlPEepobGhHrc0Zfgu5NqWmK0r1v0jp3V6+x2bHOzHKW4nSwRsbuPFGbLW+SMVa0mekefbaZnz+ZPNHXc+OuznbhrzyclJ64/WWmbVmutzHNvwjw6+LbDW8NzVeSnZxWw219vTyep2MNpi3S3TrE1tXymJhskxMTG4csmO2O00vGpj69+sACVAAAAAAAAAAAAAAAAAAAAAAH//SvEAAAAAAAAAAAAAAAAAAABF88RoeOabm3MU1dzU9RhzW8qRlpMTOPunyiZiPJKHDLhxZqTjzUrkxz7aXiLRP2SraN6+E7dsGb1c33G63pOO2u+reMfJGZmu944x7eraL63H6lqbWas9aRfJNumPujy69J6y4eGN/Rv4j56K7GK07GfFOCIvWfWRFLdfV+fxun0JRiwYcOP1WHHXHjj2UpWK1/RBXW162i1cVK2j2TFYiYRyTuJ34zM/o7zxdJpfHyTqcVcNevaKW59z08ZdfIadN3R2NO89K58dsUz83dHTr9iO+EN7Hxunbg+TvXW3tS9+2mWYrGTHa03jJjm3Tujzn2JU6djU1dmIrs4ceasecRkrF4j/FEpmvWLR3jp9HLFniMV8GSJmlrReNd63r03H0nq19eTtvcrh1+PyRk1NfuvvZqdLUmZr248EX847us909PZ0+lqvB2bDxetv8dv5aYNrX2smW8ZbRTrjvETXLHd061np7UoxYsWKkY8VK0x18q1rEViI+iIcM+nqbE1tnw48tqfJm9K2mPq7olHLO4tvrG/l1WjiMcUvh5Jilor1iY5+akzPNPnvmn8vLrEuEmmDhOb5DYvGDV382xk1fWzFO6tq2ito7uny/d87lxFqbXo7tr69q5c9NPLS+Okxa1bT3zFZrHnEyl98eO9e29YtX3RMRMf5vlMWPH19XWK9fb2xEfsRGPXj4TH4ut+Oi3NPJMWnLTLHXpEY45Yr28vFDdnmuNyeAvg2HYpl2baUYpwUtE5K2rWIvNqx51ivSZmZZe5vaU+Ap6bGKeulXDHS9fPL6qP6P2/K+hI66OlSbzXBjrOXyy9KVjuj+95eblGrrRTsjFSKdevbFY6dfZ16dDknzj3eUni8Ps8uO/TP6/raPH+Ht8EN5nd0rejrFjpnxTe2DBjrSL16zek45vWI6+2vvh3eMd7RyeG9SMWxit35teccVvWe6tLfHmOk+cV9/zJb8G1+kV9VTpEzMR2x7/b7idbXmIicVOlfZHbHl18/LyJpMxMbjrWK9vJNONx1tjt6u08ma+b3o68+unb+VGPGOxhyfyNs4ZjPhpuVzzbF/SROLFHde8dnXrFY85fPFufX5SOL4/j8tM+zl28eavqrRftxY4mbZJ7evSvn7UpjFijt6UrHZ1inSIjpE+3p8zhh09TBa18ODHjvf5dqUrWbfXMR5k0md9fe1v6KY+LpSMUxSebDz8nXpM3mdc3Tw/NGeZ39GnjTh5vsYqxhpsVzTN6x2TavxYv5/F6/SZeRw7PiXf1dzapxmLUx461tWaYc2xWY7ptbPaO7sj3RWUotra9rTa2Kk2nzmZrEzP+T5l1NXNeuTLhx3yU+Re1ItMfVMx5HJPXr3nf5aTXi8UVpE47brhnFFtxMxPPz80RMfGYRPwfuaWPm+Z14yzW+xnpfVpmm05clIrae/+k+PPWPPrPuTFwjFijJOXsr62Y7Zv0ju6fN19rmtWvLGvjLhxWaubL6yKzXdaxMTPN1rWK73qPIAWcAAAAAAAAAAAAAAAAAAAAAAH//TvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//1LxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9W8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//WvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//17xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9C8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//RvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//0rxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9O8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//UvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//1bxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9a8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//Z'
     },
     504: function(e, t, a) {
-      e.exports = a.p + 'static/media/ashley-merrill.7a08f7d1.jpg'
+      e.exports = a.p + 'static/media/ashlee-titus.47ccb5ed.jpg'
     },
     505: function(e, t, a) {
-      e.exports = a.p + 'static/media/bill-bloomfield.5676cf4f.jpg'
+      e.exports = a.p + 'static/media/ashley-merrill.7a08f7d1.jpg'
     },
     506: function(e, t, a) {
-      e.exports = a.p + 'static/media/brent-messenger.cfb1cc50.jpg'
+      e.exports = a.p + 'static/media/bill-bloomfield.5676cf4f.jpg'
     },
     507: function(e, t, a) {
-      e.exports = a.p + 'static/media/buffy-wicks.78c9946b.jpg'
+      e.exports = a.p + 'static/media/brent-messenger.cfb1cc50.jpg'
     },
     508: function(e, t, a) {
+      e.exports = a.p + 'static/media/buffy-wicks.78c9946b.jpg'
+    },
+    509: function(e, t, a) {
       e.exports =
         a.p + 'static/media/california-dental-association-pac.57ba2810.jpg'
     },
-    509: function(e, t, a) {
+    510: function(e, t, a) {
       e.exports = a.p + 'static/media/cammie-croft.944c4920.jpg'
     },
-    510: function(e, t, a) {
+    511: function(e, t, a) {
       e.exports =
         a.p + 'static/media/carrie-and-greg-walton-penner.b9e7fb89.jpg'
     },
-    511: function(e, t, a) {
+    512: function(e, t, a) {
       e.exports = a.p + 'static/media/christopher-garland.bfbf115d.jpg'
     },
-    512: function(e, t, a) {
+    513: function(e, t, a) {
       e.exports = a.p + 'static/media/david-crane.7ac10d09.jpg'
     },
-    513: function(e, t, a) {
-      e.exports = a.p + 'static/media/drew-goesl.a8303565.jpg'
-    },
     514: function(e, t, a) {
-      e.exports = a.p + 'static/media/edvoice.9a2ce128.jpg'
+      e.exports = a.p + 'static/media/dc-jobs-with-justice.38b4f6f3.jpg'
     },
     515: function(e, t, a) {
-      e.exports = a.p + 'static/media/eli-broad.ac5200e7.jpg'
+      e.exports = a.p + 'static/media/drew-goesl.a8303565.jpg'
     },
     516: function(e, t, a) {
-      e.exports = a.p + 'static/media/eric-ridge.a2074889.jpg'
+      e.exports = a.p + 'static/media/edvoice.9a2ce128.jpg'
     },
     517: function(e, t, a) {
-      e.exports = a.p + 'static/media/eugene-frantz.f884078d.jpg'
+      e.exports = a.p + 'static/media/eli-broad.ac5200e7.jpg'
     },
     518: function(e, t, a) {
-      e.exports = a.p + 'static/media/frank-baxter.ed0bd59a.jpg'
+      e.exports = a.p + 'static/media/eric-ridge.a2074889.jpg'
     },
     519: function(e, t, a) {
-      e.exports = a.p + 'static/media/govern-for-california-pac.0a5516ee.jpg'
+      e.exports = a.p + 'static/media/eugene-frantz.f884078d.jpg'
     },
     520: function(e, t, a) {
-      e.exports = a.p + 'static/media/james-babcock.ae274ba0.jpg'
+      e.exports = a.p + 'static/media/frank-baxter.ed0bd59a.jpg'
     },
     521: function(e, t, a) {
-      e.exports = a.p + 'static/media/james-green.fc11fe8c.jpg'
+      e.exports = a.p + 'static/media/govern-for-california-pac.0a5516ee.jpg'
     },
     522: function(e, t, a) {
-      e.exports = a.p + 'static/media/jeffrey-peck.9d5b514f.jpg'
+      e.exports = a.p + 'static/media/james-babcock.ae274ba0.jpg'
     },
     523: function(e, t, a) {
-      e.exports = a.p + 'static/media/jesse-rogers.a3a5de61.jpg'
+      e.exports = a.p + 'static/media/james-green.fc11fe8c.jpg'
     },
     524: function(e, t, a) {
-      e.exports = a.p + 'static/media/jim-messina.0ccc06f6.jpg'
+      e.exports = a.p + 'static/media/jeffrey-peck.9d5b514f.jpg'
     },
     525: function(e, t, a) {
-      e.exports = a.p + 'static/media/john-and-regina-scully.6178153f.jpg'
+      e.exports = a.p + 'static/media/jesse-rogers.a3a5de61.jpg'
     },
     526: function(e, t, a) {
-      e.exports = a.p + 'static/media/john-podesta.3a64481d.jpg'
+      e.exports = a.p + 'static/media/jim-messina.0ccc06f6.jpg'
     },
     527: function(e, t, a) {
-      e.exports = a.p + 'static/media/jonathan-mantz.3ebfc122.jpg'
+      e.exports = a.p + 'static/media/john-and-regina-scully.6178153f.jpg'
     },
     528: function(e, t, a) {
-      e.exports = a.p + 'static/media/matt-hynes.be76ce84.jpg'
+      e.exports = a.p + 'static/media/john-podesta.3a64481d.jpg'
     },
     529: function(e, t, a) {
-      e.exports = a.p + 'static/media/micah-weinberg.f8c829b9.jpg'
+      e.exports = a.p + 'static/media/jonathan-mantz.3ebfc122.jpg'
     },
     530: function(e, t, a) {
-      e.exports = a.p + 'static/media/michael-bloomberg.1bc9f162.jpg'
+      e.exports = a.p + 'static/media/matt-hynes.be76ce84.jpg'
     },
     531: function(e, t, a) {
-      e.exports = a.p + 'static/media/ned-and-karen-gilhuly.53cf076d.jpg'
+      e.exports = a.p + 'static/media/micah-weinberg.f8c829b9.jpg'
     },
     532: function(e, t, a) {
-      e.exports = a.p + 'static/media/nils-colin-lind.0e1bc5f8.jpg'
+      e.exports = a.p + 'static/media/michael-bloomberg.1bc9f162.jpg'
     },
     533: function(e, t, a) {
-      e.exports = a.p + 'static/media/nlg-dc.9d456202.jpg'
+      e.exports = a.p + 'static/media/ned-and-karen-gilhuly.53cf076d.jpg'
     },
     534: function(e, t, a) {
-      e.exports = a.p + 'static/media/penny-pritzker.cfee452d.jpg'
+      e.exports = a.p + 'static/media/nils-colin-lind.0e1bc5f8.jpg'
     },
     535: function(e, t, a) {
-      e.exports = a.p + 'static/media/reid-hoffman.1aeda840.jpg'
+      e.exports = a.p + 'static/media/nlg-dc.1f7e2bae.jpg'
     },
     536: function(e, t, a) {
-      e.exports = a.p + 'static/media/richard-landers.23180cd0.jpg'
+      e.exports = a.p + 'static/media/pds-of-dc.70a3e4ac.jpg'
     },
     537: function(e, t, a) {
-      e.exports = a.p + 'static/media/rick-tinsley.3e441123.jpg'
+      e.exports = a.p + 'static/media/penny-pritzker.cfee452d.jpg'
     },
     538: function(e, t, a) {
-      e.exports = a.p + 'static/media/ron-conway.b8aeb349.jpg'
+      e.exports = a.p + 'static/media/reid-hoffman.1aeda840.jpg'
     },
     539: function(e, t, a) {
-      e.exports = a.p + 'static/media/scott-willoughby.b9e4feaa.jpg'
+      e.exports = a.p + 'static/media/richard-landers.23180cd0.jpg'
     },
     540: function(e, t, a) {
-      e.exports = a.p + 'static/media/sean-kennedy.afc58125.jpg'
+      e.exports = a.p + 'static/media/rick-tinsley.3e441123.jpg'
     },
     541: function(e, t, a) {
-      e.exports = a.p + 'static/media/seth-london.3056bfcb.jpg'
+      e.exports = a.p + 'static/media/ron-conway.b8aeb349.jpg'
     },
     542: function(e, t, a) {
-      e.exports = a.p + 'static/media/tench-and-simone-coxe.80e34d56.jpg'
+      e.exports = a.p + 'static/media/scott-willoughby.b9e4feaa.jpg'
     },
     543: function(e, t, a) {
-      e.exports = a.p + 'static/media/the-fisher-family.2d8fa937.jpg'
+      e.exports = a.p + 'static/media/sean-kennedy.afc58125.jpg'
     },
     544: function(e, t, a) {
-      e.exports = a.p + 'static/media/thomas-fahr-steyer.54906173.jpg'
+      e.exports = a.p + 'static/media/seth-london.3056bfcb.jpg'
     },
     545: function(e, t, a) {
-      e.exports = a.p + 'static/media/warren-ned-speiker-jr.69f17bd2.jpg'
+      e.exports = a.p + 'static/media/tench-and-simone-coxe.80e34d56.jpg'
     },
     546: function(e, t, a) {
+      e.exports = a.p + 'static/media/the-fisher-family.2d8fa937.jpg'
+    },
+    547: function(e, t, a) {
+      e.exports =
+        a.p + 'static/media/the-legal-network-for-gender-equity.a5162817.jpg'
+    },
+    548: function(e, t, a) {
+      e.exports = a.p + 'static/media/thomas-fahr-steyer.54906173.jpg'
+    },
+    549: function(e, t, a) {
+      e.exports = a.p + 'static/media/warren-ned-speiker-jr.69f17bd2.jpg'
+    },
+    550: function(e, t, a) {
       e.exports = a.p + 'static/media/william-oberndorf.df224bc6.jpg'
     },
-    547: function(e, t, a) {},
-    557: function(e, t, a) {},
-    559: function(e, t, a) {},
+    551: function(e, t, a) {},
     561: function(e, t, a) {},
     563: function(e, t, a) {},
-    568: function(e, t, a) {
+    565: function(e, t, a) {},
+    567: function(e, t, a) {},
+    572: function(e, t, a) {
       'use strict'
       a.r(t)
       a(180)
@@ -232,13 +250,13 @@
         i = a.n(n),
         r = a(31),
         o = a.n(r),
-        s = a(32),
-        l = a(33),
-        c = a(35),
-        d = a(34),
-        u = a(36),
-        m = a(167),
-        h = a.n(m),
+        A = a(32),
+        s = a(33),
+        l = a(35),
+        c = a(34),
+        d = a(36),
+        u = a(167),
+        m = a.n(u),
         p = (a(354),
         function(e) {
           var t = e.children
@@ -248,7 +266,7 @@
             i.a.createElement('h2', null, t)
           )
         }),
-        g = (a(356),
+        h = (a(356),
         function() {
           return i.a.createElement(
             'div',
@@ -263,7 +281,7 @@
             i.a.createElement(
               'p',
               { className: 'donation-value' },
-              i.a.createElement(h.a, {
+              i.a.createElement(m.a, {
                 prefix: '',
                 delay: 0.5,
                 start: 0,
@@ -308,7 +326,7 @@
         )
       }
       a(360)
-      function w(e) {
+      function g(e) {
         var t = e.links
         return i.a.createElement(
           'ul',
@@ -319,18 +337,18 @@
         )
       }
       var b = a(168),
-        y = a.n(b),
+        w = a.n(b),
         v = (a(362),
         (function(e) {
           function t() {
             return (
-              Object(s.a)(this, t),
-              Object(c.a)(this, Object(d.a)(t).apply(this, arguments))
+              Object(A.a)(this, t),
+              Object(l.a)(this, Object(c.a)(t).apply(this, arguments))
             )
           }
           return (
-            Object(u.a)(t, e),
-            Object(l.a)(t, [
+            Object(d.a)(t, e),
+            Object(s.a)(t, [
               {
                 key: 'render',
                 value: function() {
@@ -343,14 +361,14 @@
                       i.a.createElement(
                         'div',
                         { className: 'header__social-links' },
-                        i.a.createElement(w, { links: this.props.socialLinks })
+                        i.a.createElement(g, { links: this.props.socialLinks })
                       ),
                       i.a.createElement(
                         'a',
                         { href: '/' },
                         i.a.createElement('img', {
                           className: 'header__logo',
-                          src: y.a,
+                          src: w.a,
                           alt: 'd4bl legal directory'
                         })
                       )
@@ -362,19 +380,19 @@
             t
           )
         })(n.Component)),
-        k = a(169),
+        y = a(169),
+        j = a.n(y),
+        k = a(170),
         E = a.n(k),
-        C = a(170),
-        j = a.n(C),
-        N = a(171),
-        S = a.n(N),
-        D = a(172),
-        L = a.n(D),
-        x = a(116),
-        P = a(47),
-        B = a.n(P),
-        T = a(80),
-        O = (a(498),
+        x = a(171),
+        P = a.n(x),
+        N = a(172),
+        L = a.n(N),
+        T = a(116),
+        C = a(47),
+        W = a.n(C),
+        O = a(80),
+        S = (a(498),
         function(e) {
           return e
             .toLowerCase()
@@ -384,16 +402,16 @@
             .replace(/("|,)/g, '')
             .replace(/&/g, 'and')
         }),
-        _ = (function(e) {
+        z = (function(e) {
           function t() {
             var e, a
-            Object(s.a)(this, t)
+            Object(A.a)(this, t)
             for (var n = arguments.length, r = new Array(n), o = 0; o < n; o++)
               r[o] = arguments[o]
             return (
-              ((a = Object(c.a)(
+              ((a = Object(l.a)(
                 this,
-                (e = Object(d.a)(t)).call.apply(e, [this].concat(r))
+                (e = Object(c.a)(t)).call.apply(e, [this].concat(r))
               )).state = { nameDimensions: { width: 0, height: 0 } }),
               (a.linkRenderer = function(e) {
                 return i.a.createElement(
@@ -410,8 +428,8 @@
             )
           }
           return (
-            Object(u.a)(t, e),
-            Object(l.a)(t, [
+            Object(d.a)(t, e),
+            Object(s.a)(t, [
               {
                 key: 'render',
                 value: function() {
@@ -421,14 +439,14 @@
                     n = t.name,
                     r = t.link_url,
                     o = t.phone_number,
-                    s = t.email,
-                    l = t.description,
-                    c = t.categories,
-                    d = t.isVisible,
-                    u = A(c).sort()
+                    A = t.email,
+                    s = t.description,
+                    l = t.categories,
+                    c = t.isVisible,
+                    d = D(l).sort()
                   return i.a.createElement(
                     'div',
-                    { className: B()('bw-slide', O(n)) },
+                    { className: W()('bw-slide', S(n)) },
                     a &&
                       i.a.createElement(
                         'a',
@@ -438,16 +456,16 @@
                           style: { backgroundImage: "url('".concat(a, "')") }
                         })
                       ),
-                    d &&
+                    c &&
                       i.a.createElement(
                         'div',
                         {
-                          className: B()('bw-slide__content', {
+                          className: W()('bw-slide__content', {
                             'bw-slide__content--no-image': !a
                           })
                         },
                         i.a.createElement(
-                          S.a,
+                          P.a,
                           {
                             bounds: !0,
                             onResize: function(t) {
@@ -483,7 +501,7 @@
                                       o
                                     )
                                   ),
-                                s &&
+                                A &&
                                   i.a.createElement(
                                     'div',
                                     { className: 'bw-slide__donation' },
@@ -492,7 +510,7 @@
                                     i.a.createElement(
                                       'span',
                                       { className: 'bw-slide__donation-value' },
-                                      s
+                                      A
                                     )
                                   )
                               )
@@ -512,13 +530,13 @@
                           },
                           i.a.createElement(L.a, {
                             renderers: { link: this.linkRenderer },
-                            source: l
+                            source: s
                           }),
-                          u.length > 0 &&
+                          d.length > 0 &&
                             i.a.createElement(
                               'div',
                               { className: 'bw-slide__categories' },
-                              u.map(function(e) {
+                              d.map(function(e) {
                                 return i.a.createElement(
                                   'div',
                                   { className: 'bw-slide__category', key: e },
@@ -535,10 +553,10 @@
             t
           )
         })(n.Component),
-        A = function(e) {
+        D = function(e) {
           return e.split(', ').filter(Boolean)
         },
-        W = function(e) {
+        H = function(e) {
           if (!e) return R()
           var t = '#'.concat(e)
           'pushState' in window.history
@@ -561,36 +579,36 @@
               (document.body.scrollTop = e),
               (document.body.scrollLeft = t))
         },
-        H = function(e) {
+        B = function(e) {
           if (!e) return -1
           var t = e.replace('#', '')
-          return T.findIndex(function(e) {
-            return t === O(e.Name)
+          return O.findIndex(function(e) {
+            return t === S(e.Name)
           })
         },
-        z = function() {
-          var e = H(window.location.hash)
+        M = function() {
+          var e = B(window.location.hash)
           return e < 0 ? 0 : e
         },
-        I = E()(function(e) {
-          return T.filter(function(t) {
+        Z = j()(function(e) {
+          return O.filter(function(t) {
             return (
               !!t.Name &&
               (0 === e.length ||
-                A(t.Category).reduce(function(t, a) {
+                D(t.Category).reduce(function(t, a) {
                   return t || e.includes(a)
                 }, !1))
             )
           })
         }),
-        F = (function(e) {
+        J = (function(e) {
           function t(e) {
             var a
             return (
-              Object(s.a)(this, t),
-              ((a = Object(c.a)(
+              Object(A.a)(this, t),
+              ((a = Object(l.a)(
                 this,
-                Object(d.a)(t).call(this, e)
+                Object(c.a)(t).call(this, e)
               )).bindRef = function(e) {
                 a.slider = e
               }),
@@ -642,20 +660,20 @@
                   a.setState({ sliderSettings: e })
               }),
               (a.updateHash = function(e) {
-                var t = I(a.state.selectedCategories),
-                  n = e < 1 ? null : O(t[e].Name)
-                W(n)
+                var t = Z(a.state.selectedCategories),
+                  n = e < 1 ? null : S(t[e].Name)
+                H(n)
               }),
               (a.jumpToSlide = function(e) {
                 var t = e.target.hash
                 if (t) {
-                  var n = H(t)
+                  var n = B(t)
                   n > -1 && (e.preventDefault(), a.slider.slickGoTo(n))
                 }
               }),
-              (a.categories = T.reduce(function(e, t) {
+              (a.categories = O.reduce(function(e, t) {
                 return (
-                  A(t.Category).forEach(function(t) {
+                  D(t.Category).forEach(function(t) {
                     e.includes(t) || e.push(t)
                   }),
                   e
@@ -690,7 +708,7 @@
                 }
               }),
               (a.isVisible = function(e, t) {
-                var n = I(a.state.selectedCategories).length - 1,
+                var n = Z(a.state.selectedCategories).length - 1,
                   i = t - 3,
                   r = t + 3
                 return i < 0
@@ -702,17 +720,17 @@
               (a.state = {
                 selectedCategories: [],
                 query: null,
-                currentSlide: z(),
+                currentSlide: M(),
                 sliderSettings: Object.assign({}, a.getSliderSettings(), {
-                  initialSlide: z()
+                  initialSlide: M()
                 })
               }),
               a
             )
           }
           return (
-            Object(u.a)(t, e),
-            Object(l.a)(t, [
+            Object(d.a)(t, e),
+            Object(s.a)(t, [
               {
                 key: 'componentDidMount',
                 value: function() {
@@ -734,10 +752,10 @@
                     t = this.state,
                     r = t.selectedCategories,
                     o = t.sliderSettings,
-                    s = t.currentSlide,
-                    l = 1 === o.slidesToShow,
-                    c = I(r),
-                    d = Math.min(c.length, o.slidesToShow)
+                    A = t.currentSlide,
+                    s = 1 === o.slidesToShow,
+                    l = Z(r),
+                    c = Math.min(l.length, o.slidesToShow)
                   return i.a.createElement(
                     n.Fragment,
                     null,
@@ -747,7 +765,7 @@
                       i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        i.a.createElement(x.a, {
+                        i.a.createElement(T.a, {
                           options: this.categories,
                           isMulti: !0,
                           onChange: this.handleCategoryChange,
@@ -758,8 +776,8 @@
                       i.a.createElement(
                         'div',
                         { className: 'filter-wrapper' },
-                        i.a.createElement(x.a, {
-                          options: c.map(function(e, t) {
+                        i.a.createElement(T.a, {
+                          options: l.map(function(e, t) {
                             return { value: t, label: e.Name }
                           }),
                           isClearable: !0,
@@ -771,16 +789,16 @@
                       )
                     ),
                     i.a.createElement(
-                      j.a,
+                      E.a,
                       Object.assign({ ref: this.bindRef }, o, {
-                        slidesToShow: d
+                        slidesToShow: c
                       }),
-                      c.map(function(t, n) {
-                        return i.a.createElement(_, {
+                      l.map(function(t, n) {
+                        return i.a.createElement(z, {
                           key: t.Name,
                           imageSrc: (function(e) {
                             try {
-                              var t = O(e)
+                              var t = S(e)
                               return a(502)('./'.concat(t, '.jpg'))
                             } catch (n) {
                               return a(164)
@@ -794,8 +812,8 @@
                           description: t.Desc,
                           categories: t.Category,
                           index: n,
-                          currentSlide: s,
-                          isVisible: !l || e.isVisible(n, s)
+                          currentSlide: A,
+                          isVisible: !s || e.isVisible(n, A)
                         })
                       })
                     ),
@@ -807,8 +825,8 @@
             t
           )
         })(n.Component)
-      a(547)
-      function U() {
+      a(551)
+      function X() {
         return i.a.createElement(
           'div',
           { className: 'footer content panel dark' },
@@ -828,18 +846,18 @@
           )
         )
       }
-      var q = a(175),
-        J = (a(557),
+      var F = a(175),
+        G = (a(561),
         (function(e) {
           function t() {
             var e, a
-            Object(s.a)(this, t)
+            Object(A.a)(this, t)
             for (var n = arguments.length, i = new Array(n), r = 0; r < n; r++)
               i[r] = arguments[r]
             return (
-              ((a = Object(c.a)(
+              ((a = Object(l.a)(
                 this,
-                (e = Object(d.a)(t)).call.apply(e, [this].concat(i))
+                (e = Object(c.a)(t)).call.apply(e, [this].concat(i))
               )).state = { isOpened: !1 }),
               (a.toggleCollapse = function() {
                 a.setState(function(e) {
@@ -850,8 +868,8 @@
             )
           }
           return (
-            Object(u.a)(t, e),
-            Object(l.a)(t, [
+            Object(d.a)(t, e),
+            Object(s.a)(t, [
               {
                 key: 'render',
                 value: function() {
@@ -870,7 +888,7 @@
                       },
                       t
                     ),
-                    i.a.createElement(q.Collapse, { isOpened: n }, a)
+                    i.a.createElement(F.Collapse, { isOpened: n }, a)
                   )
                 }
               }
@@ -878,7 +896,7 @@
             t
           )
         })(n.Component)),
-        G = function() {
+        Y = function() {
           return i.a.createElement(
             'div',
             { className: 'faq-wrapper' },
@@ -890,7 +908,7 @@
                 'div',
                 { className: 'inner' },
                 i.a.createElement(
-                  J,
+                  G,
                   {
                     title:
                       'How do I get help through one of these organizations?'
@@ -949,7 +967,7 @@
                   )
                 ),
                 i.a.createElement(
-                  J,
+                  G,
                   {
                     title:
                       'How do I get help for an issue not covered by any of these organizations?'
@@ -1055,7 +1073,7 @@
                   )
                 ),
                 i.a.createElement(
-                  J,
+                  G,
                   {
                     title:
                       'How can I get a new organization added to this list?'
@@ -1182,7 +1200,7 @@
                   )
                 ),
                 i.a.createElement(
-                  J,
+                  G,
                   { title: 'Who compiled all this information?' },
                   i.a.createElement(
                     'p',
@@ -1218,7 +1236,7 @@
                   )
                 ),
                 i.a.createElement(
-                  J,
+                  G,
                   {
                     title: "I don't live in Washington D.C. How can I get help?"
                   },
@@ -1242,11 +1260,11 @@
             )
           )
         },
-        M = a(178)
-      a(559)
-      function V(e) {
+        I = a(178)
+      a(563)
+      function U(e) {
         var t = e.children,
-          a = Object(M.a)(e, ['children'])
+          a = Object(I.a)(e, ['children'])
         return i.a.createElement(
           'div',
           { className: 'button-wrapper' },
@@ -1264,7 +1282,7 @@
           )
         )
       }
-      var Q = function(e) {
+      var q = function(e) {
           return i.a.createElement(
             'div',
             null,
@@ -1286,7 +1304,7 @@
                   'But history tells a different story, one in which data is too often wielded as an instrument of oppression, reinforcing inequality and perpetuating injustice. Redlining was a data-driven enterprise that resulted in the systematic exclusion of Black communities from key financial services. More recent trends like predictive policing, risk-based sentencing, and predatory lending are troubling variations on the same theme. Today, discrimination is a high-tech enterprise.'
                 ),
                 i.a.createElement(
-                  V,
+                  U,
                   { href: 'https://d4bl.org/events.html' },
                   ' JOIN US '
                 )
@@ -1294,24 +1312,24 @@
             )
           )
         },
-        $ = (a(561), a(176)),
+        V = (a(565), a(176)),
         K = [
           {
             label: 'Twitter',
             url: 'https://twitter.com/buffydotmoney',
-            icon: a.n($).a
+            icon: a.n(V).a
           }
         ],
-        Y = (function(e) {
+        _ = (function(e) {
           function t() {
             return (
-              Object(s.a)(this, t),
-              Object(c.a)(this, Object(d.a)(t).apply(this, arguments))
+              Object(A.a)(this, t),
+              Object(l.a)(this, Object(c.a)(t).apply(this, arguments))
             )
           }
           return (
-            Object(u.a)(t, e),
-            Object(l.a)(t, [
+            Object(d.a)(t, e),
+            Object(s.a)(t, [
               {
                 key: 'render',
                 value: function() {
@@ -1319,11 +1337,11 @@
                     'div',
                     null,
                     i.a.createElement(v, { socialLinks: K }),
-                    i.a.createElement(g, null),
-                    i.a.createElement(F, null),
-                    i.a.createElement(G, null),
-                    i.a.createElement(Q, null),
-                    i.a.createElement(U, null)
+                    i.a.createElement(h, null),
+                    i.a.createElement(J, null),
+                    i.a.createElement(Y, null),
+                    i.a.createElement(q, null),
+                    i.a.createElement(X, null)
                   )
                 }
               }
@@ -1331,14 +1349,14 @@
             t
           )
         })(n.Component),
-        X = Boolean(
+        Q = Boolean(
           'localhost' === window.location.hostname ||
             '[::1]' === window.location.hostname ||
             window.location.hostname.match(
               /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
             )
         )
-      function Z(e) {
+      function $(e) {
         navigator.serviceWorker
           .register(e)
           .then(function(e) {
@@ -1356,15 +1374,15 @@
             console.error('Error during service worker registration:', e)
           })
       }
-      a(563)
-      o.a.render(i.a.createElement(Y, null), document.getElementById('root')),
+      a(567)
+      o.a.render(i.a.createElement(_, null), document.getElementById('root')),
         (function() {
           if ('serviceWorker' in navigator) {
             if (new URL('.', window.location).origin !== window.location.origin)
               return
             window.addEventListener('load', function() {
               var e = ''.concat('.', '/service-worker.js')
-              X
+              Q
                 ? ((function(e) {
                     fetch(e)
                       .then(function(t) {
@@ -1376,7 +1394,7 @@
                                 window.location.reload()
                               })
                             })
-                          : Z(e)
+                          : $(e)
                       })
                       .catch(function() {
                         console.log(
@@ -1389,7 +1407,7 @@
                       'This web app is being served cache-first by a service worker. To learn more, visit https://goo.gl/SC7cgQ'
                     )
                   }))
-                : Z(e)
+                : $(e)
             })
           }
         })()
@@ -1398,31 +1416,34 @@
       e.exports = [
         {
           Name: 'NLG-DC',
-          Category: 'Policing and Protest Cases',
+          Category: 'Policing and Protest Cases, Arrests',
           Link: 'http://www.dcnlg.org',
           'Phone Number': '',
           Email: 'support@nlgdc.org',
-          Desc: 'Legal observers, legal representation',
+          Desc:
+            'The NLG is dedicated to the need for basic change in the structure of our political and economic system. \n\nOur aim is to bring together all those who recognize the importance of safeguarding and extending the rights of workers, women, LGBTQ people, farmers, people with disabilities and people of color, upon whom the welfare of the entire nation depends; who seek actively to eliminate racism; who work to maintain and protect our civil rights and liberties in the face of persistent attacks upon them; and who look upon the law as an instrument for the protection of the people, rather than for their repression. ',
           Blurb:
             'Established in 1937, the National Lawyers Guild (NLG) is the nation\u2019s oldest and largest progressive bar association and was the first one in the US to be racially integrated. \nOur mission is to use law for the people, uniting lawyers, law students, legal workers, and jailhouse lawyers to function as an effective force in the service of the people by valuing human rights and the rights of ecosystems over property interests. \nThis is achieved through the work of our members, and the Guild\u2019s numerous organizational committees, caucuses and projects, reflecting a wide spectrum of intersectional issues. \nGuild members effectively network and hone their legal skills in order to help create change at the local, regional, national, and international levels.'
         },
         {
           Name: 'PDS of DC',
-          Category: 'Policing and Protest Cases',
+          Category: 'Policing and Protest Cases, Arrests',
           Link: 'https://www.pdsdc.org',
           'Phone Number': '202.628.1200',
           Email: '',
-          Desc: 'Public Defense',
+          Desc:
+            'PDS attorneys represent indigent clients in the majority of the most serious adult felony cases filed in the District of Columbia Superior Court every year, clients pursuing or defending against criminal appeals, nearly all individuals facing parole revocation under the District of Columbia Code, and all defendants in the District of Columbia Superior Court requiring representation at Drug Court sanctions hearings.  \n\nPDS also provides legal representation to people facing involuntary civil commitment in the mental health system, as well as to many of the indigent children in the most serious delinquency cases, including those who have special education needs due to learning disabilities.',
           Blurb:
             "It is the mission of the Public Defender Service for the District of Columbia (PDS) to provide and promote quality legal representation to indigent adults and children facing a loss of liberty in the District of Columbia, thereby protecting society's interest in the fair administration of justice.\n\nPDS is a federally funded, independent organization governed by an eleven-member Board of Trustees. Originally operating as the Legal Aid Agency from 1960 to 1970, PDS was created in 1970 by a federal statute enacted to comply with a constitutional mandate to provide defense counsel for people who cannot afford an attorney.  \n"
         },
         {
           Name: 'ACLU DC',
-          Category: 'Policing and Protest Cases',
+          Category: 'Policing and Protest Cases, Arrests',
           Link: 'https://www.acludc.org',
           'Phone Number': '202.457.0800',
           Email: 'natacia@sptdc.com',
-          Desc: 'Criminal Legal System Reform, Equal Protection, Due Process',
+          Desc:
+            'ACLU-DC pursues its mission through legal action, legislative advocacy, and public education. In addition to representing clients in court, sometimes we work with government agencies to defend liberty without litigation. \n\nWe also testify and lobby before the D.C. Council, and we educate the public through Know Your Rights trainings and materials, appearances on radio and television, social media activity, and meetings with community groups.',
           Blurb:
             'ACLU-DC pursues its mission through legal action, legislative advocacy, and public education. In addition to representing clients in court, sometimes we work with government agencies to defend liberty without litigation. We also testify and lobby before the D.C. Council, and we educate the public through Know Your Rights trainings and materials, appearances on radio and television, social media activity, and meetings with community groups.'
         },
@@ -1432,7 +1453,7 @@
           Link: 'https://www.sptdc.com',
           'Phone Number': '',
           Email: 'valwex62@gmail.com',
-          Desc: 'Policing',
+          Desc: '',
           Blurb: ''
         },
         {
@@ -1813,4 +1834,4 @@
   },
   [[179, 2, 1]]
 ])
-//# sourceMappingURL=main.bb4a642b.chunk.js.map
+//# sourceMappingURL=main.9a4f0781.chunk.js.map

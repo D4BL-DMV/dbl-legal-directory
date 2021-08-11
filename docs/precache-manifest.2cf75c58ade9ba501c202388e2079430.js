@@ -4,16 +4,16 @@ self.__precacheManifest = [
     url: './static/media/james-green.fc11fe8c.jpg'
   },
   {
-    revision: 'bb4a642b5f93791a822a',
-    url: './static/css/main.ef1dd051.chunk.css'
+    revision: '9a4f078172a4297b78ff',
+    url: './static/css/main.c482eb20.chunk.css'
   },
   {
     revision: '53568caf39b4e195a771b90fa653db59',
     url: './static/media/d4bl_logo.53568caf.png'
   },
   {
-    revision: '9ce262dfb3224ecec8ec',
-    url: './static/js/1.9ce262df.chunk.js'
+    revision: '8c68c5a1a7c27224edac',
+    url: './static/js/1.8c68c5a1.chunk.js'
   },
   {
     revision: '4a686d48d5a089750c49',
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     url: './static/media/no-photo.d3b3ac62.jpg'
   },
   {
-    revision: '698b10eeaf8a6e4c04df3a329339128a',
-    url: './static/media/logo.698b10ee.png'
+    revision: 'd7788dbc39aa8844c6c47731006c9cb6',
+    url: './static/media/logo.d7788dbc.png'
   },
   {
     revision: '2f8dfadf647b0892ded70fb1538a326a',
@@ -80,6 +80,10 @@ self.__precacheManifest = [
     url: './static/media/david-crane.7ac10d09.jpg'
   },
   {
+    revision: '38b4f6f39200bcb5cfac173d7bf65fce',
+    url: './static/media/dc-jobs-with-justice.38b4f6f3.jpg'
+  },
+  {
     revision: 'a83035655e8ab4a248f31e1f9410c076',
     url: './static/media/drew-goesl.a8303565.jpg'
   },
@@ -112,8 +116,8 @@ self.__precacheManifest = [
     url: './static/media/james-babcock.ae274ba0.jpg'
   },
   {
-    revision: 'bb4a642b5f93791a822a',
-    url: './static/js/main.bb4a642b.chunk.js'
+    revision: '9a4f078172a4297b78ff',
+    url: './static/js/main.9a4f0781.chunk.js'
   },
   {
     revision: '9d5b514f62117b54454aa776c7203afc',
@@ -160,8 +164,12 @@ self.__precacheManifest = [
     url: './static/media/nils-colin-lind.0e1bc5f8.jpg'
   },
   {
-    revision: '9d45620214281e7ada837945a5b63f08',
-    url: './static/media/nlg-dc.9d456202.jpg'
+    revision: '1f7e2baec2159a2fee2e1ec9a75cf890',
+    url: './static/media/nlg-dc.1f7e2bae.jpg'
+  },
+  {
+    revision: '70a3e4acf5a76f8bd98a618abc9172e9',
+    url: './static/media/pds-of-dc.70a3e4ac.jpg'
   },
   {
     revision: 'cfee452dad162518d9c8f22e08a81282',
@@ -204,6 +212,10 @@ self.__precacheManifest = [
     url: './static/media/the-fisher-family.2d8fa937.jpg'
   },
   {
+    revision: 'a51628172b35b8f2d0b3260a840ce919',
+    url: './static/media/the-legal-network-for-gender-equity.a5162817.jpg'
+  },
+  {
     revision: '549061735d41f90fb31dabb6a501a2e8',
     url: './static/media/thomas-fahr-steyer.54906173.jpg'
   },
@@ -216,11 +228,11 @@ self.__precacheManifest = [
     url: './static/media/william-oberndorf.df224bc6.jpg'
   },
   {
-    revision: '9ce262dfb3224ecec8ec',
-    url: './static/css/1.00a2c48b.chunk.css'
+    revision: '8c68c5a1a7c27224edac',
+    url: './static/css/1.ae77a71b.chunk.css'
   },
   {
-    revision: '2e70dce56e7ad926493c5721e63f410c',
+    revision: '06f4876ab6091200d87cc409a26b7fef',
     url: './index.html'
   }
 ]
