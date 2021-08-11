@@ -1,10 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400, 400i, 700, 700i);
-@import url(
-  https://fonts.googleapis.com/css?family=Alfa+Slab+One:400,
-  400i,
-  700,
-  700i
-);
+@import url(//fonts.googleapis.com/css?family=Lato:400, 400i, 700, 700i);
+@import url(//fonts.googleapis.com/css?family=Alfa+Slab+One:400);
 .h2 {
   display: flex;
   justify-content: center;
@@ -40,7 +35,7 @@
   margin: -20px;
   color: #000;
   font-weight: 700;
-  font-family: Alfa Slab One, sans-serif;
+  font-family: Alfa Slab One, fantasy;
   letter-spacing: 5px;
 }
 .intro .donation-subhead {
@@ -554,4 +549,4 @@ a {
 a:hover {
   color: #1670bf;
 }
-/*# sourceMappingURL=main.ef1dd051.chunk.css.map */
+/*# sourceMappingURL=main.c482eb20.chunk.css.map */
