@@ -1,4 +1,4 @@
-# bw.money
+# dbl legal directory
 
 ## Quick Start
 
