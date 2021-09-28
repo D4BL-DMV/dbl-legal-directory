@@ -1,11 +1,12 @@
 // import facebookIcon from '../images/facebook.svg'
 import twitterIcon from '../images/twitter.svg'
 
-export default [
+const LINKS = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/buffydotmoney',
+    url: 'https://twitter.com/Data4BlackLives',
     icon: twitterIcon
   }
   // { label: 'Facebook', url: 'https://facebook.com', icon: facebookIcon }
 ]
+export default LINKS

@@ -5,7 +5,10 @@ import Measure from 'react-measure'
 import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
+
+// TODO(dmadisetti): Rename donor -> listing
 import donors from '../../data/donors.json'
+
 import './slider.scss'
 
 const kebabCase = str =>
@@ -20,9 +23,9 @@ const kebabCase = str =>
 const getImage = donorName => {
   try {
     const fileName = kebabCase(donorName)
-    return require(`../../images/donors/${fileName}.jpg`)
+    return require(`../../images/donors/${fileName}.jpg`).default
   } catch (e) {
-    return require(`../../images/donors/no-photo.jpg`)
+    return require(`../../images/donors/no-photo.jpg`).default
   }
 }
 
@@ -186,8 +189,9 @@ const _getDonorsInCategories = categories => {
   })
 }
 
+// TODO(dmadisetti): Add listings to component so refresh on state.
+// Should also rememoize, and we need to potentially invalidate some data.
 const getDonorsInCategories = memoize(_getDonorsInCategories)
-
 class DonorSlider extends Component {
   constructor(props) {
     super(props)
@@ -204,6 +208,15 @@ class DonorSlider extends Component {
   componentDidMount() {
     window.addEventListener('resize', this.setSliderSettings)
     window.addEventListener('click', this.jumpToSlide, false)
+    let getListings = async () => {
+      // TODO(dmadisetti): Pull in newer data source if it exists.
+      let listingHash = 'The hash to compare the fetched CSV to'
+      const response = await navigator.serviceWorker.controller.postMessage({
+        getSheet: listingHash
+      })
+      console.log(response)
+    }
+    getListings()
   }
 
   componentWillUnmount() {

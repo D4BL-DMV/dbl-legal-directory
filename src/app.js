@@ -5,9 +5,9 @@ import DonorSlider from './components/slider/slider.component'
 import Footer from './components/footer/footer.component'
 import FAQ from './content/faq'
 import FedUp from './content/fed-up'
-import './app.scss'
-
 import socialLinks from './data/socialLinks'
+
+import './app.scss'
 
 class App extends Component {
   render() {
