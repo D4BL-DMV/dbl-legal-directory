@@ -1,16 +1,15 @@
-const _ = require('lodash')
 const gulp = require('gulp')
 const fs = require('fs')
-const parse = require('csv-parse/lib/sync')
 
-const ignoreColumns = ['Links', 'Photo Source', 'Location', 'Description hed']
+const listingToJson = require('./src/csv.js')
 
 const convertToJson = async done => {
-  const csv = fs.readFileSync('./csv/donors.csv').toString()
-  const json = parse(csv, { columns: true }).map(donor =>
-    _.omit(donor, ignoreColumns)
+  console.log(listingToJson)
+  const csv = fs.readFileSync('./csv/listings.csv').toString()
+  fs.writeFileSync(
+    './src/data/listings.json',
+    JSON.stringify(listingToJson(csv))
   )
-  fs.writeFileSync('./src/data/donors.json', JSON.stringify(json))
   done()
 }
 

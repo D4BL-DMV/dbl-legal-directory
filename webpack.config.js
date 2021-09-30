@@ -1,9 +1,9 @@
 var path = require('path')
 
 module.exports = {
-  entry: './public/sheetsWorker.js',
+  entry: './public/sheets-worker.js',
   output: {
-    filename: 'sheetsWorker.js',
+    filename: 'sheets-worker.js',
     path: path.resolve(__dirname, 'build')
   }
 }

@@ -1,0 +1,383 @@
+{
+  "hash": "4ba0e52a14aea64b1d7f5c7c60110ab0137e9935",
+  "json": [
+    {
+      "Name": "NLG-DC",
+      "Category": "Policing and Protest Cases, Arrests",
+      "Link": "http://www.dcnlg.org",
+      "Phone Number": "",
+      "Email": "support@nlgdc.org",
+      "Desc": "The NLG is dedicated to the need for basic change in the structure of our political and economic system. \n\nOur aim is to bring together all those who recognize the importance of safeguarding and extending the rights of workers, women, LGBTQ people, farmers, people with disabilities and people of color, upon whom the welfare of the entire nation depends; who seek actively to eliminate racism; who work to maintain and protect our civil rights and liberties in the face of persistent attacks upon them; and who look upon the law as an instrument for the protection of the people, rather than for their repression. ",
+      "Blurb": "Established in 1937, the National Lawyers Guild (NLG) is the nation’s oldest and largest progressive bar association and was the first one in the US to be racially integrated. \nOur mission is to use law for the people, uniting lawyers, law students, legal workers, and jailhouse lawyers to function as an effective force in the service of the people by valuing human rights and the rights of ecosystems over property interests. \nThis is achieved through the work of our members, and the Guild’s numerous organizational committees, caucuses and projects, reflecting a wide spectrum of intersectional issues. \nGuild members effectively network and hone their legal skills in order to help create change at the local, regional, national, and international levels."
+    },
+    {
+      "Name": "PDS of DC",
+      "Category": "Policing and Protest Cases, Arrests",
+      "Link": "https://www.pdsdc.org",
+      "Phone Number": "202.628.1200",
+      "Email": "",
+      "Desc": "PDS attorneys represent indigent clients in the majority of the most serious adult felony cases filed in the District of Columbia Superior Court every year, clients pursuing or defending against criminal appeals, nearly all individuals facing parole revocation under the District of Columbia Code, and all defendants in the District of Columbia Superior Court requiring representation at Drug Court sanctions hearings.  \n\nPDS also provides legal representation to people facing involuntary civil commitment in the mental health system, as well as to many of the indigent children in the most serious delinquency cases, including those who have special education needs due to learning disabilities.",
+      "Blurb": "It is the mission of the Public Defender Service for the District of Columbia (PDS) to provide and promote quality legal representation to indigent adults and children facing a loss of liberty in the District of Columbia, thereby protecting society's interest in the fair administration of justice.\n\nPDS is a federally funded, independent organization governed by an eleven-member Board of Trustees. Originally operating as the Legal Aid Agency from 1960 to 1970, PDS was created in 1970 by a federal statute enacted to comply with a constitutional mandate to provide defense counsel for people who cannot afford an attorney.  \n"
+    },
+    {
+      "Name": "ACLU DC",
+      "Category": "Policing and Protest Cases, Arrests",
+      "Link": "https://www.acludc.org",
+      "Phone Number": "202.457.0800",
+      "Email": "natacia@sptdc.com",
+      "Desc": "ACLU-DC pursues its mission through legal action, legislative advocacy, and public education. In addition to representing clients in court, sometimes we work with government agencies to defend liberty without litigation. \n\nWe also testify and lobby before the D.C. Council, and we educate the public through Know Your Rights trainings and materials, appearances on radio and television, social media activity, and meetings with community groups.",
+      "Blurb": "ACLU-DC pursues its mission through legal action, legislative advocacy, and public education. In addition to representing clients in court, sometimes we work with government agencies to defend liberty without litigation. We also testify and lobby before the D.C. Council, and we educate the public through Know Your Rights trainings and materials, appearances on radio and television, social media activity, and meetings with community groups."
+    },
+    {
+      "Name": "Stop Police Terror Project DC",
+      "Category": "Policing and Protest Cases",
+      "Link": "https://www.sptdc.com",
+      "Phone Number": "",
+      "Email": "valwex62@gmail.com",
+      "Desc": "",
+      "Blurb": ""
+    },
+    {
+      "Name": "Washington Lawyers Committee",
+      "Category": "Policing and Protest Cases",
+      "Link": "https://www.washlaw.org",
+      "Phone Number": "202.319.1000",
+      "Email": "",
+      "Desc": "Criminal Legal System reform, Housing, Employment, equitable access to accommodations",
+      "Blurb": ""
+    },
+    {
+      "Name": "Civil Rights Corps",
+      "Category": "Policing and Protest Cases",
+      "Link": "http://civilrightscorps.org/",
+      "Phone Number": "202.844.4975 ",
+      "Email": "",
+      "Desc": "Eliminating cash bond, fines fees, and bail",
+      "Blurb": ""
+    },
+    {
+      "Name": "Rising 4 Justice",
+      "Category": "Policing and Protest Cases",
+      "Link": "https://risingforjustice.org/",
+      "Phone Number": "202.638.4798",
+      "Email": "",
+      "Desc": "Civil Protection Order, Expungement",
+      "Blurb": ""
+    },
+    {
+      "Name": "Washington Legal Clinic for the Homeless",
+      "Category": "Housing",
+      "Link": "https://www.legalclinic.org",
+      "Phone Number": "202.328.5500",
+      "Email": "",
+      "Desc": "Affordable Housing and legal representation",
+      "Blurb": ""
+    },
+    {
+      "Name": "DC Tenant Rights Center",
+      "Category": "Housing",
+      "Link": "https://dctenants.com/",
+      "Phone Number": "202.681.6871",
+      "Email": "",
+      "Desc": "evictions, repairs, housing code violations, and housing discrimination",
+      "Blurb": ""
+    },
+    {
+      "Name": "Legal Aid Society of DC",
+      "Category": "Housing",
+      "Link": "https://www.legalaiddc.org",
+      "Phone Number": "202.628.1161",
+      "Email": "",
+      "Desc": "Housing, Family Law, and Public Benefits",
+      "Blurb": ""
+    },
+    {
+      "Name": "Rising 4 Justice",
+      "Category": "Housing",
+      "Link": "https://risingforjustice.org/",
+      "Phone Number": "202.638.4798",
+      "Email": "",
+      "Desc": "Eviction defense",
+      "Blurb": ""
+    },
+    {
+      "Name": "Whitman Walker Health Clinic",
+      "Category": "Healthcare",
+      "Link": "http://whitman-walker.org/",
+      "Phone Number": "202.745.6000",
+      "Email": "",
+      "Desc": "Medical & Community Care; Gender Affirming Care; Behavior Health; Dental Health; Insurance Navigation",
+      "Blurb": ""
+    },
+    {
+      "Name": "Mary's Center",
+      "Category": "Healthcare",
+      "Link": "https://www.maryscenter.org",
+      "Phone Number": "202.483.8196",
+      "Email": "",
+      "Desc": "Medical; Behavioral Health; Dental; Social Services",
+      "Blurb": ""
+    },
+    {
+      "Name": "Unity Health Care",
+      "Category": "Healthcare",
+      "Link": "https://www.unityhealthcare.org/find-a-health-care-center",
+      "Phone Number": "202.469.4699",
+      "Email": "",
+      "Desc": "Medication; Pediatircs; Podiatry; Ob/Gyn; Dental; Behavioral Health; Dental",
+      "Blurb": ""
+    },
+    {
+      "Name": "Wellness checks?",
+      "Category": "Healthcare",
+      "Link": "",
+      "Phone Number": "",
+      "Email": "",
+      "Desc": "",
+      "Blurb": ""
+    },
+    {
+      "Name": "Legal Aid Society of DC",
+      "Category": "Financial Stability",
+      "Link": "https://www.legalaiddc.org",
+      "Phone Number": "202.628.1161",
+      "Email": "",
+      "Desc": "Debt collection, Credit issues",
+      "Blurb": ""
+    },
+    {
+      "Name": "Washington Legal Clinic for the Homeless",
+      "Category": "Financial Stability",
+      "Link": "https://www.legalclinic.org",
+      "Phone Number": "202.328.5500",
+      "Email": "",
+      "Desc": "Assistance with the public benefits safety net (TANF, IDA and SSI/SSDI)",
+      "Blurb": ""
+    },
+    {
+      "Name": "Whitman Walker Health Legal Services Program",
+      "Category": "Financial Stability",
+      "Link": "https://www.whitman-walker.org/",
+      "Phone Number": "202.745.7000",
+      "Email": "",
+      "Desc": "Medical debt; student loans",
+      "Blurb": ""
+    },
+    {
+      "Name": "Washington Lawyers Committee Workers' Rights Clinic",
+      "Category": "Financial Stability",
+      "Link": "https://www.washlaw.org/what-we-do/employment-justice/workers-rights-clinic/",
+      "Phone Number": "202.319.1000 ext. 118",
+      "Email": "",
+      "Desc": "Debt collection, Credit issues",
+      "Blurb": ""
+    },
+    {
+      "Name": "Bread for the City",
+      "Category": "Financial Stability",
+      "Link": "http://breadforthecity.org",
+      "Phone Number": "202.561.8587 (SE) 202.265.2400 (NW)",
+      "Email": "",
+      "Desc": "Assistance with getting or keeping public benefits, like TANF, Food stamps and medicaid",
+      "Blurb": ""
+    },
+    {
+      "Name": "Rising 4 Justice",
+      "Category": "Financial Stability",
+      "Link": "https://risingforjustice.org/",
+      "Phone Number": "202.607.2721",
+      "Email": "",
+      "Desc": "Expungement/clearing record",
+      "Blurb": ""
+    },
+    {
+      "Name": "DC Department of Aging and Community Living",
+      "Category": "End-of-life",
+      "Link": "https://dacl.dc.gov/",
+      "Phone Number": "202.724.5626",
+      "Email": "",
+      "Desc": "Adult Protective Services, Transportation, LGBTQ+ Community programs, Notary, Caregiver support, Benefits (SNAP and Medicaid) assistance, Health insurance counseling, Alzheimer's Disease and related Dementia (ADRD) support programs",
+      "Blurb": ""
+    },
+    {
+      "Name": "Whitman Walker Health Legal Services Program",
+      "Category": "End-of-life",
+      "Link": "https://www.whitman-walker.org/",
+      "Phone Number": "202.745.7000",
+      "Email": "",
+      "Desc": "Estate planning ",
+      "Blurb": ""
+    },
+    {
+      "Name": "Law Help DC",
+      "Category": "End-of-life",
+      "Link": "https://www.lawhelp.org/dc/issues/life-and-estate-planning-guardianship",
+      "Phone Number": "202.626.3499 (DC Pro Bono Center automated line)",
+      "Email": "",
+      "Desc": "Estate administration, Probate, Wills, Power of attorney, Advance medical directives, Guardianship, Conservatorship",
+      "Blurb": ""
+    },
+    {
+      "Name": "Legal Counsel for the Elderly",
+      "Category": "End-of-life",
+      "Link": "https://www.aarp.org/legal-counsel-for-elderly/",
+      "Phone Number": "202.434.2170/2120",
+      "Email": "",
+      "Desc": "Free legal and social work services, Transfer on Death Deed (TODD), Retrieving vital documents, Long-term care ombudsman service, 'Safe at Home' home modification program, Schedule H tax credit program",
+      "Blurb": ""
+    },
+    {
+      "Name": "Children's Law Center",
+      "Category": "Education",
+      "Link": "https://www.childrenslawcenter.org/pro-bono",
+      "Phone Number": "202.467.4900",
+      "Email": "",
+      "Desc": "Special Education: obtaining evaluations, advocating for special education services or challenging the denial of services at due process hearings held at the Student Hearing Office of the Office of the State Superintendent of Education (OSSE).",
+      "Blurb": ""
+    },
+    {
+      "Name": "Advocates for Justice and Education",
+      "Category": "Education",
+      "Link": "https://www.aje-dc.org/",
+      "Phone Number": "202.678.8060 / Toll Free: 888.327.8060",
+      "Email": "",
+      "Desc": "Individual advocacy to ensure access to appropriate education, health and other support services for special needs children; Legal representation; Paren, Educator and Community education trainings and workshops, Resource library with research on special education law and related items",
+      "Blurb": ""
+    },
+    {
+      "Name": "School Justice Project",
+      "Category": "Education",
+      "Link": "http://www.sjpdc.org/",
+      "Phone Number": "Working remote, e-mail only: info@sjpdc.org",
+      "Email": "",
+      "Desc": "Legal representation for court-involved students with disabilities, educational advocacy, community trainings and outreach",
+      "Blurb": ""
+    },
+    {
+      "Name": "OSSE - Adult and Family Education Unit",
+      "Category": "Education",
+      "Link": "https://osse.dc.gov/service/adult-education-and-training",
+      "Phone Number": "202.727.6436",
+      "Email": "",
+      "Desc": "High School diploma acquisition for adult learners, supports transition to postsecondary education or training, job training for Business Administration and Information Technology, Construction, Healthcare, Hospitality, Infrastructure (Energy and Utilities, Energy Efficient Technology and Transportation and Logistics)\nLaw and Security",
+      "Blurb": ""
+    },
+    {
+      "Name": "Janet R. Spragens Federal Tax Clinic (Washington College, Law American University)",
+      "Category": "Taxes",
+      "Link": "https://www.wcl.american.edu/academics/experientialedu/clinical/theclinics/federal-tax/",
+      "Phone Number": "202.885.3440",
+      "Email": "",
+      "Desc": "Legal representation if audited",
+      "Blurb": ""
+    },
+    {
+      "Name": "Low Income Tax Payer Clinic at Columbus Law School of Law  (Catholic University)",
+      "Category": "Taxes",
+      "Link": "https://www.law.edu/academics/legal-externships-and-clinics/clinics/columbus-community-legal-services/ccls-practice-areas/low-income-taxpayer-clinic.html",
+      "Phone Number": "202.319.6788",
+      "Email": "",
+      "Desc": "Tax payer education workshops, representation in disputes with IRS",
+      "Blurb": ""
+    },
+    {
+      "Name": "Community Tax Aid",
+      "Category": "Taxes",
+      "Link": "https://communitytaxaiddc.org/free-tax-assistance/",
+      "Phone Number": "202.547.7773",
+      "Email": "",
+      "Desc": "Tax preparation services",
+      "Blurb": ""
+    },
+    {
+      "Name": "Tzedek DC (At UDC)",
+      "Category": "Economic Development",
+      "Link": "https://www.tzedekdc.org/",
+      "Phone Number": "202.274.7386",
+      "Email": "",
+      "Desc": "Credit Repair",
+      "Blurb": ""
+    },
+    {
+      "Name": "DC Pro Bono Center ",
+      "Category": "Economic Development",
+      "Link": "https://www.dcbar.org/pro-bono/free-legal-help/help-for-small-businesses",
+      "Phone Number": "202.737.4700",
+      "Email": "",
+      "Desc": "Starting a business, taxation, small business assistance",
+      "Blurb": ""
+    },
+    {
+      "Name": "UDC Community Development Clinic",
+      "Category": "Economic Development",
+      "Link": "https://www.law.udc.edu/page/CommunityDevelopment",
+      "Phone Number": "202.274.5122",
+      "Email": "",
+      "Desc": "advising clients on business structure; preparing articles of incorporation, bylaws, partnership agreements, and business contracts; advising clients regarding basic tax law, zoning, licensing requirements, intellectual property, and other legal issues; researching trademarks and preparing trademark applications; preparing applications for tax exempt status and representing the client in the application process with the Internal Revenue Service; and mediating business disputes",
+      "Blurb": ""
+    },
+    {
+      "Name": "Small Business & Community Economic Development Clinic",
+      "Category": "Economic Development",
+      "Link": "https://www.law.gwu.edu/small-business-community-economic-development-clinic",
+      "Phone Number": "202.994.7463",
+      "Email": "GWUSBC@law.gwu.edu",
+      "Desc": "Legal assistance to small businesses, social enterprises, nonprofit organizations, and artists. Specific cases may involve drafting articles of incorporation, bylaws, articles of organization, operating agreements, or partnership agreements; researching local licensing requirements and zoning laws; reviewing and drafting contracts and leases; preparing applications for federal tax exemption; advising and counseling  business founders and corporate boards; and advising clients on basic intellectual property issues, tax matters, and related legal issues.   ",
+      "Blurb": ""
+    },
+    {
+      "Name": "Washington Lawyers Committee",
+      "Category": "Worker's Rights",
+      "Link": "https://www.washlaw.org/what-we-do/employment-justice/workers-rights-clinic/?fbclid=IwAR26hjPOWohsc1V82zpSd4rNhtg3KD8FUHmQ8RhU1sOv-u2vRr8bjizCx5A",
+      "Phone Number": "(202) 319-1000 ext. 118",
+      "Email": "daniel_katz@washlaw.org; julia_saltzman@washlaw.org",
+      "Desc": "Unpaid wages, worker's comp, barriers to employment, sexual harassment",
+      "Blurb": ""
+    },
+    {
+      "Name": "Legal Aid Society of the District of Columbia",
+      "Category": "Worker's Rights",
+      "Link": "https://www.legalaiddc.org/covid-19-resources/unemployment-insurance/",
+      "Phone Number": "(202) 851-3382",
+      "Email": "dhagner@legalaiddc.org",
+      "Desc": "Unemployment insurance",
+      "Blurb": ""
+    },
+    {
+      "Name": "Claimant Advocacy Project (CAP)",
+      "Category": "Worker's Rights",
+      "Link": "",
+      "Phone Number": "(202) 974-8159 ",
+      "Email": "tlove@dclabor.org",
+      "Desc": "Appeals of unemployment insurance denials, advocating on workers' behalf to DOES",
+      "Blurb": ""
+    },
+    {
+      "Name": "Time's Up Legal Defense Fund",
+      "Category": "Worker's Rights",
+      "Link": "https://nwlc.org/times-up-legal-defense-fund/",
+      "Phone Number": "(202) 319-3053",
+      "Email": "legalnetwork@nwlc.org",
+      "Desc": "Connects people who face sexual discrimination and harassment with attorneys",
+      "Blurb": ""
+    },
+    {
+      "Name": "DC Jobs With Justice",
+      "Category": "Worker's Rights",
+      "Link": "https://www.dcjwj.org/",
+      "Phone Number": "(202) 285-8753",
+      "Email": "nikko@dcjwj.org",
+      "Desc": "Leads projects and campaigns that educate our communities, build support for worker and community struggles at rallies, on picket lines, in educational settings and at meetings and hearings. ",
+      "Blurb": ""
+    },
+    {
+      "Name": "The Legal Network for Gender Equity",
+      "Category": "Worker's Rights",
+      "Link": "https://nwlc.org/legal-assistance/",
+      "Phone Number": "(202) 319-3053",
+      "Email": "legalnetwork@nwlc.org",
+      "Desc": "Connects people who face sex discrimination with attorneys; Connects workers to attorneys for legal help or questions about new laws that allow paid sick leave and paid leave for some workers affected by COVID-19",
+      "Blurb": ""
+    }
+  ]
+}

@@ -42,7 +42,7 @@ export default function register() {
     }
 
     // Worker to parse sheets
-    window.addEventListener('load', buildRegister('sheetsWorker.js'))
+    window.addEventListener('load', buildRegister('sheets-worker.js'))
 
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location)
