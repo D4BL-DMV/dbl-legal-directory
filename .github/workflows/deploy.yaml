@@ -23,7 +23,7 @@ jobs:
         cache: 'npm'
     - run: |
         mkdir csv
-        curl -L 'https://docs.google.com/spreadsheets/d/e/2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl/pub?gid=187538216&single=true&output=csv' > csv/donors.csv
+        curl -L 'https://docs.google.com/spreadsheets/d/e/2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl/pub?gid=187538216&single=true&output=csv' > csv/listings.csv
         npm install
         npx gulp convertToJson
         npm run build
