@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Collapse } from 'react-collapse'
 import H2 from '../../components/h2/h2.component'
+
 import './faq.scss'
 
 class Section extends Component {
