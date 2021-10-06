@@ -6,8 +6,6 @@ import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
 
-import listings from '../../data/listings.json'
-
 import './slider.scss'
 
 const listingToJson = require('../../csv.js')
@@ -227,7 +225,7 @@ class ListingSlider extends Component {
       )
         .then(response => response.text())
         .then(listingToJson)
-      if (response && response.hash != this.state.hash) {
+      if (response && response.hash !== this.state.hash) {
         let categories = this.state.selectedCategories.map(x => ({ value: x }))
         let query = this.state.query
         this.setState(this.buildState(response))
