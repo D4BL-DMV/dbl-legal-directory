@@ -1,11 +1,12 @@
-# TODO(dmadisetti): Add cron job to run every day or week so that there are fewer cache
-# hits: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#schedule
 name: deploy
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    # Rebuild every night
+    - cron:  '0 0 * * *'
 
 jobs:
   build:
@@ -30,6 +31,7 @@ jobs:
 
     - name: deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
+      if: ${{ !github.event.issue.pull_request }}
       with:
         branch: site
         folder: build
