@@ -30,7 +30,7 @@ jobs:
         npx gulp convertToJson
         npm run build
       env:
-        sheet: "2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl"
+        SHEET: "2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl"
         GID: 187538216
 
     - name: deploy
