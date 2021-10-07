@@ -6,6 +6,8 @@ import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
 
+import listings from '../../data/listings.json'
+
 import './slider.scss'
 
 const listingToJson = require('../../csv.js')
@@ -194,7 +196,7 @@ const buildGetInCategories = ls => {
 class ListingSlider extends Component {
   constructor(props) {
     super(props)
-    this.state = this.buildState({ json: [], hash: '' })
+    this.state = this.buildState(listings)
   }
 
   buildState = ls => {
@@ -216,11 +218,15 @@ class ListingSlider extends Component {
   componentDidMount() {
     window.addEventListener('resize', this.setSliderSettings)
     window.addEventListener('click', this.jumpToSlide, false)
-    // Ideally, we could leverage service worker to lookup, parse, and cache.
-    // However, API seems inconsistent...
+    // TODO(dmadisetti) Ideally, we could leverage service worker to lookup,
+    // parse, and cache.  However, API is not straightforward...
     let update = async () => {
+      const DOCS_BASE = 'https://docs.google.com/spreadsheets/d/e'
+      const SHEET =
+        '2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl'
+      const GID = 187538216
       const response = await fetch(
-        'https://docs.google.com/spreadsheets/d/e/2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl/pub?gid=187538216&single=true&output=csv',
+        `${DOCS_BASE}/${SHEET}/pub?gid=${GID}&single=true&output=csv`,
         { redirect: 'follow' }
       )
         .then(response => response.text())
