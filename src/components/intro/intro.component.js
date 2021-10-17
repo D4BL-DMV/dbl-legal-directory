@@ -1,6 +1,7 @@
 import React from 'react'
 import CountUp from 'react-countup'
 import H2 from '../h2/h2.component'
+
 import './intro.scss'
 
 const Intro = () => (

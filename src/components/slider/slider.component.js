@@ -5,8 +5,12 @@ import Measure from 'react-measure'
 import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
-import donors from '../../data/donors.json'
+
+import listings from '../../data/listings.json'
+
 import './slider.scss'
+
+const listingToJson = require('../../csv.js')
 
 const kebabCase = str =>
   str
@@ -17,12 +21,12 @@ const kebabCase = str =>
     .replace(/("|,)/g, '')
     .replace(/&/g, 'and')
 
-const getImage = donorName => {
+const getImage = name => {
   try {
-    const fileName = kebabCase(donorName)
-    return require(`../../images/donors/${fileName}.jpg`)
+    const fileName = kebabCase(name)
+    return require(`../../images/listings/${fileName}.jpg`).default
   } catch (e) {
-    return require(`../../images/donors/no-photo.jpg`)
+    return require(`../../images/listings/no-photo.jpg`).default
   }
 }
 
@@ -165,39 +169,49 @@ const removeHash = () => {
   }
 }
 
-const getSlideIndexById = hash => {
-  if (!hash) return -1
-  const id = hash.replace('#', '')
-  return donors.findIndex(donor => id === kebabCase(donor['Name']))
-}
-
-const getInitialSlideIndex = () => {
-  const index = getSlideIndexById(window.location.hash)
+const getInitialSlideIndex = haystack => {
+  const index = getSlideIndexById(window.location.hash, haystack)
   return index < 0 ? 0 : index
 }
 
-const _getDonorsInCategories = categories => {
-  return donors.filter(donor => {
-    if (!donor['Name']) return false
-    if (categories.length === 0) return true
-    const cats = splitCategories(donor['Category'])
-    return cats.reduce((inResultSet, cat) => {
-      return inResultSet || categories.includes(cat)
-    }, false)
-  })
+const getSlideIndexById = (needle, haystack) => {
+  if (!needle) return -1
+  const id = needle.replace('#', '')
+  return haystack.findIndex(listing => id === kebabCase(listing['Name']))
 }
 
-const getDonorsInCategories = memoize(_getDonorsInCategories)
+const buildGetInCategories = ls => {
+  return categories => {
+    console.log(ls)
+    return ls.filter(listing => {
+      if (!listing['Name']) return false
+      if (categories.length === 0) return true
+      const cats = splitCategories(listing['Category'])
+      return cats.reduce((inResultSet, cat) => {
+        return inResultSet || categories.includes(cat)
+      }, false)
+    })
+  }
+}
 
-class DonorSlider extends Component {
+class ListingSlider extends Component {
   constructor(props) {
     super(props)
-    this.state = {
+    this.state = this.buildState(listings)
+  }
+
+  buildState = ls => {
+    let json = Array.from(ls.json)
+    let currentSlide = getInitialSlideIndex(json)
+    return {
+      listings: json,
+      hash: ls.hash,
+      inCategories: memoize(buildGetInCategories(json)),
       selectedCategories: [],
       query: null,
-      currentSlide: getInitialSlideIndex(),
+      currentSlide: currentSlide,
       sliderSettings: Object.assign({}, this.getSliderSettings(), {
-        initialSlide: getInitialSlideIndex()
+        initialSlide: currentSlide
       })
     }
   }
@@ -205,6 +219,28 @@ class DonorSlider extends Component {
   componentDidMount() {
     window.addEventListener('resize', this.setSliderSettings)
     window.addEventListener('click', this.jumpToSlide, false)
+    // TODO(dmadisetti) Ideally, we could leverage service worker to lookup,
+    // parse, and cache.  However, API is not straightforward...
+    let update = async () => {
+      const DOCS_BASE = 'https://docs.google.com/spreadsheets/d/e'
+      const SHEET =
+        '2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl'
+      const GID = 187538216
+      const response = await fetch(
+        `${DOCS_BASE}/${SHEET}/pub?gid=${GID}&single=true&output=csv`,
+        { redirect: 'follow' }
+      )
+        .then(response => response.text())
+        .then(listingToJson)
+      if (response && response.hash !== this.state.hash) {
+        let categories = this.state.selectedCategories.map(x => ({ value: x }))
+        let query = this.state.query
+        this.setState(this.buildState(response))
+        this.handleCategoryChange(categories)
+        this.handleQueryChange(query)
+      }
+    }
+    update()
   }
 
   componentWillUnmount() {
@@ -270,8 +306,10 @@ class DonorSlider extends Component {
   }
 
   updateHash = index => {
-    const visibleDonors = getDonorsInCategories(this.state.selectedCategories)
-    const id = index < 1 ? null : kebabCase(visibleDonors[index]['Name'])
+    const visibleListings = this.state.inCategories(
+      this.state.selectedCategories
+    )
+    const id = index < 1 ? null : kebabCase(visibleListings[index]['Name'])
     setHash(id)
   }
 
@@ -286,17 +324,18 @@ class DonorSlider extends Component {
     }
   }
 
-  categories = donors
-    .reduce((categories, donor) => {
-      const cats = splitCategories(donor['Category'])
-      cats.forEach(cat => {
-        if (!categories.includes(cat)) categories.push(cat)
-      })
-      return categories
-    }, [])
-    .filter(Boolean)
-    .sort()
-    .map(cat => ({ value: cat, label: cat }))
+  buildCategories = ls =>
+    ls
+      .reduce((categories, listing) => {
+        const cats = splitCategories(listing['Category'])
+        cats.forEach(cat => {
+          if (!categories.includes(cat)) categories.push(cat)
+        })
+        return categories
+      }, [])
+      .filter(Boolean)
+      .sort()
+      .map(cat => ({ value: cat, label: cat }))
 
   handleCategoryChange = options => {
     this.setState(
@@ -316,10 +355,10 @@ class DonorSlider extends Component {
     )
   }
 
-  handleQueryChange = donor => {
-    this.setState({ query: donor })
-    if (donor) {
-      const { value: index } = donor
+  handleQueryChange = listing => {
+    this.setState({ query: listing })
+    if (listing) {
+      const { value: index } = listing
       this.slider.slickGoTo(index)
     }
   }
@@ -327,8 +366,10 @@ class DonorSlider extends Component {
   // used for improved performance on mobile
   isVisible = (cardIndex, currentIndex) => {
     const padding = 3
-    const visibleDonors = getDonorsInCategories(this.state.selectedCategories)
-    const max = visibleDonors.length - 1
+    const visibleListings = this.state.inCategories(
+      this.state.selectedCategories
+    )
+    const max = visibleListings.length - 1
     const minVisible = currentIndex - padding
     const maxVisible = currentIndex + padding
     if (minVisible < 0) {
@@ -342,9 +383,9 @@ class DonorSlider extends Component {
   render() {
     const { selectedCategories, sliderSettings, currentSlide } = this.state
     const isMobile = sliderSettings.slidesToShow === 1
-    const visibleDonors = getDonorsInCategories(selectedCategories)
+    const visibleListings = this.state.inCategories(selectedCategories)
     const slidesToShow = Math.min(
-      visibleDonors.length,
+      visibleListings.length,
       sliderSettings.slidesToShow
     )
     return (
@@ -352,7 +393,7 @@ class DonorSlider extends Component {
         <div className="filters-wrapper">
           <div className="filter-wrapper">
             <Select
-              options={this.categories}
+              options={this.buildCategories(this.state.listings)}
               isMulti
               onChange={this.handleCategoryChange}
               placeholder="Filter organization types..."
@@ -361,9 +402,9 @@ class DonorSlider extends Component {
           </div>
           <div className="filter-wrapper">
             <Select
-              options={visibleDonors.map((donor, index) => ({
+              options={visibleListings.map((listing, index) => ({
                 value: index,
-                label: donor['Name']
+                label: listing['Name']
               }))}
               isClearable
               ref={this.bindQuerySelectRef}
@@ -378,17 +419,17 @@ class DonorSlider extends Component {
           {...sliderSettings}
           slidesToShow={slidesToShow}
         >
-          {visibleDonors.map((donor, index) => (
+          {visibleListings.map((listing, index) => (
             <Slide
-              key={donor['Name']}
-              imageSrc={getImage(donor['Name'])}
-              name={donor['Name']}
-              link_url={donor['Link']}
-              phone_number={donor['Phone Number']}
-              email={donor['Email']}
-              title={donor['Description hed']}
-              description={donor['Desc']}
-              categories={donor['Category']}
+              key={listing['Name']}
+              imageSrc={getImage(listing['Name'])}
+              name={listing['Name']}
+              link_url={listing['Link']}
+              phone_number={listing['Phone Number']}
+              email={listing['Email']}
+              title={listing['Description hed']}
+              description={listing['Desc']}
+              categories={listing['Category']}
               index={index}
               currentSlide={currentSlide}
               isVisible={!isMobile || this.isVisible(index, currentSlide)}
@@ -401,4 +442,4 @@ class DonorSlider extends Component {
   }
 }
 
-export default DonorSlider
+export default ListingSlider

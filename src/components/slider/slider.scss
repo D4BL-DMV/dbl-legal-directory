@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @import '../../styles/colors';
 @import '../../styles/layers';
 @import '../../styles/breakpoints';
@@ -28,7 +30,7 @@ $image-height-desktop: $slide-height-desktop * 0.35;
     $padding: 12px;
     position: absolute;
     z-index: 100;
-    top: calc(50% - #{$size / 2});
+    top: calc(50% - #{math.div($size, 2)});
     right: $padding;
     background-color: transparent;
     background-image: url(../../images/slider-next.svg);

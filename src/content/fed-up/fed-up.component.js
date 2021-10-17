@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../components/button/button.component'
 import H2 from '../../components/h2/h2.component'
 
-export default function(props) {
+const FEDUP = function(props) {
   return (
     <div>
       <H2>Want to Learn More?</H2>
@@ -36,3 +36,5 @@ export default function(props) {
     </div>
   )
 }
+
+export default FEDUP

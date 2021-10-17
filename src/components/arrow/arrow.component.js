@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import './arrow.scss'
 import arrow from '../../images/down-arrow.svg'
+
+import './arrow.scss'
 
 class Arrow extends Component {
   render() {
