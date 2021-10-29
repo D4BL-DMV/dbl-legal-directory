@@ -7,7 +7,7 @@ import './intro.scss'
 const Intro = () => (
   <div className="intro">
     <H2>
-      Data for Black Lives
+      Law for Black Lives DC
       <br />
       Legal Directory
     </H2>
