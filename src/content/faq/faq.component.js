@@ -43,69 +43,28 @@ const FAQ = () => (
     <div className="content panel light faq">
       <div className="inner">
         <dl>
-          <Section title="How do I get help through one of these organizations?">
+          <Section title="How do I use this? Who do I contact?">
             <p>
-              Our politicians should work for us, represent us, and be
-              accountable to us – the ordinary working people of Assembly
-              District 15. Buffy benefits from over a million dollars spent on
-              AD15 by the wealthiest 0.1% of Americans, including Trump cronies
-              and Republicans, pitching in to influence this race from all
-              across the country. Some of these ultrawealthy donors contribute
-              to PACs and independent expenditure committees that boost Buffy’s
-              candidacy but aren’t supposed to coordinate with her campaign;
-              others give direct donations to her campaign (and plenty do both).
-              She says she’s not accountable to them, but rich people know that
-              money talks, and politicians listen.
+              To get help from one of these organizations, call the listed phone
+              number or send an email.
             </p>
             <p>
-              As socialists, we believe society should be run democratically and
-              for the benefit of people, not profit. No one should face
-              oppression, state violence, or go without basic necessities like
-              housing, healthcare, education, and a good job.
+              You can say something like, “Hi there. I saw your information on
+              the Law for black Lives DC Legal Directory. I need free legal
+              assistance for[name your topic]. How can I get help?”
+            </p>
+          </Section>
+          <Section title="Is this completely free? What will it cost?">
+            <p>
+              All organizations offer free legal assistance. If you cannot
+              afford to pay, that’s okay! Every organization here offers free
+              services.
             </p>
             <p>
-              But the mega-rich don’t agree. They are engaged in a long-running,
-              well-funded, and ruthless campaign to take ever more for
-              themselves and leave crumbs to the rest of us. They don’t want to
-              pay taxes, pay the workers that made them rich, or pay for the
-              damage their profit-obsessed companies do to the world.
-            </p>
-            <p>
-              To increase their profits, corporations and the mega-rich must
-              wage war on working people. That is why they:
-            </p>
-            <ul>
-              <li>
-                Buy elections at every level of the government through unlimited
-                donations to PACs,
-              </li>
-              <li>
-                Influence policy and media by funding think tanks and
-                foundations to advance their agenda,
-              </li>
-              <li>
-                Fight tooth-and-nail against anything that would transfer
-                resources, power, and security to working people, like labor
-                protections, the expansion of the social safety net, and big
-                reforms like Medicare for All, universal rent control, and
-                universal free college tuition.
-              </li>
-            </ul>
-            <p>
-              This is not just about Buffy. Big donors pool their money and
-              offer it to thousands of candidates like her across the country,
-              at every level of government. This is how they block legislation
-              that favors working people, while passing policies that help the
-              rich, like tax cuts, corporate giveaways, anti-union legislation,
-              and harmful deregulation. This is enabled by the{' '}
-              <em>Citizens United</em> decision that permits unlimited political
-              spending under the bizarre logic that money is “free speech.”
-            </p>
-            <p>
-              We have the resources to fix the many serious problems we face,
-              but we won’t fix them by continuing to elect politicians who
-              strike a progressive pose while benefitting from massive spending
-              by the megarich.
+              Down the road, some things may have a cost (need example), but
+              they will NOT charge you without consent. It is completely free to
+              contact them and ask for help. They can, will, and want to support
+              you for free.
             </p>
           </Section>
           <Section title="How do I get help for an issue not covered by any of these organizations?">
