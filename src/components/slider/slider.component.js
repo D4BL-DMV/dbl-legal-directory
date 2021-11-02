@@ -398,6 +398,7 @@ class ListingSlider extends Component {
               onChange={this.handleCategoryChange}
               placeholder="Filter organization types..."
               className="react-select-container"
+              aria-label="Filter by organization type"
             />
           </div>
           <div className="filter-wrapper">
@@ -411,6 +412,7 @@ class ListingSlider extends Component {
               onChange={this.handleQueryChange}
               placeholder="Search by name..."
               className="react-select-container"
+              aria-label="Search organization by name"
             />
           </div>
         </div>
