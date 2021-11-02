@@ -46,6 +46,17 @@ const FAQ = () => (
             assistance for[name your topic]. How can I get help?”
           </p>
         </Section>
+        <Section title="Is this completely free? What will it cost?">
+          <p>
+            All organizations offer free legal assistance. If you cannot afford to pay, 
+            that’s okay! Every organization here offers free services.
+          </p>
+          <p>
+            Down the road, some things may have a cost (need example), but they will 
+            NOT charge you without consent. It is completely free to contact them and 
+            ask for help. They can, will, and want to support you for free.
+          </p>
+        </Section>
         <Section title="How do I get help for an issue not covered by any of these organizations?">
           <p>
             <a
