@@ -13,7 +13,7 @@ export default function Footer() {
         Data 4 Black Lives
       </a>
       <a href="http://www.https://d4bl.org/" alt="Data 4 Black Lives">
-        Created by Data 4 Black Lives
+        Created by Law 4 Black Lives DC in collaboration with Data 4 Black Lives DMV
       </a>
     </div>
   )
