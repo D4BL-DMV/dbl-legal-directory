@@ -36,6 +36,11 @@ const FAQ = () => (
     <div className="content panel light faq">
       <div className="inner">
         <Section title="How do I use this? Who do I contact?">
+           <p>
+            At the top of the page, use the first drop down menu to search 
+            for a topic of interest. The menu is called “Filter organization types…” 
+            Examples: arrests, health care, housing, policing cases, worker’s rights.
+          </p>
           <p>
             To get help from one of these organizations, call the listed 
             phone number or send an email.
@@ -49,96 +54,37 @@ const FAQ = () => (
         <Section title="Is this completely free? What will it cost?">
           <p>
             All organizations offer free legal assistance. If you cannot afford to pay, 
-            that’s okay! Every organization here offers free services.
+            that’s okay! Every organization listed here provides free services.
           </p>
           <p>
-            Down the road, some things may have a cost (need example), but they will 
-            NOT charge you without consent. It is completely free to contact them and 
-            ask for help. They can, will, and want to support you for free.
+            Down the road, some things may have a cost (example), but they will 
+            NOT charge you without your consent. It is completely free to contact 
+            them and ask for help. They can, will, and want to support you for free.
           </p>
         </Section>
-        <Section title="How do I get help for an issue not covered by any of these organizations?">
+        <Section title="My issue is not in this directory. What should I do?">
           <p>
+          You can still get help. Try reaching out to  
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.jovanka.org/"
+              href="https://www.dcbar.org/pro-bono/free-legal-help"
             >
-              Jovanka Beckles
+              DC Pro Bono Center
             </a>{' '}
-            is a corporate-free candidate and a democratic socialist with a long
-            history of fighting and winning for working people in the East Bay.
-            She’s served on the Richmond City Council and is a leader in the
-            Richmond Progressive Alliance (RPA). On the Richmond City Council,
-            Jovanka and her colleagues from the RPA took on Chevron and its
-            millions and won victories like a $15 minimum wage, citywide rent
-            control, and banning the box for fairness in employment.
+            . They offer general legal services and can also help you find someone 
+            who specializes in your needs, for no cost.
           </p>
           <p>
-            <a
+            This page,  <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.jovanka.org/platform"
+              href="https://www.dcbar.org/pro-bono/free-legal-help/help-for-individuals"
             >
-              Jovanka’s platform
-            </a>{' '}
-            is a bold vision for a California that works for the many, not the
-            few. She knows that in a state with a $2.7 trillion GDP, we have
-            already created more than enough wealth and productive capacity to
-            provide everyone with a stable, safe, and dignified life.
-          </p>
-          <p>
-            Jovanka will{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.jovanka.org/healthcare"
-            >
-              fight for a single-payer Medicare for All system
-            </a>{' '}
-            that covers healthcare for everyone in California. She’ll work to
-            end the anti-tenant Costa-Hawkins law and implement{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.jovanka.org/housing"
-            >
-              statewide rent control
-            </a>
-            . Jovanka has a{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.jovanka.org/education"
-            >
-              plan to provide high quality tuition free public education for all
-              Californians from preschool to college
-            </a>{' '}
-            and a moratorium on charter schools. She{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.jovanka.org/labor"
-            >
-              supports labor
-            </a>{' '}
-            with a $20 minimum wage and stronger protections for workers.
-          </p>
-          <p>
-            Because Jovanka doesn’t have Buffy’s millions, she depends on
-            ordinary people like us to talk to our neighbors, friends, and
-            coworkers about sending her to Sacramento. Come to one of East Bay
-            DSA’s{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www.eastbaydsa.org/events"
-            >
-              canvasses or phonebanks
-            </a>{' '}
-            between now and November! No experience necessary to join a canvass
-            – we’ll train you and you’ll have a good time!
-          </p>
+              Help for individuals
+            </a>{' '} 
+            has free resources. You can also call the Legal Information Help Line at 202-626-3499. 
+          </p>         
         </Section>
         <Section title="How can I get a new organization added to this list?">
           <p>
