@@ -71,8 +71,8 @@ const FAQ = () => (
               href="https://www.dcbar.org/pro-bono/free-legal-help"
             >
               DC Pro Bono Center
-            </a>{' '}
-            . They offer general legal services and can also help you find someone 
+            </a>{'.'}
+            They offer general legal services and can also help you find someone 
             who specializes in your needs, for no cost.
           </p>
           <p>
@@ -86,139 +86,82 @@ const FAQ = () => (
             has free resources. You can also call the Legal Information Help Line at 202-626-3499. 
           </p>         
         </Section>
-        <Section title="How can I get a new organization added to this list?">
+        <Section title="I don’t live in Washington D.C. or the DMV area. How do I get help?">
           <p>
-            Buffy’s campaign is awash in corporate cash. That includes money
-            from the bank accounts of:
+            We are glad you asked. You can still get help. You can reach out to 
+            (links to organizations). They have a wide network of connections and 
+            can help you find the support you need in your area for no cost. 
+          </p>
+        </Section>
+        <Section title="Who built this and can I trust them??">
+          <p>
+            A team of volunteers from 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://www.law4blacklives.org/"
+            >
+              Law For Black Lives
+            </a>{' '}
+            and
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://d4bl.org/"
+            >
+              Data For Black Lives (D4BL)
+            </a>{' '}
+            built this directory. Each organization in this directory is vetted by 
+            Law For Black Lives before it is published here. Learn more about D4BL below. 
+          </p>
+        </Section>
+        <Section title="Can I download a list of all the organizations listed here?">
+          <p>
+            Yes! You can access, download, or copy a list of the entire 
+            directory at this Google spreadsheet: (Link to Legal Directory spreadsheet). 
+            It is a living copy of this directory.
+          </p>
+        </Section>
+        <Section title="How can I add a new organization to this directory?">
+          <p>
+            Anyone can suggest changes to this public directory. This is the
+            direct link to the Google spreadsheet (link), a living copy of the 
+            directory. Feel free to suggest changes. Our team can then 
+            review and publish them.
+          </p>
+        </Section>
+        <Section title="I want to help. How can I get involved?">
+          <p>
+            This legal directory was created and is maintained by a small team 
+            of volunteers from Law For Black Lives And Data For Black Lives. Join 
+            us! Come to one of our general body meetings or email us at (email) to connect!
+          </p>
+        </Section>
+        <Section title="What improvements to this directory will I see?">
+          <p>
+            Our current priorities are:
           </p>
           <ul>
             <li>
-              Corporate billionaires (like LinkedIn co-founder Reid Hoffman)
+              Confirm all information in this directory with each organization
             </li>
             <li>
-              Corporate employees who make concerted donations (like Ron Conway
-              and other employees of{' '}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://svangel.com/"
-              >
-                SV Angel
-              </a>
-              )
+              Partner with organizations to share this resource with those in need
             </li>
             <li>
-              Corporate trade associations (like the{' '}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://votersedge.org/en/ca/ballot/election/area/69/contests/contest/16670/candidate/138256?id=statewide-69-ca"
-              >
-                California Association of Realtors
-              </a>
-              )
-            </li>
-            <li>
-              IEs funded with corporate cash (like “Govern for California”)
+              Make this website more accessible, starting with language access (Spanish) 
+              and screen reader compatibility.
             </li>
           </ul>
-          <p>
-            That’s why the audience at the October 2 League of Women Voters{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://m.youtube.com/watch?v=8x4khd0fWy8"
-            >
-              debate
-            </a>{' '}
-            broke out in{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://ebcitizen.com/2018/10/08/berkeley-audience-laughed-when-buffy-wicks-declared-her-campaign-corporate-free/"
-            >
-              laughter
-            </a>{' '}
-            when Buffy said “Jovanka and I are, I think, two of very few
-            candidates in the state of California who have chosen to take{' '}
-            <strong>no corporate money</strong> in this race.”
-          </p>
-          <p>
-            What Buffy actually means is that she hasn’t taken money{' '}
-            <em>directly</em> from the bank accounts of corporations. Her
-            website makes a far narrower claim: “I have not accepted
-            contributions <strong>from corporations</strong> in our campaign.”
-          </p>
-          <p>
-            That’s a dodge—as{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.theatlantic.com/politics/archive/2018/08/why-so-many-democratic-candidates-are-ditching-corporate-pacs/568267/"
-            >
-              The Atlantic
-            </a>{' '}
-            explains, “more of a political maneuver than anything else.” Like
-            many corporate Democrats who have begun rejecting checks from
-            corporations and their PACs, Buffy isn’t “actually rejecting
-            corporations’ <em>resources</em>
-            ”&mdash;as this website illustrates in detail.
-          </p>
-
-          <p>
-            We don't think it matters much whether a donation comes from a
-            corporation’s checking account or its CEO's personal bank account.
-            We're concerned about the billionaires spending big to change the
-            outcome of our elections, and about what policies&mdash;anti-worker,
-            anti-tenant, anti-patient or anti-student&mdash;they hope Buffy will
-            support in their interests.
-          </p>
         </Section>
-        <Section title="Who compiled all this information?">
+        <Section title="Contact Us">
           <p>
-            It’s all public record. For individual contributions, we went to the
-            California Secretary of State’s{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://powersearch.sos.ca.gov/"
-            >
-              Power Search
-            </a>{' '}
-            site. Then we clicked on “Campaign Finance” and typed “Buffy Wicks”
-            into the search box. That pulled up a list of all of the donors from
-            this election, which we then downloaded as a spreadsheet.
+            Do you have a question that isn’t answered yet? Ask us on this 
+            Google Form: (need link) If it is a personal question, please leave 
+            your contact info so we can get back to you privately.
           </p>
           <p>
-            For independent expenditures, we again went to Power Search, and
-            clicked on (you guessed it) “Independent Expenditures.” That let us
-            search for every PAC that’s spent to support the campaign and how
-            much they’ve spent so far.
-          </p>
-          <p>
-            To see who’s donated to Govern for California and other PACs in the
-            race, we headed over to Cal-Access and looked for the PAC names
-            under “Committees, Parties, Major Donors &amp; Slate Mailers.” That
-            generated a big list of donors and dollar amounts.
-          </p>
-          <p>
-            Finally, all the news stories and delicious details were revealed
-            through humble Google searches. That’s it!
-          </p>
-        </Section>
-        <Section title="I don't live in Washington D.C. How can I get help?">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://findyourrep.legislature.ca.gov/"
-            >
-              Click here
-            </a>{' '}
-            to find out! Assembly District 15 covers parts of Alameda (Albany,
-            Berkeley, Emeryville, Piedmont, parts of Oakland) and Contra Costa
-            (El Cerrito, Hercules, Pinole, Richmond, San Pablo, El Sobrante, and
-            Kensington) counties.
+              HAve ideas or comments? Please feel free to leave a suggestion here: (need link)
           </p>
         </Section>
       </div>
