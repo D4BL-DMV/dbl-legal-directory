@@ -96,7 +96,7 @@ const FAQ = () => (
         </Section>
         <Section title="Who built this and can I trust them?">
           <p>
-            A team of volunteers from 
+            A team of volunteers from {' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const FAQ = () => (
             >
               Law For Black Lives
             </a>{' '}
-            and
+            and {' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -144,10 +144,10 @@ const FAQ = () => (
           </p>
           <ul>
             <li>
-              Confirm all information in this directory with each organization
+              Confirm all information in this directory with each organization.
             </li>
             <li>
-              Partner with organizations to share this resource with those in need
+              Partner with organizations to share this resource with those in need.
             </li>
             <li>
               Make this website more accessible, starting with language access (Spanish) 
