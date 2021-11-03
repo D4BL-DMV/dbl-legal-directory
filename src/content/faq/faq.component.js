@@ -161,7 +161,7 @@ const FAQ = () => (
             your contact info so we can get back to you privately.
           </p>
           <p>
-              HAve ideas or comments? Please feel free to leave a suggestion here: (need link)
+              Have ideas or comments? Please feel free to leave a suggestion here: (need link)
           </p>
         </Section>
       </div>
