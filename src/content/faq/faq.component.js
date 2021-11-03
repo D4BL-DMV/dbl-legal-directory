@@ -94,7 +94,7 @@ const FAQ = () => (
             can help you find the support you need in your area for no cost. 
           </p>
         </Section>
-        <Section title="Who built this and can I trust them??">
+        <Section title="Who built this and can I trust them?">
           <p>
             A team of volunteers from 
             <a
