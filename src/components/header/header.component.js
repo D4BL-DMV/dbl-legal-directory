@@ -10,16 +10,18 @@ class Header extends Component {
     return (
       <div className="header__wrapper">
         <div className="header">
-          <div className="header__social-links">
-            <SocialLinks links={this.props.socialLinks} />
-          </div>
-          <a href="/">
-            <img
-              className="header__logo"
-              src={logo}
-              alt="d4bl legal directory"
-            />
-          </a>
+          <header>
+            <div className="header__social-links">
+              <SocialLinks links={this.props.socialLinks} />
+            </div>
+            <a href="/">
+              <img
+                className="header__logo"
+                src={logo}
+                alt="d4bl legal directory"
+              />
+            </a>
+          </header>
         </div>
       </div>
     )

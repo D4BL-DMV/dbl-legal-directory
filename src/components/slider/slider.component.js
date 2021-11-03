@@ -141,11 +141,11 @@ const setHash = value => {
     return removeHash()
   }
   const hash = `#${value}`
-  if ('pushState' in window.history) {
-    window.history.pushState(null, null, hash)
-  } else {
-    window.location.hash = hash
-  }
+  //if ('pushState' in window.history) {
+  //  window.history.pushState(null, null, hash)
+  //} else {
+  //  window.location.hash = hash
+  //}
 }
 
 // https://stackoverflow.com/questions/1397329/how-to-remove-the-hash-from-window-location-url-with-javascript-without-page-r/5298684#5298684
@@ -154,7 +154,8 @@ const removeHash = () => {
     scrollH,
     loc = window.location
   if ('pushState' in window.history)
-    window.history.pushState('', document.title, loc.pathname + loc.search)
+    //window.history.pushState('', document.title, loc.pathname + loc.search)
+    void 0
   else {
     // Prevent scrolling by storing the page's current scroll offset
     scrollV = document.body.scrollTop
@@ -397,6 +398,7 @@ class ListingSlider extends Component {
               onChange={this.handleCategoryChange}
               placeholder="Filter organization types..."
               className="react-select-container"
+              aria-label="Filter by organization type"
             />
           </div>
           <div className="filter-wrapper">
@@ -410,6 +412,7 @@ class ListingSlider extends Component {
               onChange={this.handleQueryChange}
               placeholder="Search by name..."
               className="react-select-container"
+              aria-label="Search organization by name"
             />
           </div>
         </div>
