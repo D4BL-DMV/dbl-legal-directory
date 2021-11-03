@@ -42,13 +42,13 @@ const FAQ = () => (
             Examples: arrests, health care, housing, policing cases, worker’s rights.
           </p>
           <p>
-            To get help from one of these organizations, call the listed 
+            To get help from one of these organizations, call the  
             phone number or send an email.
           </p>
           <p>
             You can say something like, “Hi there. I saw your information on 
             the Law for black Lives DC Legal Directory. I need free legal 
-            assistance for[name your topic]. How can I get help?”
+            assistance for [name your topic]. How can I get help?”
           </p>
         </Section>
         <Section title="Is this completely free? What will it cost?">
@@ -64,7 +64,7 @@ const FAQ = () => (
         </Section>
         <Section title="My issue is not in this directory. What should I do?">
           <p>
-          You can still get help. Try reaching out to  
+          You can still get help. You can contact{' '} 
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +76,8 @@ const FAQ = () => (
             who specializes in your needs, for no cost.
           </p>
           <p>
-            This page,  <a
+            This page,{' '}   
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.dcbar.org/pro-bono/free-legal-help/help-for-individuals"
