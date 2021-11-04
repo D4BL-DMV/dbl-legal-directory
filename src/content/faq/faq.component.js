@@ -47,17 +47,16 @@ const FAQ = () => (
           </p>
           <p>
             You can say something like, “Hi there. I saw your information on 
-            the Law for black Lives DC Legal Directory. I need free legal 
+            the Law for Black Lives DC Legal Directory. I need free legal 
             assistance for [name your topic]. How can I get help?”
           </p>
         </Section>
         <Section title="Is this completely free? What will it cost?">
           <p>
-            All organizations offer free legal assistance. If you cannot afford to pay, 
-            that’s okay! Every organization listed here provides free services.
+            If you cannot afford to pay, that’s okay! All organizations listed here offer free legal assistance. 
           </p>
           <p>
-            Down the road, some things may have a cost (example), but they will 
+            Down the road, some things may have a cost, but they will 
             NOT charge you without your consent. It is completely free to contact 
             them and ask for help. They can, will, and want to support you for free.
           </p>
@@ -100,9 +99,9 @@ const FAQ = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="http://www.law4blacklives.org/"
+              href="http://www.law4blacklivesdc.com/"
             >
-              Law For Black Lives
+              Law For Black Lives DC (L4BL DC)
             </a>{' '}
             and {' '}
             <a
@@ -110,10 +109,10 @@ const FAQ = () => (
               rel="noopener noreferrer"
               href="https://d4bl.org/"
             >
-              Data For Black Lives (D4BL)
+              Data For Black Lives DMV (D4BL)
             </a>{' '}
             built this directory. Each organization in this directory is vetted by 
-            Law For Black Lives before it is published here. Learn more about D4BL below. 
+            Law For Black Lives before it is published here. Learn more about L4BL DC and D4BL below. 
           </p>
         </Section>
         <Section title="Can I download a list of all the organizations listed here?">
@@ -134,8 +133,8 @@ const FAQ = () => (
         <Section title="I want to help. How can I get involved?">
           <p>
             This legal directory was created and is maintained by a small team 
-            of volunteers from Law For Black Lives And Data For Black Lives. Join 
-            us! Come to one of our general body meetings or email us at (email) to connect!
+            of volunteers from Law For Black Lives DC And Data For Black Lives DMV. Join 
+            us! Come to one of our general body meetings or email us at dmv.hub@d4bl.org to connect!
           </p>
         </Section>
         <Section title="What improvements to this directory will I see?">
@@ -144,14 +143,14 @@ const FAQ = () => (
           </p>
           <ul>
             <li>
-              Confirm all information in this directory with each organization.
+              Confirm all information in this directory with each organization
             </li>
             <li>
-              Partner with organizations to share this resource with those in need.
+              Partner with organizations to share this resource with those in need
             </li>
             <li>
               Make this website more accessible, starting with language access (Spanish) 
-              and screen reader compatibility.
+              and screen reader compatibility
             </li>
           </ul>
         </Section>
