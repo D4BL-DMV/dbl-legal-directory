@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import SocialLinks from '../social-links/social-links.component'
-import logo from '../../images/logo.png'
+import logo from '../../images/l4bl_dc_logo.png'
 
 import './header.scss'
 
