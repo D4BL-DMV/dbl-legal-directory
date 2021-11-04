@@ -134,7 +134,7 @@ const FAQ = () => (
           <p>
             This legal directory was created and is maintained by a small team 
             of volunteers from Law For Black Lives DC And Data For Black Lives DMV. Join 
-            us! Come to one of our general body meetings or email us at (email) to connect!
+            us! Come to one of our general body meetings or email us at dmv.hub@d4bl.org to connect!
           </p>
         </Section>
         <Section title="What improvements to this directory will I see?">
