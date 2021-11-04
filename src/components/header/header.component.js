@@ -17,7 +17,7 @@ class Header extends Component {
             <img
               className="header__logo"
               src={logo}
-              alt="d4bl legal directory"
+              alt="l4bl dc legal directory"
             />
           </a>
         </div>
