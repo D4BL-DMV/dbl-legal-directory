@@ -70,7 +70,7 @@ const FAQ = () => (
               href="https://www.dcbar.org/pro-bono/free-legal-help"
             >
               DC Pro Bono Center
-            </a>{'.'}
+            </a>{'. '}
             They offer general legal services and can also help you find someone 
             who specializes in your needs, for no cost.
           </p>
@@ -118,15 +118,29 @@ const FAQ = () => (
         <Section title="Can I download a list of all the organizations listed here?">
           <p>
             Yes! You can access, download, or copy a list of the entire 
-            directory at this Google spreadsheet: (Link to Legal Directory spreadsheet). 
+            directory from this {' '} 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://docs.google.com/spreadsheets/d/1dkTzXKrNBdbhi4Hvh5yQEh721s-2iIJ7jujXJODfpZU/edit?usp=sharing"
+            >
+              Google spreadsheet
+            </a>{'. '}
             It is a living copy of this directory.
           </p>
         </Section>
         <Section title="How can I add a new organization to this directory?">
           <p>
             Anyone can suggest changes to this public directory. This is the
-            direct link to the Google spreadsheet (link), a living copy of the 
-            directory. Feel free to suggest changes. Our team can then 
+            direct link to the {' '} 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://docs.google.com/spreadsheets/d/1dkTzXKrNBdbhi4Hvh5yQEh721s-2iIJ7jujXJODfpZU/edit?usp=sharing"
+            >
+              Google spreadsheet
+            </a>{', '}
+            a living copy of the directory. Feel free to suggest changes. Our team can then 
             review and publish them.
           </p>
         </Section>
@@ -134,7 +148,7 @@ const FAQ = () => (
           <p>
             This legal directory was created and is maintained by a small team 
             of volunteers from Law For Black Lives DC And Data For Black Lives DMV. Join 
-            us! Come to one of our general body meetings or email us at dmv.hub@d4bl.org to connect!
+            us! Come to one of our general body meetings or email us at <b>dmv.hub@d4bl.org</b> to connect!
           </p>
         </Section>
         <Section title="What improvements to this directory will I see?">
