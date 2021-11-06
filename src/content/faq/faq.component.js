@@ -140,7 +140,7 @@ const FAQ = () => (
             >
               Google spreadsheet
             </a>{', '}
-            a living copy of the directory. Feel free to suggest changes. Our team can then 
+            a living copy of the directory. Feel free to suggest changes by leaving a comment directly in the sheet. Our team can then 
             review and publish them.
           </p>
         </Section>
