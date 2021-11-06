@@ -24,6 +24,7 @@ const FEDUP = function(props) {
           </p>
           <Button href="https://d4bl.org/"> Learn More about D4BL </Button>
           <Button href="http://www.law4blacklivesdc.com/"> Learn More about L4BL DC </Button>
+          </p>
         </div>
       </div>
     </div>
