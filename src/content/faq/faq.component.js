@@ -38,7 +38,7 @@ const FAQ = () => (
         <Section title="How do I use this? Who do I contact?">
            <p>
             At the top of the page, use the first drop down menu to search 
-            for a topic of interest. The menu is called “Filter organization types…” 
+            for a topic of interest. The menu is called “Select topics…” 
             Examples: arrests, health care, housing, policing cases, worker’s rights.
           </p>
           <p>
