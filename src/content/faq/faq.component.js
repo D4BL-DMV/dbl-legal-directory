@@ -88,8 +88,23 @@ const FAQ = () => (
         </Section>
         <Section title="I don’t live in Washington D.C. or the DMV area. How do I get help?">
           <p>
-            We are glad you asked. You can still get help. You can reach out to 
-            (links to organizations). They have a wide network of connections and 
+            We are glad you asked. You can still get help. You can reach out to the {' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.nlg.org/"
+            >
+              National Lawyers Guild
+            </a>{', '}
+            or {' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.aclu.org/"
+            >
+              American Civil Liberties Union (ACLU)
+            </a>{'.'}
+            They have a wide network of connections and 
             can help you find the support you need in your area for no cost. 
           </p>
         </Section>
@@ -148,7 +163,7 @@ const FAQ = () => (
           <p>
             This legal directory was created and is maintained by a small team 
             of volunteers from Law For Black Lives DC And Data For Black Lives DMV. Join 
-            us! Come to one of our general body meetings or email us at <b>dmv.hub@d4bl.org</b> to connect!
+            us! Come to one of our general body meetings or email us at <b>info@law4blacklivesdc.com</b> or <b>dmv.hub@d4bl.org</b> to connect!
           </p>
         </Section>
         <Section title="What improvements to this directory will I see?">
