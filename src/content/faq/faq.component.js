@@ -96,7 +96,7 @@ const FAQ = () => (
             >
               National Lawyers Guild
             </a>{', '}
-            or {' '}
+            or the {' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
