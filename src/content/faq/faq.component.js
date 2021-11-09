@@ -137,7 +137,7 @@ const FAQ = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.google.com/spreadsheets/d/1dkTzXKrNBdbhi4Hvh5yQEh721s-2iIJ7jujXJODfpZU/edit?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/17XOrH-jEkFx9AJyksXgM61GVSAUv-qYvAR1sjz_JcKE/edit?usp=sharing"
             >
               Google spreadsheet
             </a>{'. '}
@@ -151,7 +151,7 @@ const FAQ = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.google.com/spreadsheets/d/1dkTzXKrNBdbhi4Hvh5yQEh721s-2iIJ7jujXJODfpZU/edit?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/17XOrH-jEkFx9AJyksXgM61GVSAUv-qYvAR1sjz_JcKE/edit?usp=sharing"
             >
               Google spreadsheet
             </a>{', '}
