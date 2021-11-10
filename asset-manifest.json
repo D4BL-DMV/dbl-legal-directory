@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dbl-legal-directory/static/css/main.b4e96f4b.chunk.css",
-    "main.js": "/dbl-legal-directory/static/js/main.2413f2c3.chunk.js",
-    "main.js.map": "/dbl-legal-directory/static/js/main.2413f2c3.chunk.js.map",
+    "main.js": "/dbl-legal-directory/static/js/main.f1f7021e.chunk.js",
+    "main.js.map": "/dbl-legal-directory/static/js/main.f1f7021e.chunk.js.map",
     "runtime-main.js": "/dbl-legal-directory/static/js/runtime-main.520b2f2f.js",
     "runtime-main.js.map": "/dbl-legal-directory/static/js/runtime-main.520b2f2f.js.map",
     "static/css/2.6801cebb.chunk.css": "/dbl-legal-directory/static/css/2.6801cebb.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.6801cebb.chunk.css",
     "static/js/2.60df18ef.chunk.js",
     "static/css/main.b4e96f4b.chunk.css",
-    "static/js/main.2413f2c3.chunk.js"
+    "static/js/main.f1f7021e.chunk.js"
   ]
 }
