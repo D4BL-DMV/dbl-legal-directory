@@ -26,11 +26,7 @@ const getImage = (name, photo) => {
     const fileName = kebabCase(name)
     return require(`../../images/listings/${fileName}.jpg`).default
   } catch (e) {
-    try {
-      return require(photo).default
-    } catch (e) {
-      return require(`../../images/listings/no-photo.jpg`).default
-    }
+    return require(`../../images/listings/no-photo.jpg`).default
   }
 }
 
