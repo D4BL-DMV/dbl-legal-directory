@@ -22,16 +22,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+
     - name: build
-      run: |
-        mkdir csv
-        curl -L "https://docs.google.com/spreadsheets/d/e/$SHEET/pub?gid=$GID&single=true&output=csv" > csv/listings.csv
-        npm install
-        npx gulp convertToJson
-        npm run build
-      env:
-        SHEET: "2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl"
-        GID: 187538216
+      run: make
 
     - name: deploy
       if: ${{ !github.event.pull_request }}

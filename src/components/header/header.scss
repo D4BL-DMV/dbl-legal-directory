@@ -11,10 +11,14 @@
   z-index: $layer-header;
   background: $color-dark-background;
   position: relative;
+  margin-bottom: 90px;
 }
 
 .header__logo {
-  height: 60px;
+  height: 160px;
+  margin-top: 70px;
+  border: 10px solid black;
+  border-radius: 100%;
 }
 
 .header__social-links {

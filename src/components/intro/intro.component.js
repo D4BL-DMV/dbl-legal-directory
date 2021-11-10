@@ -3,6 +3,7 @@ import CountUp from 'react-countup'
 import H2 from '../h2/h2.component'
 
 import './intro.scss'
+import listings from '../../data/listings.json'
 
 const Intro = () => (
   <div className="intro">
@@ -16,9 +17,9 @@ const Intro = () => (
         prefix=""
         delay={0.5}
         start={0}
-        end={42}
+        end={listings.json.length}
         separator=","
-        duration={2.5}
+        duration={2.0}
         useEasing
       />
     </p>
