@@ -2,9 +2,9 @@ import React, { Component, Fragment } from 'react'
 import memoize from 'lodash/memoize'
 import Slider from 'react-slick'
 import Measure from 'react-measure'
-import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
+import ReactAutoLinker from 'react-autolinker'
 
 import listings from '../../data/listings.json'
 
@@ -21,7 +21,7 @@ const kebabCase = str =>
     .replace(/("|,)/g, '')
     .replace(/&/g, 'and')
 
-const getImage = name => {
+const getImage = (name, photo) => {
   try {
     const fileName = kebabCase(name)
     return require(`../../images/listings/${fileName}.jpg`).default
@@ -86,19 +86,19 @@ class Slide extends Component {
                     </a>
                   </h3>
                   <div className="bw-slide__donations">
-                    {phone_number && (
+                    {phone_number && phone_number.length > 2 && (
                       <div className="bw-slide__donation">
                         Phone Number:{' '}
                         <span className="bw-slide__donation-value">
-                          {phone_number}
+                          <ReactAutoLinker text={phone_number} />
                         </span>
                       </div>
                     )}
-                    {email && (
+                    {email && email.length > 3 && (
                       <div className="bw-slide__donation">
                         Email:{' '}
                         <span className="bw-slide__donation-value">
-                          {email}
+                          <ReactAutoLinker text={email} />
                         </span>
                       </div>
                     )}
@@ -112,11 +112,7 @@ class Slide extends Component {
                 height: `calc(100% - ${this.state.nameDimensions.height}px)`
               }}
             >
-              {/* <h4>{title}</h4> */}
-              <ReactMarkdown
-                renderers={{ link: this.linkRenderer }}
-                source={description}
-              />
+              <ReactAutoLinker text={description} />
               {categoriesArr.length > 0 && (
                 <div className="bw-slide__categories">
                   {categoriesArr.map(category => (
@@ -222,13 +218,10 @@ class ListingSlider extends Component {
     // parse, and cache.  However, API is not straightforward...
     let update = async () => {
       const DOCS_BASE = 'https://docs.google.com/spreadsheets/d/e'
-      const SHEET =
-        '2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl'
-      const GID = 187538216
-      const response = await fetch(
-        `${DOCS_BASE}/${SHEET}/pub?gid=${GID}&single=true&output=csv`,
-        { redirect: 'follow' }
-      )
+      const SHEET = process.env.REACT_APP_SHEET
+      const response = await fetch(`${DOCS_BASE}/${SHEET}/pub?output=csv`, {
+        redirect: 'follow'
+      })
         .then(response => response.text())
         .then(listingToJson)
       if (response && response.hash !== this.state.hash) {
@@ -263,8 +256,8 @@ class ListingSlider extends Component {
     slidesToShow: 1,
     initialSlide: 0,
     speed: 500,
-    arrows: false,
-    lazyLoad: true,
+    lazyLoad: 'progressive',
+    focusOnChange: true,
     afterChange: index => {
       this.updateHash(index)
       this.setState({ currentSlide: index })
@@ -284,7 +277,8 @@ class ListingSlider extends Component {
   })
 
   desktopSliderSettings = Object.assign({}, this.tabletSliderSettings, {
-    slidesToShow: 3
+    slidesToShow: 3,
+    draggable: false
   })
 
   getSliderSettings = () => {
@@ -395,8 +389,9 @@ class ListingSlider extends Component {
               options={this.buildCategories(this.state.listings)}
               isMulti
               onChange={this.handleCategoryChange}
-              placeholder="Filter organization types..."
+              placeholder="Select organization types..."
               className="react-select-container"
+              aria-label="Select organization types..."
             />
           </div>
           <div className="filter-wrapper">
@@ -408,7 +403,8 @@ class ListingSlider extends Component {
               isClearable
               ref={this.bindQuerySelectRef}
               onChange={this.handleQueryChange}
-              placeholder="Search by name..."
+              placeholder="Search services by name..."
+              aria-label="Search services by name..."
               className="react-select-container"
             />
           </div>
@@ -421,12 +417,11 @@ class ListingSlider extends Component {
           {visibleListings.map((listing, index) => (
             <Slide
               key={listing['Name']}
-              imageSrc={getImage(listing['Name'])}
+              imageSrc={getImage(listing['Name'], listing['Photo'])}
               name={listing['Name']}
               link_url={listing['Link']}
-              phone_number={listing['Phone Number']}
+              phone_number={listing['Phone']}
               email={listing['Email']}
-              title={listing['Description hed']}
               description={listing['Desc']}
               categories={listing['Category']}
               index={index}

@@ -96,6 +96,12 @@ $image-height-desktop: $slide-height-desktop * 0.35;
     margin: $margin-mobile;
     height: calc(100% - #{$image-height + ($margin-mobile * 2)});
 
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+
     &--no-image {
       margin: $margin-mobile;
       height: calc(100% - #{$margin-mobile * 2});

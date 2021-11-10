@@ -1,26 +1,10 @@
-# dbl legal directory
+# L4BL Legal Directory
 
-## Quick Start
+The [Law 4 Black Lives](http://www.law4blacklivesdc.com/) Legal Directory was
+created in collaboration with [Data 4 Black Lives](https://d4bl.org/) DMV. The
+Legal Directory seeks to provide accessible information for legal services in
+the DMV area. It is fed by the following google sheet:
+[http://bit.ly/l4bl-legal-directory](http://bit.ly/l4bl-legal-directory)
 
-```
-npm install
-npm start
-```
-
-## Utilities
-
-Convert donors CSV to JSON. Assumes CSV is saved at `csv/donors.csv`:
-
-```
-make convert-donors-csv
-```
-
-Build latest and deploy on server:
-
-```
-make deploy
-```
-
-## Set up Google Analytics tracking
-
-Create `.env.development.local` and `.env.production.local` files containing tracking IDs. See example files `.env.development.local.example` and `.env.production.local.example`.
+The live site can be found here:
+[https://d4bl-dmv.github.io/dbl-legal-directory/](https://d4bl-dmv.github.io/dbl-legal-directory/)
