@@ -395,7 +395,8 @@ class ListingSlider extends Component {
               options={this.buildCategories(this.state.listings)}
               isMulti
               onChange={this.handleCategoryChange}
-              placeholder="Filter organization types..."
+              placeholder="Search by services..."
+              aria-label="Search by services..."
               className="react-select-container"
             />
           </div>
@@ -408,7 +409,8 @@ class ListingSlider extends Component {
               isClearable
               ref={this.bindQuerySelectRef}
               onChange={this.handleQueryChange}
-              placeholder="Search by name..."
+              placeholder="Search by organziation name..."
+              aria-label="Search by organziation name..."
               className="react-select-container"
             />
           </div>
