@@ -1,9 +1,10 @@
 import React, { Component, Fragment } from 'react'
 import memoize from 'lodash/memoize'
+import classNames from 'classnames'
+
 import Slider from 'react-slick'
 import Measure from 'react-measure'
 import Select from 'react-select'
-import classNames from 'classnames'
 import ReactAutoLinker from 'react-autolinker'
 
 import listings from '../../data/listings.json'
@@ -57,9 +58,13 @@ class Slide extends Component {
     } = this.props
     const categoriesArr = splitCategories(categories).sort()
     return (
-      <div className={classNames('bw-slide', kebabCase(name))}>
+      <div
+        role="region"
+        aria-labelledby={kebabCase(name)}
+        className={classNames('bw-slide', kebabCase(name))}
+      >
         {imageSrc && (
-          <a href={link_url}>
+          <a aria-label="Link for {{name}}" href={link_url}>
             <div
               className="bw-slide__image"
               style={{ backgroundImage: `url('${imageSrc}')` }}
@@ -80,7 +85,7 @@ class Slide extends Component {
             >
               {({ measureRef }) => (
                 <div ref={measureRef} className="bw-slide__name">
-                  <h3>
+                  <h3 id={kebabCase(name)}>
                     <a href={link_url} className="bw-slide__name-link">
                       {name}
                     </a>
@@ -258,7 +263,7 @@ class ListingSlider extends Component {
     speed: 500,
     lazyLoad: 'progressive',
     focusOnChange: true,
-    arrows: false,
+    arrows: true,
     afterChange: index => {
       this.updateHash(index)
       this.setState({ currentSlide: index })
@@ -410,6 +415,7 @@ class ListingSlider extends Component {
             />
           </div>
         </div>
+        <div id="arrow-preloader" />
         <Slider
           ref={this.bindRef}
           {...sliderSettings}
@@ -431,7 +437,6 @@ class ListingSlider extends Component {
             />
           ))}
         </Slider>
-        <div id="arrow-preloader" />
       </Fragment>
     )
   }

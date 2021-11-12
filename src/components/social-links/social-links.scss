@@ -9,6 +9,10 @@
   flex: 1 1 auto;
   margin: 0 20px;
   padding: 0;
+
+  li {
+    list-style: none;
+  }
 }
 
 .social-links__link {

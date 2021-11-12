@@ -1,14 +1,18 @@
 @import './colors';
 
-@import url('//fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
-@import url('//fonts.googleapis.com/css?family=Alfa+Slab+One:400');
+@import url('//fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap');
+@import url('//fonts.googleapis.com/css?family=Alfa+Slab+One:400&display=swap');
 
 @mixin lato {
   font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-display: swap;
 }
 
 @mixin bowlby {
   font-family: 'Alfa Slab One', fantasy;
+  font-style: normal;
+  font-display: swap;
 }
 
 h1,
