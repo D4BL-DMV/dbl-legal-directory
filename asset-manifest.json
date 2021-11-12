@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dbl-legal-directory/static/css/main.b4e96f4b.chunk.css",
-    "main.js": "/dbl-legal-directory/static/js/main.33ebf1a6.chunk.js",
-    "main.js.map": "/dbl-legal-directory/static/js/main.33ebf1a6.chunk.js.map",
+    "main.css": "/dbl-legal-directory/static/css/main.77b7767a.chunk.css",
+    "main.js": "/dbl-legal-directory/static/js/main.1bb2d78d.chunk.js",
+    "main.js.map": "/dbl-legal-directory/static/js/main.1bb2d78d.chunk.js.map",
     "runtime-main.js": "/dbl-legal-directory/static/js/runtime-main.520b2f2f.js",
     "runtime-main.js.map": "/dbl-legal-directory/static/js/runtime-main.520b2f2f.js.map",
     "static/css/2.6801cebb.chunk.css": "/dbl-legal-directory/static/css/2.6801cebb.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.60df18ef.chunk.js.map": "/dbl-legal-directory/static/js/2.60df18ef.chunk.js.map",
     "index.html": "/dbl-legal-directory/index.html",
     "static/css/2.6801cebb.chunk.css.map": "/dbl-legal-directory/static/css/2.6801cebb.chunk.css.map",
-    "static/css/main.b4e96f4b.chunk.css.map": "/dbl-legal-directory/static/css/main.b4e96f4b.chunk.css.map",
+    "static/css/main.77b7767a.chunk.css.map": "/dbl-legal-directory/static/css/main.77b7767a.chunk.css.map",
     "static/js/2.60df18ef.chunk.js.LICENSE.txt": "/dbl-legal-directory/static/js/2.60df18ef.chunk.js.LICENSE.txt",
     "static/media/footer.scss": "/dbl-legal-directory/static/media/d4bl_logo.f67b040b.png",
     "static/media/dc-jobs-with-justice.jpg": "/dbl-legal-directory/static/media/dc-jobs-with-justice.0c8df42f.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.520b2f2f.js",
     "static/css/2.6801cebb.chunk.css",
     "static/js/2.60df18ef.chunk.js",
-    "static/css/main.b4e96f4b.chunk.css",
-    "static/js/main.33ebf1a6.chunk.js"
+    "static/css/main.77b7767a.chunk.css",
+    "static/js/main.1bb2d78d.chunk.js"
   ]
 }
