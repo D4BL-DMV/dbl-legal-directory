@@ -42,7 +42,7 @@ self.addEventListener('message', function(event) {
       if (!event.clientId) return
 
       const updated = fetch(
-        'https://docs.google.com/spreadsheets/d/e/2PACX-1vScFdbDqIYm8iiHys0fo_TJ9nJ6aqLxZw8lHpZ4knuVEGmlNJGzsDaKSbPxFB5cTCFmQHZtrYcxyHkl/pub?gid=187538216&single=true&output=csv',
+        `https://docs.google.com/spreadsheets/d/e/${REACT_APP_SHEET}/pub?output=csv`,
         { redirect: 'follow' }
       )
         .then(response => response.text())
@@ -52,9 +52,7 @@ self.addEventListener('message', function(event) {
       const client = await clients.get(event.clientId)
       // Exit early if we don't get the client.
       // Eg, if it closed.
-      console.log('executing')
       if (!client) return
-      console.log('client', client)
 
       // Send a message to the client.
       client.postMessage(await updated)
