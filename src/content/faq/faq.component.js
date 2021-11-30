@@ -38,7 +38,7 @@ const FAQ = () => (
         <Section title="How do I use this? Who do I contact?">
           <p>
             At the top of the page, use the first drop down menu to search for a
-            topic of interest. The menu is called “Select topics…” Examples:
+            topic of interest. The menu is called “Search by services…” Examples:
             arrests, health care, housing, policing cases, worker’s rights.
           </p>
           <p>
@@ -195,13 +195,10 @@ const FAQ = () => (
         </Section>
         <Section title="Contact Us">
           <p>
-            Do you have a question that isn’t answered yet? Ask us on this
-            Google Form: (need link) If it is a personal question, please leave
-            your contact info so we can get back to you privately.
+            Do you have a question that isn’t answered yet? Email us at at <b>info@law4blacklivesdc.com</b> or <b>dmv.hub@d4bl.org</b>!
           </p>
           <p>
-            Have ideas or comments? Please feel free to leave a suggestion here:
-            (need link)
+            Have ideas or comments? Please feel free to email us with your suggestions!
           </p>
         </Section>
       </div>
