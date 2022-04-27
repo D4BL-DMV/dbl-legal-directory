@@ -2,7 +2,7 @@
   "name": "d4bl-dmv-legal-directory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/dbl-legal-directory",
+  "homepage": "/",
   "dependencies": {
     "core-js": "^3.0.0",
     "csv-parse": "^4.0.0",

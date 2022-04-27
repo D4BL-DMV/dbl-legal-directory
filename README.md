@@ -7,4 +7,4 @@ the DMV area. It is fed by the following google sheet:
 [http://bit.ly/l4bl-legal-directory](http://bit.ly/l4bl-legal-directory)
 
 The live site can be found here:
-[https://d4bl-dmv.github.io/dbl-legal-directory/](https://d4bl-dmv.github.io/dbl-legal-directory/)
+[http://directory.law4blacklivesdc.com/](http://directory.law4blacklivesdc.com/)
